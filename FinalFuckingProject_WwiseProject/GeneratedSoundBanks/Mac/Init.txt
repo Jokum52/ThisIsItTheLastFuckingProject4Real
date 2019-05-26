@@ -8,6 +8,9 @@ State	ID	Name	State Group			Notes
 	3161908922	Main	Chase			
 	0	None	Music_switch			
 	417490929	Chase	Music_switch			
+	569230464	Island_end	Music_switch			
+	1372494610	Harbour	Music_switch			
+	3199546890	Island	Music_switch			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3396433405	seagull_reverb			\Default Work Unit\seagull_reverb	
@@ -19,11 +22,19 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	216409694	Harbour_verb			\Default Work Unit\Master Audio Bus\Harbour_verb	
+	2221373121	Steel_interior			\Default Work Unit\Master Audio Bus\Steel_interior	
+	2224548067	Celloverb			\Default Work Unit\Master Audio Bus\Celloverb	
 	3396433405	Seagull_reverb			\Default Work Unit\Master Audio Bus\Seagull_reverb	
+	3454680848	Harbour_far			\Default Work Unit\Master Audio Bus\Harbour_far	
 
 Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	739615528	Hall_Guns_(Custom)	Wwise RoomVerb			
 	755202328	outside_harbour_farr_(Custom)	Wwise RoomVerb			
 	829536008	outside_harbour_close_(Custom)	Wwise RoomVerb			
+	907930171	Machine_Gun_Hangar_(Custom)	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

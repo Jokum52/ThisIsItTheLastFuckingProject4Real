@@ -42,7 +42,7 @@ public class LightFade : MonoBehaviour
 
         AkSoundEngine.SetRTPCValue("seagull_reverb", normalizedDistance);
 
-        Debug.Log("normalized intensity is" + normalizedDistance);
+       
     }
 
     private void OnDrawGizmosSelected()

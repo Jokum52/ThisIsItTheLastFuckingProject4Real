@@ -26,7 +26,12 @@
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="seagull_reverb" ID="{394838A1-31DE-4487-B550-47B71AA172A5}"/>
+							<Value>0.34</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Chase" ID="{6A7E8498-BF4A-4361-B7A5-6A24BB7AB989}"/>
 						<CurrentStateRef Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
@@ -111,7 +116,10 @@
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Island_end" ID="{E14F0A8C-7925-404D-A813-5F106C8A7D91}"/>
+						<CurrentStateRef Name="Intro" ID="{C66382E0-E6ED-4A6C-838B-5EDC3B69606B}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Concrete" ID="{0EC70FF3-5201-450F-810C-A89D742D9A54}"/>
 					</CurrentSwitchList>
@@ -142,14 +150,25 @@
 							<ObjectRef Name="wind_harbour" ID="{AB609430-151B-453C-B593-9641955EAA48}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{6AD83F1C-7C5E-4C42-B6B4-0C3ABB55D480}" WorkUnitID="{7BF62C8E-40E3-4F6B-BC60-9A97CADD9834}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="seagull_reverb" ID="{394838A1-31DE-4487-B550-47B71AA172A5}"/>
-							<Value>1</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Harbour" ID="{35DB869C-CA80-4615-B2A8-F42B8AEBE41A}"/>
+						<CurrentStateRef Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Concrete" ID="{0EC70FF3-5201-450F-810C-A89D742D9A54}"/>
 					</CurrentSwitchList>
