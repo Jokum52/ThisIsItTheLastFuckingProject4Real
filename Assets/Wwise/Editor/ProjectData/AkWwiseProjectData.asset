@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c9aa0f347735342917d8e1015162a1, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9a047ac70d56a64d8d96bdfcd53a15d5
+    GuidInternal: 
+    m_lastTime: -8586459111934775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8ce79867d8f40740a3d2d5b5dfca051f
+    GuidInternal: 
+    m_lastTime: -8586427948655455802
+    List:
+    - name: Seagull_reverb
+      guid: 67edf7feca065244ae645fe056e772ff
+      id: 3396433405
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Seagull_reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Seagull_reverb
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 826bf6506d71e74da1a11f4695bf1525
+    GuidInternal: 
+    m_lastTime: -8586428075874775808
+    List:
+    - name: Ambience
+      guid: c24f2d49c572f54585a796a2fc5ce9c5
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 7
+      Path: Default Work Unit\Ambience
+    - name: Cut_scenes
+      guid: dc1aaf8bb7a05c4abc6fe9dd91ab8997
+      id: 126860541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cut_scenes
+        ObjectType: 7
+      Path: Default Work Unit\Cut_scenes
+    - name: Footsteps
+      guid: 079fe79e5e45c3489f0d9dbf0ddf234e
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 7
+      Path: Default Work Unit\Footsteps
+    - name: Music
+      guid: df0671c17c0b84418161db9be54a3312
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
+    - name: SFX
+      guid: 003ee614a1d3b448bb92ef578ae045d8
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      Path: Default Work Unit\SFX
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0d64ac262e426e4db877e4a1f70a1c42
+    GuidInternal: 
+    m_lastTime: -8586428036794775808
+    List:
+    - name: building_creak
+      guid: 3ce431e845be43408b98695887b61081
+      id: 4223356368
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: building_creak
+        ObjectType: 3
+      Path: Default Work Unit\building_creak
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Chain
+      guid: e5fc881e17ffdf43b38fe5ab5eba8ff1
+      id: 48383132
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chain
+        ObjectType: 3
+      Path: Default Work Unit\Chain
+      maxAttenuation: 2
+      maxDuration: 0
+      minDuration: 0
+    - name: constrction_site
+      guid: d366211d9b602d4abde8e9931ac816ac
+      id: 325582781
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: constrction_site
+        ObjectType: 3
+      Path: Default Work Unit\constrction_site
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: crane
+      guid: a127e597ec92aa4d913eff82b5d98f0b
+      id: 2729331488
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: crane
+        ObjectType: 3
+      Path: Default Work Unit\crane
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: elevator_drive
+      guid: 9f9cdec091c25047a5b6b930f8dc0908
+      id: 327928446
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: elevator_drive
+        ObjectType: 3
+      Path: Default Work Unit\elevator_drive
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: elevator_land
+      guid: bd02376762cd724cac1ac6243d54f1d8
+      id: 4242192989
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: elevator_land
+        ObjectType: 3
+      Path: Default Work Unit\elevator_land
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: elevator_start
+      guid: da9dcd62fbe302499bdce5f26b5280af
+      id: 1208976610
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: elevator_start
+        ObjectType: 3
+      Path: Default Work Unit\elevator_start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: elevator_stop
+      guid: e1ee41cec85cb5499b5a9e6128c9f967
+      id: 2818913498
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: elevator_stop
+        ObjectType: 3
+      Path: Default Work Unit\elevator_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Footstep
+      guid: 8ffb025ef3aa4244a7c7e31b2442ae57
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep
+        ObjectType: 3
+      Path: Default Work Unit\Footstep
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Intro
+      guid: b3f58641ab3f9343aca182966752d77c
+      id: 1125500713
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Intro
+        ObjectType: 3
+      Path: Default Work Unit\Intro
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: metal_building_wind
+      guid: 3d2bbfe2f696544a9720654bbdad7ef4
+      id: 1136349558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: metal_building_wind
+        ObjectType: 3
+      Path: Default Work Unit\metal_building_wind
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Music
+      guid: aaa8b95b28ac25469c416349125646f8
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Neon
+      guid: 6d7913599363424085dde14294da6d1f
+      id: 1301570889
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Neon
+        ObjectType: 3
+      Path: Default Work Unit\Neon
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: Pitch_down_all
+      guid: 9ef1ae5a5278a14b83b7ace7b12071e0
+      id: 3777885212
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pitch_down_all
+        ObjectType: 3
+      Path: Default Work Unit\Pitch_down_all
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Pull_up
+      guid: fbfee6bbfd7b864a90a6729471ba6a47
+      id: 972303368
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pull_up
+        ObjectType: 3
+      Path: Default Work Unit\Pull_up
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: rain
+      guid: 90b6d1bbdaeaa34d8a05c6a6b980cc14
+      id: 2043403999
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: rain
+        ObjectType: 3
+      Path: Default Work Unit\rain
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: rain_on_metal
+      guid: 06bc6c38e4dce84bb049f1679ece635b
+      id: 3423202681
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: rain_on_metal
+        ObjectType: 3
+      Path: Default Work Unit\rain_on_metal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: seagulls
+      guid: 0734c66cfdabea4ab01693a16cc1a676
+      id: 2345565601
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: seagulls
+        ObjectType: 3
+      Path: Default Work Unit\seagulls
+      maxAttenuation: 45
+      maxDuration: 0
+      minDuration: 0
+    - name: the_admin
+      guid: 105667d4f92f634181fdfa20121a4d55
+      id: 1642584986
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: the_admin
+        ObjectType: 3
+      Path: Default Work Unit\the_admin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: the_baron
+      guid: f20bda043bd4be40ac2b077622f62a69
+      id: 1675060211
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: the_baron
+        ObjectType: 3
+      Path: Default Work Unit\the_baron
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: the_rat
+      guid: 8975e1308f07734db98619dee01285aa
+      id: 1437485366
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: the_rat
+        ObjectType: 3
+      Path: Default Work Unit\the_rat
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: thunder
+      guid: dc4e51fa6be5d74ebd794526cecaf2b1
+      id: 186852181
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: thunder
+        ObjectType: 3
+      Path: Default Work Unit\thunder
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: top_building_wind
+      guid: 1491fae0f9cfb84cb897265c7e04f8be
+      id: 4220830850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: top_building_wind
+        ObjectType: 3
+      Path: Default Work Unit\top_building_wind
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: walk_clothes
+      guid: b0ba049fd7341d4daffc58d1ba317f0a
+      id: 2948715151
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: walk_clothes
+        ObjectType: 3
+      Path: Default Work Unit\walk_clothes
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: waves
+      guid: 55a4d9959ece704994c9f9a6b1f7ee43
+      id: 2453122309
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: waves
+        ObjectType: 3
+      Path: Default Work Unit\waves
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - name: wind_harbour
+      guid: 309460ab1b153c45b5939641955eaa48
+      id: 2307991115
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: wind_harbour
+        ObjectType: 3
+      Path: Default Work Unit\wind_harbour
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: zeppelin
+      guid: ce1b329728ae654ca131587901c24087
+      id: 1755348276
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: zeppelin
+        ObjectType: 3
+      Path: Default Work Unit\zeppelin
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 04eb640b43f15e4b8d7abb733d666ba5
+    GuidInternal: 
+    m_lastTime: -8586427948655885674
+    List:
+    - name: seagull_reverb
+      guid: a1384839de318744b55047b71aa172a5
+      id: 3396433405
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: seagull_reverb
+        ObjectType: 13
+      Path: Default Work Unit\seagull_reverb
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 32214f11f183c844ad96b6dcb924f20f
+    GuidInternal: 
+    m_lastTime: -8586447162854775808
+    List:
+    - name: Chase
+      guid: d249fa96bf99114d8b3ec9886fc1acf8
+      id: 417490929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chase
+        ObjectType: 9
+      Path: Default Work Unit\Chase
+      values:
+      - name: Intro
+        guid: e08263c6ede66c4a838b5edc3b69606b
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Intro
+          ObjectType: 8
+      - name: Main
+        guid: 4c2f5647dcb99147a5f853d156cd0f73
+        id: 3161908922
+        PathAndIcons:
+        - ElementName: Main
+          ObjectType: 8
+      - name: None
+        guid: 6c1933cf55e3b94d88ad67c2a78e8bed
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_switch
+      guid: f4f0650b10990f449b53e0402aa821ce
+      id: 2724869341
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_switch
+        ObjectType: 9
+      Path: Default Work Unit\Music_switch
+      values:
+      - name: Chase
+        guid: 98847e6a4abf6143b7a56a24bb7ab989
+        id: 417490929
+        PathAndIcons:
+        - ElementName: Chase
+          ObjectType: 8
+      - name: None
+        guid: 1c15abb1b8df0f418288d6d9e4158354
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3e8e9c9b95f7f24785bdd5d0dae4bbce
+    GuidInternal: 
+    m_lastTime: -8586428014966885220
+    List:
+    - name: Material
+      guid: 8b387f24eb29e449a0092f122dd6579b
+      id: 3865314626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Material
+        ObjectType: 11
+      Path: Default Work Unit\Material
+      values:
+      - name: Concrete
+        guid: f30fc70e01520f45810ca89d742d9a54
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Concrete
+          ObjectType: 10
+      - name: Fence
+        guid: 7e44023d3469fa4689aa86c7ae9ddde5
+        id: 1729134568
+        PathAndIcons:
+        - ElementName: Fence
+          ObjectType: 10
+      - name: Gravel
+        guid: 31a44aba57478e479fc345f03f72c625
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Gravel
+          ObjectType: 10
+      - name: Metal_thick
+        guid: 5846164305568a41be251868c30b42e3
+        id: 2539991428
+        PathAndIcons:
+        - ElementName: Metal_thick
+          ObjectType: 10
+      - name: Mud
+        guid: df27c946b2eb5544b4369719213b3457
+        id: 712897245
+        PathAndIcons:
+        - ElementName: Mud
+          ObjectType: 10
+      - name: Roof_1
+        guid: 0916968e95535c4d895ed5c880780c75
+        id: 867289795
+        PathAndIcons:
+        - ElementName: Roof_1
+          ObjectType: 10
+      - name: Roof_2
+        guid: b695c063d5cc124fb85e6b8c7d33965d
+        id: 867289792
+        PathAndIcons:
+        - ElementName: Roof_2
+          ObjectType: 10
+      - name: Wood
+        guid: f975bed015e7df4fae58507c201dc9b5
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c5379b03b7d338439c0b0b0fc2936039
+    GuidInternal: 
+    m_lastTime: -8586459111934775808
+    List: []
+  ExpandedItems:
+  - /FinalFuckingProject_WwiseProject
+  - /FinalFuckingProject_WwiseProject/Auxiliary Busses
+  - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio
+    Bus
+  - /FinalFuckingProject_WwiseProject/Events
+  - /FinalFuckingProject_WwiseProject/SoundBanks
+  - /FinalFuckingProject_WwiseProject/SoundBanks/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/Switches
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

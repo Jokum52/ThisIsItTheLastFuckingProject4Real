@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}">
+					<ChildrenList>
+						<Action Name="" ID="{53FAE1E7-4426-47C5-AA10-4E0B6A4FA485}" ShortID="137380210">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal_footstep" ID="{FDBCAE59-CF21-44D9-B248-DF19107E7EE7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CC4CB532-7053-487A-B8AA-00EE90261067}" ShortID="335064960">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{97E2D586-2170-459E-A1B7-81A78BB018C7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6A577BEF-22BC-4C1E-8FEF-03A90096AF79}" ShortID="884492869">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="thunder" ID="{FA514EDC-E56B-4ED7-BD79-4526CECAF2B1}">
+					<ChildrenList>
+						<Action Name="" ID="{D2973C5B-1091-4275-9644-8DC42D5693F0}" ShortID="838030755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="thunder" ID="{45AF73DC-1B42-4953-8F78-40D8E38C2609}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rain" ID="{BBD1B690-EADA-4DA3-8A05-C6A6B980CC14}">
+					<ChildrenList>
+						<Action Name="" ID="{6B26F94C-7ED4-4CA5-9344-8542450A603C}" ShortID="997756908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rain" ID="{2D94AC41-76A7-4EF7-BD65-F2866A021B80}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music" ID="{5BB9A8AA-AC28-4625-9C41-6349125646F8}">
+					<ChildrenList>
+						<Action Name="" ID="{9CF79BFE-A4D9-4A9B-92F1-21132C232150}" ShortID="967300170">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{6AD83F1C-7C5E-4C42-B6B4-0C3ABB55D480}" WorkUnitID="{7BF62C8E-40E3-4F6B-BC60-9A97CADD9834}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Neon" ID="{5913796D-6393-4042-85DD-E14294DA6D1F}">
+					<ChildrenList>
+						<Action Name="" ID="{DAF76D02-C834-473B-AA79-E3E10DFF049E}" ShortID="609609712">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Neon" ID="{541380F1-6916-4F03-B018-95F703531DF0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="zeppelin" ID="{97321BCE-AE28-4C65-A131-587901C24087}">
+					<ChildrenList>
+						<Action Name="" ID="{DFDB4E76-7FDC-4FBB-A228-6E9961E53B31}" ShortID="13389895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Zeppeliner propel" ID="{C3E8E8E9-E28B-46A0-A3B9-BE2138FE3978}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CD7A0E62-A24B-4BCB-84B6-2CFF22BFFF3A}" ShortID="711459819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Zeppeliner pumpy" ID="{F64D10CD-AD85-41FC-9A75-F12A66D6F9DF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="metal_building_wind" ID="{E2BF2B3D-96F6-4A54-9720-654BBDAD7EF4}">
+					<ChildrenList>
+						<Action Name="" ID="{8DDADA07-BF3B-4D30-8E43-DBF6F87413B2}" ShortID="931465255">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy wind_mix2" ID="{B33837AF-E1D6-4B51-8C6D-9402D9B22CBD}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="elevator_drive" ID="{C0DE9C9F-C291-4750-A5B6-B930F8DC0908}">
+					<ChildrenList>
+						<Action Name="" ID="{EE6410BE-5175-457F-BF73-5B8CA7EA53AF}" ShortID="890255989">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator motor" ID="{05530115-2C8A-4C6E-9F94-B6AE43B7F0C5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5FA50737-4C7C-4113-9B7E-A298A1BD1254}" ShortID="403890319">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator creak" ID="{340B8135-EE9C-42CF-BC41-82B6385EDD93}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2133BEB-E41A-4965-93A8-49912803E3B5}" ShortID="73723625">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator rope" ID="{72C31215-D8FD-4E9C-AAFB-CC223642085D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{88A6E70B-642E-4E0C-B0CD-AF90C82CCB0D}" ShortID="796601102">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator drive" ID="{FF6A7D8C-DC4B-46C1-8691-33ABE9E26F82}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="elevator_land" ID="{673702BD-CD62-4C72-AC1A-C6243D54F1D8}">
+					<ChildrenList>
+						<Action Name="" ID="{A784A5AE-C8F0-444D-A648-2AB65CCF9646}" ShortID="1053407952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator_land" ID="{CF74CD2A-7AC5-4823-B310-4248CE921AB9}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="elevator_stop" ID="{CE41EEE1-5CC8-49B5-9B5A-9E6128C9F967}">
+					<ChildrenList>
+						<Action Name="" ID="{C4C61163-7D19-4383-AC2D-BF30002FDD2B}" ShortID="370739489">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator stop" ID="{CC493546-747A-43F1-9EF6-58A623AAE589}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A38225E-20B9-4A7A-B737-C7363C7133B0}" ShortID="702785029">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+								<Property Name="Pitch" Type="int32" Value="-400"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator drive" ID="{FF6A7D8C-DC4B-46C1-8691-33ABE9E26F82}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{10F26039-9325-4D67-B3BE-859D29BB0767}" ShortID="77509779">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator drive" ID="{FF6A7D8C-DC4B-46C1-8691-33ABE9E26F82}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="elevator_start" ID="{62CD9DDA-E3FB-4902-9BDC-E5F26B5280AF}">
+					<ChildrenList>
+						<Action Name="" ID="{F757DEE9-4AB4-4CCA-84E6-DC3BEC077B8D}" ShortID="523625019">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator start" ID="{83F960CE-3221-42C4-AD90-677289C43A8C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0CCFC3F5-F512-4C63-8C11-33BA7CEA468A}" ShortID="1050540699">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator creak" ID="{340B8135-EE9C-42CF-BC41-82B6385EDD93}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{380337C0-57A5-4D7A-95A7-D405A5567B3C}" ShortID="924541810">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator rope" ID="{72C31215-D8FD-4E9C-AAFB-CC223642085D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C9492E4E-5775-4BE0-BD63-CDB5241959AC}" ShortID="527109236">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator motor" ID="{05530115-2C8A-4C6E-9F94-B6AE43B7F0C5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EBE38766-D2BF-498A-8C10-1732A9D4C402}" ShortID="860375279">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator drive" ID="{FF6A7D8C-DC4B-46C1-8691-33ABE9E26F82}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="top_building_wind" ID="{E0FA9114-CFF9-4CB8-B897-265C7E04F8BE}">
+					<ChildrenList>
+						<Action Name="" ID="{06A2AED9-0ACA-4E7D-A6DB-1DD6915B665B}" ShortID="317423910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Top building wind" ID="{564AAEBD-D95C-4339-A05C-9BF21F6A77F7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rain_on_metal" ID="{386CBC06-DCE4-4BE8-B049-F1679ECE635B}">
+					<ChildrenList>
+						<Action Name="" ID="{D91AB747-DDB5-4A60-95F0-44E2C7CF4FCC}" ShortID="722137738">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain metal_mix2" ID="{B09A0C77-3EC7-44D9-8604-68EBB582BCA3}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="building_creak" ID="{E831E43C-BE45-4043-8B98-695887B61081}">
+					<ChildrenList>
+						<Action Name="" ID="{93AD110E-20F2-473E-B817-B4F3908F7D10}" ShortID="280835604">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal creak continuous_mix2" ID="{71EABED1-4922-443D-A766-3DA3D824FCCF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DB16ACEE-3A8D-44D4-97E6-B69902586BDB}" ShortID="23695572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal creak single" ID="{56403999-6325-4F39-9B7B-88FD9E89985C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pull_up" ID="{BBE6FEFB-7BFD-4A86-90A6-729471BA6A47}">
+					<ChildrenList>
+						<Action Name="" ID="{A319A762-60C7-4332-A707-D615E934E5F8}" ShortID="248474331">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pull_up" ID="{2BD33AD1-F042-4093-AE65-A529053CDF05}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="walk_clothes" ID="{9F04BAB0-34D7-4D1D-AFFC-58D1BA317F0A}">
+					<ChildrenList>
+						<Action Name="" ID="{A18B696D-A7A8-413B-A2BF-1DBB90C15CEF}" ShortID="105991870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pitch_down_all" ID="{5AAEF19E-7852-4BA1-83B7-ACE7B12071E0}">
+					<ChildrenList>
+						<Action Name="" ID="{B6EAD3C6-7751-4999-8F27-75BAC48BBC63}" ShortID="862058694">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}">
+					<ChildrenList>
+						<Action Name="" ID="{81E1C958-BAB8-4BD1-8351-1006D56B8B3E}" ShortID="445410976">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chain" ID="{E149C282-881E-4E11-AC19-C23F9530AB03}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="crane" ID="{97E527A1-92EC-4DAA-913E-FF82B5D98F0B}">
+					<ChildrenList>
+						<Action Name="" ID="{5774621C-568F-49A9-86EB-87F0792D33C2}" ShortID="781030052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crane and voices" ID="{B698FCEB-F7E7-4B5F-A0DC-1641AC3F1C01}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="constrction_site" ID="{1D2166D3-609B-4A2D-BDE8-E9931AC816AC}">
+					<ChildrenList>
+						<Action Name="" ID="{AB8EE988-7A0F-40B9-B276-4A92F0883B56}" ShortID="7441733">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Factory" ID="{B93E9BA5-5C06-48FD-8094-29E4CC03484A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="waves" ID="{95D9A455-CE9E-4970-94C9-F9A6B1F7EE43}">
+					<ChildrenList>
+						<Action Name="" ID="{C74D9C24-86C6-40CE-A92A-3E0689D11DE9}" ShortID="376364474">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="waves" ID="{E30FAD57-D10B-460A-8FB7-DA7159423995}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="seagulls" ID="{6CC63407-ABFD-4AEA-B016-93A16CC1A676}">
+					<ChildrenList>
+						<Action Name="" ID="{1ABD3B7D-B8F1-4AF1-8142-C3BABAE7DC2A}" ShortID="357064402">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seagulls" ID="{EF6C8724-DDD2-4B59-B88F-713E53D88090}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wind_harbour" ID="{AB609430-151B-453C-B593-9641955EAA48}">
+					<ChildrenList>
+						<Action Name="" ID="{0EE37E17-1048-4710-BBBF-CC0BE2B3EE52}" ShortID="766447748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{F60AAE13-201D-4162-A0C0-F2317D7B9E4A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Intro" ID="{4186F5B3-3FAB-4393-ACA1-82966752D77C}">
+					<ChildrenList>
+						<Action Name="" ID="{8C371589-F50F-4FAA-9EAC-DC69FFBBD6E1}" ShortID="529851813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IntroSpeak" ID="{F1400613-0CC1-493C-8843-73C83B12E8A8}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="the_admin" ID="{D4675610-2FF9-4163-81FD-FA20121A4D55}">
+					<ChildrenList>
+						<Action Name="" ID="{C448FD5B-1D7E-448D-B441-269EA1671A27}" ShortID="195585606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheAdmin" ID="{05E7003C-7FB3-4410-B8BE-F43C3B4A7CEC}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="the_baron" ID="{04DA0BF2-D43B-40BE-AC2B-077622F62A69}">
+					<ChildrenList>
+						<Action Name="" ID="{4EEBD45C-6EA5-475B-9E1C-AFB1C362F62C}" ShortID="180791743">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheBaron" ID="{48DC5B13-8BCA-4D93-AB27-CBB939BA3DC2}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="the_rat" ID="{30E17589-078F-4D73-B986-19DEE01285AA}">
+					<ChildrenList>
+						<Action Name="" ID="{5A731CE2-521A-4171-B77D-9E0B8BED934B}" ShortID="1036855601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheRat" ID="{6524E1F8-32E7-42B0-8CD8-BA59F165ABCC}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

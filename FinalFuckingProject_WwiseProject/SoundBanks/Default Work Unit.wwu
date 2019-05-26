@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50F66B82-716D-4DE7-A1A1-1F4695BF1525}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{50F66B82-716D-4DE7-A1A1-1F4695BF1525}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Footsteps" ID="{9EE79F07-455E-48C3-9F0D-9DBF0DDF234E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="walk_clothes" ID="{9F04BAB0-34D7-4D1D-AFFC-58D1BA317F0A}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{492D4FC2-72C5-45F5-85A7-96A2FC5CE9C5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="building_creak" ID="{E831E43C-BE45-4043-8B98-695887B61081}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wind_harbour" ID="{AB609430-151B-453C-B593-9641955EAA48}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="waves" ID="{95D9A455-CE9E-4970-94C9-F9A6B1F7EE43}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="constrction_site" ID="{1D2166D3-609B-4A2D-BDE8-E9931AC816AC}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="metal_building_wind" ID="{E2BF2B3D-96F6-4A54-9720-654BBDAD7EF4}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="seagulls" ID="{6CC63407-ABFD-4AEA-B016-93A16CC1A676}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rain_on_metal" ID="{386CBC06-DCE4-4BE8-B049-F1679ECE635B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rain" ID="{BBD1B690-EADA-4DA3-8A05-C6A6B980CC14}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="crane" ID="{97E527A1-92EC-4DAA-913E-FF82B5D98F0B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{14E63E00-D3A1-48B4-BB92-EF578AE045D8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Neon" ID="{5913796D-6393-4042-85DD-E14294DA6D1F}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="elevator_drive" ID="{C0DE9C9F-C291-4750-A5B6-B930F8DC0908}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="elevator_start" ID="{62CD9DDA-E3FB-4902-9BDC-E5F26B5280AF}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="elevator_stop" ID="{CE41EEE1-5CC8-49B5-9B5A-9E6128C9F967}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pull_up" ID="{BBE6FEFB-7BFD-4A86-90A6-729471BA6A47}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="zeppelin" ID="{97321BCE-AE28-4C65-A131-587901C24087}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="elevator_land" ID="{673702BD-CD62-4C72-AC1A-C6243D54F1D8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="thunder" ID="{FA514EDC-E56B-4ED7-BD79-4526CECAF2B1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{C17106DF-0B7C-4184-8161-DB9BE54A3312}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{5BB9A8AA-AC28-4625-9C41-6349125646F8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Cut_scenes" ID="{8BAF1ADC-A0B7-4A5C-BC6F-E9DD91AB8997}">
+					<ObjectInclusionList>
+						<ObjectRef Name="the_baron" ID="{04DA0BF2-D43B-40BE-AC2B-077622F62A69}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="the_admin" ID="{D4675610-2FF9-4163-81FD-FA20121A4D55}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Intro" ID="{4186F5B3-3FAB-4393-ACA1-82966752D77C}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="the_rat" ID="{30E17589-078F-4D73-B986-19DEE01285AA}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

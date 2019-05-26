@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5460622549970303173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5460622549969806565}
+  - component: {fileID: 5460622549966939333}
+  - component: {fileID: 5460622549968037509}
+  m_Layer: 0
+  m_Name: TelephoneTower Lightbulbs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5460622549969806565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460622549970303173}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
+  m_LocalPosition: {x: 13.357716, y: -0.171, z: -3.0400786}
+  m_LocalScale: {x: 0.2142879, y: 0.21428786, z: 0.21428786}
+  m_Children:
+  - {fileID: 9000187497924662601}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
+--- !u!33 &5460622549966939333
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460622549970303173}
+  m_Mesh: {fileID: 4300074, guid: e3188114c52da424caf9b65a9b9d0033, type: 3}
+--- !u!23 &5460622549968037509
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460622549970303173}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b1a62b256632f424295c54aad72dba08, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &2573304978423025896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5460622549969806565}
+    m_Modifications:
+    - target: {fileID: 2814744974538592533, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Name
+      value: Lightbuld Act1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06928444
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.015078604
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7099999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7358599
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7358599
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 9.917662
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Range
+      value: 7.455969
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 375716107250083505, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_VolumetricDimmer
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 375716107250083505, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: displayLightIntensity
+      value: 6.31
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7066283594f6836489b3212d6ebd9e15, type: 3}
+--- !u!4 &9000187497924662601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6868308179853247905, guid: 7066283594f6836489b3212d6ebd9e15,
+    type: 3}
+  m_PrefabInstance: {fileID: 2573304978423025896}
+  m_PrefabAsset: {fileID: 0}

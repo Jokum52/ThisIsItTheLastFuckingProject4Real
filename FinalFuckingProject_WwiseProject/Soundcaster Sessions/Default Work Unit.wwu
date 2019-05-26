@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27298A0F-F799-421F-8F81-12069BBAC341}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{27298A0F-F799-421F-8F81-12069BBAC341}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Chase" ID="{202FD84E-ECF0-4065-BD2A-4C2388273DC1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{97E2D586-2170-459E-A1B7-81A78BB018C7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{6AD83F1C-7C5E-4C42-B6B4-0C3ABB55D480}" WorkUnitID="{7BF62C8E-40E3-4F6B-BC60-9A97CADD9834}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Neon" ID="{541380F1-6916-4F03-B018-95F703531DF0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="rain" ID="{2D94AC41-76A7-4EF7-BD65-F2866A021B80}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="thunder" ID="{45AF73DC-1B42-4953-8F78-40D8E38C2609}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Chase" ID="{6A7E8498-BF4A-4361-B7A5-6A24BB7AB989}"/>
+						<CurrentStateRef Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Roof_1" ID="{8E961609-5395-4D5C-895E-D5C880780C75}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="metal_building" ID="{1FD5050F-8E17-42F9-B409-D046230B5EFE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="elevator_start" ID="{62CD9DDA-E3FB-4902-9BDC-E5F26B5280AF}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="zeppelin" ID="{97321BCE-AE28-4C65-A131-587901C24087}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="elevator_stop" ID="{CE41EEE1-5CC8-49B5-9B5A-9E6128C9F967}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="metal_building_wind" ID="{E2BF2B3D-96F6-4A54-9720-654BBDAD7EF4}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Zeppeliner propel" ID="{C3E8E8E9-E28B-46A0-A3B9-BE2138FE3978}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="elevator_drive" ID="{C0DE9C9F-C291-4750-A5B6-B930F8DC0908}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="top_building_wind" ID="{E0FA9114-CFF9-4CB8-B897-265C7E04F8BE}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Zeppeliner pumpy" ID="{F64D10CD-AD85-41FC-9A75-F12A66D6F9DF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="zeppelin" ID="{97321BCE-AE28-4C65-A131-587901C24087}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="rain_on_metal" ID="{386CBC06-DCE4-4BE8-B049-F1679ECE635B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pull_up" ID="{BBE6FEFB-7BFD-4A86-90A6-729471BA6A47}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="building_creak" ID="{E831E43C-BE45-4043-8B98-695887B61081}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Metal creak single" ID="{56403999-6325-4F39-9B7B-88FD9E89985C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="elevator_land" ID="{673702BD-CD62-4C72-AC1A-C6243D54F1D8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="pull_up" ID="{2BD33AD1-F042-4093-AE65-A529053CDF05}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Walk" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Chain" ID="{E149C282-881E-4E11-AC19-C23F9530AB03}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Concrete" ID="{0EC70FF3-5201-450F-810C-A89D742D9A54}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Harbour" ID="{EB8BBE91-FBAD-477B-861E-0BD475E97519}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="constrction_site" ID="{1D2166D3-609B-4A2D-BDE8-E9931AC816AC}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="crane" ID="{97E527A1-92EC-4DAA-913E-FF82B5D98F0B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="waves" ID="{95D9A455-CE9E-4970-94C9-F9A6B1F7EE43}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="seagulls" ID="{6CC63407-ABFD-4AEA-B016-93A16CC1A676}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="wind_harbour" ID="{AB609430-151B-453C-B593-9641955EAA48}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="seagull_reverb" ID="{394838A1-31DE-4487-B550-47B71AA172A5}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Concrete" ID="{0EC70FF3-5201-450F-810C-A89D742D9A54}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

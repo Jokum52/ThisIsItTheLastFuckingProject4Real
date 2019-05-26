@@ -1,0 +1,31 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	417490929	Chase			\Default Work Unit\Chase	
+	2724869341	Music_switch			\Default Work Unit\Music_switch	
+
+State	ID	Name	State Group			Notes
+	0	None	Chase			
+	1125500713	Intro	Chase			
+	3161908922	Main	Chase			
+	0	None	Music_switch			
+	417490929	Chase	Music_switch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3396433405	seagull_reverb			\Default Work Unit\seagull_reverb	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3396433405	Seagull_reverb			\Default Work Unit\Master Audio Bus\Seagull_reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	755202328	outside_harbour_farr_(Custom)	Wwise RoomVerb			
+	829536008	outside_harbour_close_(Custom)	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

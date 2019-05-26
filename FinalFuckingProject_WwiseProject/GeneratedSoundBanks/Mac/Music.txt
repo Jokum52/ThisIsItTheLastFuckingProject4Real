@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	417490929	Chase			\Default Work Unit\Chase	
+	2724869341	Music_switch			\Default Work Unit\Music_switch	
+
+State	ID	Name	State Group			Notes
+	0	None	Chase			
+	1125500713	Intro	Chase			
+	3161908922	Main	Chase			
+	0	None	Music_switch			
+	417490929	Chase	Music_switch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	748858637	Chase_main_95bpm_L01_P01	D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chase\Chase_main_95bpm_L01_P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chase_main\Chase_main_95bpm_L01_P01\Chase_main_95bpm_L01_P01		12478044
+	752665668	Chase_intro_95bpm_L01_P01	D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chase\Chase_intro_95bpm_L01_P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chase_intro\Chase_intro_95bpm_L01_P01\Chase_intro_95bpm_L01_P01		891352
+	836720993	Chase_build_95bpm_L01_P01	D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chase\Chase_build_95bpm_L01_P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chase_main\Chase_build_95bpm_L01_P01\Chase_build_95bpm_L01_P01		891352
+
