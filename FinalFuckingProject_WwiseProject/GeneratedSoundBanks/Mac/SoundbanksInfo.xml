@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Users\caol1467\NuGiderJegIkkeMere\DaddiesCummies\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -17,12 +17,12 @@
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4223356368" Name="building_creak" ObjectPath="\Events\Default Work Unit\building_creak"/>
-				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="10.000000"/>
-				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="10.000000"/>
+				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="65.000000"/>
+				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
 				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
 				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
 				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
-				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="45.000000"/>
+				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="50.000000"/>
 				<Event Id="2453122309" Name="waves" ObjectPath="\Events\Default Work Unit\waves" MaxAttenuation="30.000000"/>
 				<Event Id="2307991115" Name="wind_harbour" ObjectPath="\Events\Default Work Unit\wind_harbour"/>
 			</IncludedEvents>
@@ -33,11 +33,11 @@
 				</File>
 				<File Id="94366758" Language="SFX">
 					<ShortName>Factory3.wav</ShortName>
-					<Path>SFX\Factory3_10C4C929.wem</Path>
+					<Path>SFX\Factory3_35EAE0A2.wem</Path>
 				</File>
-				<File Id="106437459" Language="SFX">
-					<ShortName> tin roof.wav</ShortName>
-					<Path>SFX\ tin roof_D79FB2B7.wem</Path>
+				<File Id="154830572" Language="SFX">
+					<ShortName>tin roof.wav</ShortName>
+					<Path>SFX\tin roof_D79FB2B7.wem</Path>
 				</File>
 				<File Id="158781436" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 5.wav</ShortName>
@@ -73,11 +73,11 @@
 				</File>
 				<File Id="788189936" Language="SFX">
 					<ShortName>Factory2.wav</ShortName>
-					<Path>SFX\Factory2_10C4C929.wem</Path>
+					<Path>SFX\Factory2_29870809.wem</Path>
 				</File>
 				<File Id="851624831" Language="SFX">
 					<ShortName>Factory5.wav</ShortName>
-					<Path>SFX\Factory5_10C4C929.wem</Path>
+					<Path>SFX\Factory5_CC4EA3F1.wem</Path>
 				</File>
 				<File Id="896620618" Language="SFX">
 					<ShortName>Heavy wind_mix2.wav</ShortName>
@@ -93,11 +93,11 @@
 				</File>
 				<File Id="935319652" Language="SFX">
 					<ShortName>Factory4.wav</ShortName>
-					<Path>SFX\Factory4_10C4C929.wem</Path>
+					<Path>SFX\Factory4_DA223814.wem</Path>
 				</File>
 				<File Id="1012859475" Language="SFX">
 					<ShortName>Factory1.wav</ShortName>
-					<Path>SFX\Factory1_10C4C929.wem</Path>
+					<Path>SFX\Factory1_32C7EB87.wem</Path>
 				</File>
 				<File Id="1019855095" Language="SFX">
 					<ShortName>seagulls.wav</ShortName>
@@ -147,7 +147,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="2.000000"/>
+				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="10.000000"/>
 				<Event Id="327928446" Name="elevator_drive" ObjectPath="\Events\Default Work Unit\elevator_drive"/>
 				<Event Id="4242192989" Name="elevator_land" ObjectPath="\Events\Default Work Unit\elevator_land"/>
 				<Event Id="1208976610" Name="elevator_start" ObjectPath="\Events\Default Work Unit\elevator_start"/>
@@ -246,7 +246,7 @@
 			<ShortName>Footsteps</ShortName>
 			<Path>Footsteps.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" MaxAttenuation="100.000000"/>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" MaxAttenuation="20.000000"/>
 				<Event Id="2948715151" Name="walk_clothes" ObjectPath="\Events\Default Work Unit\walk_clothes"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -472,6 +472,34 @@
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="173902600" Language="SFX">
+					<ShortName>Harbour\loop_brush3_120bpm__L08_P00.wav</ShortName>
+					<Path>SFX\Harbour\loop_brush3_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="186258542" Language="SFX">
+					<ShortName>Harbour\loop_brush2_120bpm__L08_P00.wav</ShortName>
+					<Path>SFX\Harbour\loop_brush2_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="386821245" Language="SFX">
+					<ShortName>Harbour\loop_brush1_120bpm__L08_P00.wav</ShortName>
+					<Path>SFX\Harbour\loop_brush1_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="410099963" Language="SFX">
+					<ShortName>island_loop_120bpm_L84_P00.wav</ShortName>
+					<Path>SFX\island_loop_120bpm_L84_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="470333236" Language="SFX">
+					<ShortName>Harbour\loop_waterphone2_120bpm__L08_P05.wav</ShortName>
+					<Path>SFX\Harbour\loop_waterphone2_120bpm__L08_P05_D79FB2B7.wem</Path>
+				</File>
+				<File Id="631443981" Language="SFX">
+					<ShortName>loop_scrape1_120bpm__L08_P00.wav</ShortName>
+					<Path>SFX\loop_scrape1_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="673225278" Language="SFX">
+					<ShortName>island_intro_120bpm_L32_P00.wav</ShortName>
+					<Path>SFX\island_intro_120bpm_L32_P00_D79FB2B7.wem</Path>
+				</File>
 				<File Id="748858637" Language="SFX">
 					<ShortName>Chase\Chase_main_95bpm_L01_P01.wav</ShortName>
 					<Path>SFX\Chase\Chase_main_95bpm_L01_P01_D79FB2B7.wem</Path>
@@ -480,9 +508,29 @@
 					<ShortName>Chase\Chase_intro_95bpm_L01_P01.wav</ShortName>
 					<Path>SFX\Chase\Chase_intro_95bpm_L01_P01_D79FB2B7.wem</Path>
 				</File>
+				<File Id="768110013" Language="SFX">
+					<ShortName>Harbour\loop_cello_120bpm__L08_P00.wav</ShortName>
+					<Path>SFX\Harbour\loop_cello_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="769541863" Language="SFX">
+					<ShortName>outro_cello_120bpm__L01_P06.wav</ShortName>
+					<Path>SFX\outro_cello_120bpm__L01_P06_D79FB2B7.wem</Path>
+				</File>
+				<File Id="776611166" Language="SFX">
+					<ShortName>Harbour\Intro_cello_120bpm_L08_P00.wav</ShortName>
+					<Path>SFX\Harbour\Intro_cello_120bpm_L08_P00_D79FB2B7.wem</Path>
+				</File>
 				<File Id="836720993" Language="SFX">
 					<ShortName>Chase\Chase_build_95bpm_L01_P01.wav</ShortName>
 					<Path>SFX\Chase\Chase_build_95bpm_L01_P01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="966956583" Language="SFX">
+					<ShortName>loop_scrape2_120bpm__L08_P00.wav</ShortName>
+					<Path>SFX\loop_scrape2_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1069444021" Language="SFX">
+					<ShortName>island_end_120bpm_L36_P00.wav</ShortName>
+					<Path>SFX\island_end_120bpm_L36_P00_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

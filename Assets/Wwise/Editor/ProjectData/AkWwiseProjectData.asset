@@ -24,8 +24,41 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586427948655455802
+    m_lastTime: -8586427152046670077
     List:
+    - name: Celloverb
+      guid: b3e4db17795ce5409e11e865fef451e6
+      id: 2224548067
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Celloverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Celloverb
+    - name: Harbour_far
+      guid: 14609217ffa9c347ad7e519dbe28f8d3
+      id: 3454680848
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Harbour_far
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Harbour_far
+    - name: Harbour_verb
+      guid: b320b9d86b84214abd07d9866c5c8cfb
+      id: 216409694
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Harbour_verb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Harbour_verb
     - name: Seagull_reverb
       guid: 67edf7feca065244ae645fe056e772ff
       id: 3396433405
@@ -37,6 +70,17 @@ MonoBehaviour:
       - ElementName: Seagull_reverb
         ObjectType: 1
       Path: Default Work Unit\Master Audio Bus\Seagull_reverb
+    - name: Steel_interior
+      guid: 8e8a1700be77d841a755d51d06cdfa63
+      id: 2221373121
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Steel_interior
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Steel_interior
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -117,7 +161,7 @@ MonoBehaviour:
       - ElementName: Chain
         ObjectType: 3
       Path: Default Work Unit\Chain
-      maxAttenuation: 2
+      maxAttenuation: 10
       maxDuration: 0
       minDuration: 0
     - name: constrction_site
@@ -129,7 +173,7 @@ MonoBehaviour:
       - ElementName: constrction_site
         ObjectType: 3
       Path: Default Work Unit\constrction_site
-      maxAttenuation: 10
+      maxAttenuation: 65
       maxDuration: 0
       minDuration: 0
     - name: crane
@@ -141,7 +185,7 @@ MonoBehaviour:
       - ElementName: crane
         ObjectType: 3
       Path: Default Work Unit\crane
-      maxAttenuation: 10
+      maxAttenuation: 60
       maxDuration: 0
       minDuration: 0
     - name: elevator_drive
@@ -201,7 +245,7 @@ MonoBehaviour:
       - ElementName: Footstep
         ObjectType: 3
       Path: Default Work Unit\Footstep
-      maxAttenuation: 100
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: Intro
@@ -309,7 +353,7 @@ MonoBehaviour:
       - ElementName: seagulls
         ObjectType: 3
       Path: Default Work Unit\seagulls
-      maxAttenuation: 45
+      maxAttenuation: 50
       maxDuration: 0
       minDuration: 0
     - name: the_admin
@@ -425,7 +469,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586427948655885674
+    m_lastTime: -8586427932254775808
     List:
     - name: seagull_reverb
       guid: a1384839de318744b55047b71aa172a5
@@ -441,7 +485,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 32214f11f183c844ad96b6dcb924f20f
     GuidInternal: 
-    m_lastTime: -8586447162854775808
+    m_lastTime: -8586427292214775808
     List:
     - name: Chase
       guid: d249fa96bf99114d8b3ec9886fc1acf8
@@ -490,6 +534,24 @@ MonoBehaviour:
         PathAndIcons:
         - ElementName: Chase
           ObjectType: 8
+      - name: Harbour
+        guid: 9c86db3580ca1546b2a8f42b8aebe41a
+        id: 1372494610
+        PathAndIcons:
+        - ElementName: Harbour
+          ObjectType: 8
+      - name: Island
+        guid: 0129689cab313b469a91995ef7e4de69
+        id: 3199546890
+        PathAndIcons:
+        - ElementName: Island
+          ObjectType: 8
+      - name: Island_end
+        guid: 8c0a4fe125794d40a8135f106c8a7d91
+        id: 569230464
+        PathAndIcons:
+        - ElementName: Island_end
+          ObjectType: 8
       - name: None
         guid: 1c15abb1b8df0f418288d6d9e4158354
         id: 748895195
@@ -504,7 +566,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3e8e9c9b95f7f24785bdd5d0dae4bbce
     GuidInternal: 
-    m_lastTime: -8586428014966885220
+    m_lastTime: -8586428014954775808
     List:
     - name: Material
       guid: 8b387f24eb29e449a0092f122dd6579b
@@ -580,9 +642,5 @@ MonoBehaviour:
   - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit
   - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio
     Bus
-  - /FinalFuckingProject_WwiseProject/Events
-  - /FinalFuckingProject_WwiseProject/SoundBanks
-  - /FinalFuckingProject_WwiseProject/SoundBanks/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/Switches
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
