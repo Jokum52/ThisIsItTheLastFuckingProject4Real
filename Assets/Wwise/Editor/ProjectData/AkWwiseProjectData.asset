@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 9a047ac70d56a64d8d96bdfcd53a15d5
     GuidInternal: 
-    m_lastTime: -8586459111934775808
+    m_lastTime: -8586427305834665561
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586427152046670077
+    m_lastTime: -8586426565935584382
     List:
     - name: Celloverb
       guid: b3e4db17795ce5409e11e865fef451e6
@@ -86,7 +86,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 826bf6506d71e74da1a11f4695bf1525
     GuidInternal: 
-    m_lastTime: -8586428075874775808
+    m_lastTime: -8586427305834716013
     List:
     - name: Ambience
       guid: c24f2d49c572f54585a796a2fc5ce9c5
@@ -138,7 +138,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 0d64ac262e426e4db877e4a1f70a1c42
     GuidInternal: 
-    m_lastTime: -8586428036794775808
+    m_lastTime: -8586427306354563071
     List:
     - name: building_creak
       guid: 3ce431e845be43408b98695887b61081
@@ -161,7 +161,7 @@ MonoBehaviour:
       - ElementName: Chain
         ObjectType: 3
       Path: Default Work Unit\Chain
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: constrction_site
@@ -173,7 +173,7 @@ MonoBehaviour:
       - ElementName: constrction_site
         ObjectType: 3
       Path: Default Work Unit\constrction_site
-      maxAttenuation: 65
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: crane
@@ -185,7 +185,7 @@ MonoBehaviour:
       - ElementName: crane
         ObjectType: 3
       Path: Default Work Unit\crane
-      maxAttenuation: 60
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: elevator_drive
@@ -245,7 +245,7 @@ MonoBehaviour:
       - ElementName: Footstep
         ObjectType: 3
       Path: Default Work Unit\Footstep
-      maxAttenuation: 20
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Intro
@@ -293,7 +293,7 @@ MonoBehaviour:
       - ElementName: Neon
         ObjectType: 3
       Path: Default Work Unit\Neon
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Pitch_down_all
@@ -353,7 +353,7 @@ MonoBehaviour:
       - ElementName: seagulls
         ObjectType: 3
       Path: Default Work Unit\seagulls
-      maxAttenuation: 50
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: the_admin
@@ -437,7 +437,7 @@ MonoBehaviour:
       - ElementName: waves
         ObjectType: 3
       Path: Default Work Unit\waves
-      maxAttenuation: 30
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: wind_harbour
@@ -461,7 +461,7 @@ MonoBehaviour:
       - ElementName: zeppelin
         ObjectType: 3
       Path: Default Work Unit\zeppelin
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
@@ -469,7 +469,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586427932254775808
+    m_lastTime: -8586427306354523087
     List:
     - name: seagull_reverb
       guid: a1384839de318744b55047b71aa172a5
@@ -485,7 +485,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 32214f11f183c844ad96b6dcb924f20f
     GuidInternal: 
-    m_lastTime: -8586427292214775808
+    m_lastTime: -8586427122312498554
     List:
     - name: Chase
       guid: d249fa96bf99114d8b3ec9886fc1acf8
@@ -566,7 +566,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3e8e9c9b95f7f24785bdd5d0dae4bbce
     GuidInternal: 
-    m_lastTime: -8586428014954775808
+    m_lastTime: -8586427305834685485
     List:
     - name: Material
       guid: 8b387f24eb29e449a0092f122dd6579b
@@ -634,7 +634,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c5379b03b7d338439c0b0b0fc2936039
     GuidInternal: 
-    m_lastTime: -8586459111934775808
+    m_lastTime: -8586427305834675568
     List: []
   ExpandedItems:
   - /FinalFuckingProject_WwiseProject
@@ -642,6 +642,10 @@ MonoBehaviour:
   - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit
   - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio
     Bus
+  - /FinalFuckingProject_WwiseProject/SoundBanks
+  - /FinalFuckingProject_WwiseProject/SoundBanks/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/States
+  - /FinalFuckingProject_WwiseProject/States/Default Work Unit
   - /FinalFuckingProject_WwiseProject/Switches
   - /FinalFuckingProject_WwiseProject/Switches/Default Work Unit
   - /FinalFuckingProject_WwiseProject/Switches/Default Work Unit/Material
