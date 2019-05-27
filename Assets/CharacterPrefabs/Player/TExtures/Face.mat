@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hat
+  m_Name: Face
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ShaderKeywords: _MASKMAP _METALLICGLOSSMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE
     _PARALLAXMAP
@@ -30,7 +30,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 85f928cb8a439aa41a0af68d78e1802a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6fafe08949c7d274481609ec44fa978e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 18bf5be2574e16447a0a3c80b011db30, type: 3}
+        m_Texture: {fileID: 2800000, guid: ae974a04c4c267348883dbc55ad74dc0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
@@ -90,19 +90,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 85f928cb8a439aa41a0af68d78e1802a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6fafe08949c7d274481609ec44fa978e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: b99b6feca129993499cb7e8e04c4b0f3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7e9ecd0abdfeccd46bdb247e385915b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: e7c07cb95dad94b44874cad0bd88c06a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 71fe7a74cc93f724db0c306cde6bd3c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 18bf5be2574e16447a0a3c80b011db30, type: 3}
+        m_Texture: {fileID: 2800000, guid: 82a86d0bcd7958e40aa5b4d88658e1e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -110,11 +110,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: eec36cdebd701184faf6221753001d1d, type: 3}
+        m_Texture: {fileID: 2800000, guid: d01ef25ffdce38e41b92b43c70042c14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 27dba32bd24ffef46be3b175ce86f3a8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 97a6f0e2340175e4c870ab909ec894a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
@@ -197,8 +197,8 @@ Material:
     - _EnableSpecularOcclusion: 0
     - _EnableWind: 0
     - _EnergyConservingSpecularColor: 1
-    - _GlossMapScale: 0.255
-    - _Glossiness: 0.163
+    - _GlossMapScale: 0.407
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HdrpVersion: 2
     - _HeightAmplitude: 0.02
@@ -217,7 +217,7 @@ Material:
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _Mode: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
@@ -227,7 +227,7 @@ Material:
     - _PPDMinSamples: 5
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
-    - _Parallax: 0.02
+    - _Parallax: 0.0661
     - _ReceivesSSR: 1
     - _RefractionModel: 0
     - _SSRefractionProjectionModel: 0
