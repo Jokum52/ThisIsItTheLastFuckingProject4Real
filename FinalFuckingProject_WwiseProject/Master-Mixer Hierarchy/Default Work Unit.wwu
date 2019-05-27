@@ -181,6 +181,15 @@
 							</ReferenceList>
 						</AuxBus>
 						<AuxBus Name="Harbour_verb" ID="{D8B920B3-846B-4A21-BD07-D9866C5C8CFB}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6EE2BA55-45D9-4F9E-A473-68AE75C84EEF}" ShortID="800948990">
+											<ReferenceList/>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}">

@@ -26,7 +26,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>-96</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -479,6 +479,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Concrete" ID="{2D5DBD2C-1B9C-4DF9-A60E-B5931B268485}" ShortID="408233981">
 							<PropertyList>
+								<Property Name="BypassEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>18</Value>
@@ -1378,6 +1383,9 @@
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{E742E8BE-D1DC-4CD9-8346-A9FF2D0DE6DF}">
