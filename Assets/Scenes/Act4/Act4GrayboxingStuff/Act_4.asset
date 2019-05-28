@@ -62,6 +62,7 @@ MonoBehaviour:
   - {fileID: 5469634395744621092}
   - {fileID: 6219461938734517221}
   - {fileID: 2664738711393250757}
+  - {fileID: 3341518004261918689}
 --- !u!114 &2664738711393250757
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -138,6 +139,63 @@ MonoBehaviour:
   enableSunDisk:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &3341518004261918689
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2150ee00179b2f4418ea8b21a7e98eea, type: 3}
+  m_Name: ExponentialFog
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  colorMode:
+    m_OverrideState: 1
+    m_Value: 1
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  density:
+    m_OverrideState: 1
+    m_Value: 0.794
+    min: 0
+    max: 1
+  maxFogDistance:
+    m_OverrideState: 1
+    m_Value: 5000
+    min: 0
+  mipFogMaxMip:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 1
+  mipFogNear:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  mipFogFar:
+    m_OverrideState: 1
+    m_Value: 1000
+    min: 0
+  fogDistance:
+    m_OverrideState: 1
+    m_Value: 2558
+    min: 0
+  fogBaseHeight:
+    m_OverrideState: 1
+    m_Value: 5212
+  fogHeightAttenuation:
+    m_OverrideState: 1
+    m_Value: 0.138
+    min: 0
+    max: 1
 --- !u!114 &5469634395744621092
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -150,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b00527f85bb3346a4d2cb710971587, type: 3}
   m_Name: VolumetricFog
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   colorMode:
     m_OverrideState: 1
@@ -168,7 +226,7 @@ MonoBehaviour:
     max: 1
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 5000
+    m_Value: 4931.48
     min: 0
   mipFogMaxMip:
     m_OverrideState: 1
@@ -202,17 +260,17 @@ MonoBehaviour:
     min: 1
   anisotropy:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -0.614
     min: -1
     max: 1
   globalLightProbeDimmer:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.069
     min: 0
     max: 1
   enableDistantFog:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
 --- !u!114 &6219461938734517221
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -284,4 +342,4 @@ MonoBehaviour:
     m_Value: 0
   fogType:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 2
