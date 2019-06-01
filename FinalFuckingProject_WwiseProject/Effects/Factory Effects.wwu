@@ -1397,7 +1397,7 @@
 							<ChildrenList>
 								<Effect Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="4.6"/>
+										<Property Name="DecayTime" Type="Real32" Value="6.7"/>
 										<Property Name="Density" Type="Real32" Value="100"/>
 										<Property Name="Diffusion" Type="Real32" Value="53"/>
 										<Property Name="ERLevel" Type="Real32" Value="-15"/>
@@ -1411,7 +1411,39 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.3"/>
 										<Property Name="PreDelay" Type="Real32" Value="80"/>
 										<Property Name="Quality" Type="int32" Value="6"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-19"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="0">
+											<RTPCList>
+												<RTPC Name="" ID="{C520A1ED-8EB1-4BB3-896E-19E9FEF27FE6}" ShortID="558910888">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="cave_birds" ID="{E1A42210-F47C-4B1F-99E6-20106DE771A0}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{22CFD753-B2E1-41CD-AD8E-641E04BC91B2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-11.56302</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>49.91763</XPos>
+																<YPos>-6.88136</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="RoomSize" Type="Real32" Value="100"/>
 									</PropertyList>
 								</Effect>

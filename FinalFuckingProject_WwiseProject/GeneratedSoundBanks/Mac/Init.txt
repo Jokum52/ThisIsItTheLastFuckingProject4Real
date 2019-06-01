@@ -11,8 +11,10 @@ State	ID	Name	State Group			Notes
 	569230464	Island_end	Music_switch			
 	1372494610	Harbour	Music_switch			
 	3199546890	Island	Music_switch			
+	4122393694	Cave	Music_switch			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1815227543	cave_birds			\Default Work Unit\cave_birds	
 	3396433405	seagull_reverb			\Default Work Unit\seagull_reverb	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -23,6 +25,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	216409694	Harbour_verb			\Default Work Unit\Master Audio Bus\Harbour_verb	
+	1815227543	Cave_birds			\Default Work Unit\Master Audio Bus\Cave_birds	
 	2221373121	Steel_interior			\Default Work Unit\Master Audio Bus\Steel_interior	
 	2224548067	Celloverb			\Default Work Unit\Master Audio Bus\Celloverb	
 	3396433405	Seagull_reverb			\Default Work Unit\Master Audio Bus\Seagull_reverb	
@@ -34,6 +37,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	755202328	outside_harbour_farr_(Custom)	Wwise RoomVerb			
 	829536008	outside_harbour_close_(Custom)	Wwise RoomVerb			
 	907930171	Machine_Gun_Hangar_(Custom)	Wwise RoomVerb			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
 	1990128658	Room_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

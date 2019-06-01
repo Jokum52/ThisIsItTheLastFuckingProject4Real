@@ -44,6 +44,17 @@
 						<ObjectRef Name="seagulls" ID="{EF6C8724-DDD2-4B59-B88F-713E53D88090}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Cave" ID="{4D4ECB1F-D889-4F95-BDEB-FCA1D9ADFDF8}">
+					<ObjectList>
+						<ObjectRef Name="birds" ID="{8D0D5B50-826E-4374-B32B-6CCF47D1BA7E}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+						<ObjectRef Name="Cave_birds" ID="{7B559AFC-F96B-401F-95F9-019DF8D0CE02}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+						<ObjectRef Name="wind_cave_opening" ID="{C8D9556B-B655-4760-B72D-3F2288910D9A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+						<ObjectRef Name="Dripping_water" ID="{7BD6B748-06CA-4DB4-AFAA-6230EFD64CD8}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+						<ObjectRef Name="cisternerne" ID="{67E038B1-436B-467E-9519-562AC356D634}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+						<ObjectRef Name="Cave_ambience" ID="{F53688F6-4F31-451D-908A-0BA70D852835}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+						<ObjectRef Name="chain" ID="{3EDEEB52-0218-418A-89EE-E7F8075F5401}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>
