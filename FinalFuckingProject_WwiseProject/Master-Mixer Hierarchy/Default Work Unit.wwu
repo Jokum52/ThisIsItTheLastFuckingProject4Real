@@ -31,7 +31,7 @@
 								<DuckItem>
 									<BusRef Name="Environment" ID="{0875A2DF-9794-4D0F-8B39-A11B597917DB}"/>
 									<DuckingParam>
-										<Volume>-3.5</Volume>
+										<Volume>-2.5</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>0.100000001490116</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
@@ -181,15 +181,6 @@
 							</ReferenceList>
 						</AuxBus>
 						<AuxBus Name="Harbour_verb" ID="{D8B920B3-846B-4A21-BD07-D9866C5C8CFB}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{6EE2BA55-45D9-4F9E-A473-68AE75C84EEF}" ShortID="800948990">
-											<ReferenceList/>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}">
@@ -228,6 +219,13 @@
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Cave_birds" ID="{7B559AFC-F96B-401F-95F9-019DF8D0CE02}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
 						</AuxBus>

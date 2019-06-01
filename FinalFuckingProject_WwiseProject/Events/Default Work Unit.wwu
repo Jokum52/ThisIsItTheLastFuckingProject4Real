@@ -434,6 +434,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="fog_horn" ID="{E55BBCA0-D535-4E01-AEF2-816386F1A7AF}">
+					<ChildrenList>
+						<Action Name="" ID="{557C83CD-3B94-4F6C-8D86-E6DC4EE11F06}" ShortID="494524565">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fog_horn" ID="{B0816D03-DDFD-4A93-93A7-8A8E38A8660F}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="boeje" ID="{62B1F17E-E0CA-4F54-BF76-0A746E785539}">
+					<ChildrenList>
+						<Action Name="" ID="{C55752AA-DCAD-4160-AD29-3AD9BBB959D6}" ShortID="206971472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boeje" ID="{12900429-FD2F-470F-B14D-23D68E9867A4}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pebbles_1" ID="{B67E5551-EABC-4C70-BCFF-DDD3530AE478}">
+					<ChildrenList>
+						<Action Name="" ID="{EE3A038E-D4D9-48E5-8723-07D5083140E0}" ShortID="174994808">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pebbles_1" ID="{25C86D1B-CE1F-4DDE-83F5-7B6FE2826A2C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
