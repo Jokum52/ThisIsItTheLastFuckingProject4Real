@@ -9,7 +9,19 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="cave_birds" ID="{E1A42210-F47C-4B1F-99E6-20106DE771A0}"/>
+				<GameParameter Name="cave_birds" ID="{E1A42210-F47C-4B1F-99E6-20106DE771A0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="wind_cave_opening" ID="{8F8B4125-4095-479B-85E8-3EA1C705E5B1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="494"/>
+						<Property Name="Max" Type="Real64" Value="494"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="cisternerne" ID="{AE0F4A50-5722-4949-9C64-59564FE7E1B2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

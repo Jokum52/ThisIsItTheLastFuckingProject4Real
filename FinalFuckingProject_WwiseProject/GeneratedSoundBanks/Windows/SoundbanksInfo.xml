@@ -16,20 +16,39 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
+				<Event Id="352130103" Name="birds" ObjectPath="\Events\Default Work Unit\birds" MaxAttenuation="50.000000"/>
 				<Event Id="4223356368" Name="building_creak" ObjectPath="\Events\Default Work Unit\building_creak" MaxAttenuation="16.000000"/>
+				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="95.000000"/>
+				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="10.000000"/>
+				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="95.000000"/>
 				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="65.000000"/>
 				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
 				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
+				<Event Id="4115393080" Name="pebbles_1" ObjectPath="\Events\Default Work Unit\pebbles_1"/>
 				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
 				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
 				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="50.000000"/>
+				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping"/>
 				<Event Id="2453122309" Name="waves" ObjectPath="\Events\Default Work Unit\waves" MaxAttenuation="30.000000"/>
+				<Event Id="4002189376" Name="wind_cave_opening" ObjectPath="\Events\Default Work Unit\wind_cave_opening" MaxAttenuation="142.000000"/>
 				<Event Id="2307991115" Name="wind_harbour" ObjectPath="\Events\Default Work Unit\wind_harbour"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="16358839" Language="SFX">
+					<ShortName>Dripping_water.wav</ShortName>
+					<Path>SFX\Dripping_water_D79FB2B7.wem</Path>
+				</File>
+				<File Id="49995845" Language="SFX">
+					<ShortName>wind_cave_opening.wav</ShortName>
+					<Path>SFX\wind_cave_opening_D79FB2B7.wem</Path>
+				</File>
 				<File Id="67009516" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 2.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 2_10C4C929.wem</Path>
+				</File>
+				<File Id="79451613" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_C483DBDB.wem</Path>
 				</File>
 				<File Id="94366758" Language="SFX">
 					<ShortName>Factory3.wav</ShortName>
@@ -55,13 +74,33 @@
 					<ShortName>Harbour\waves.wav</ShortName>
 					<Path>SFX\Harbour\waves_D79FB2B7.wem</Path>
 				</File>
+				<File Id="235028013" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_78B1F0F8.wem</Path>
+				</File>
 				<File Id="291416864" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 4.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 4_10C4C929.wem</Path>
 				</File>
+				<File Id="338058714" Language="SFX">
+					<ShortName>Cave_ambience.wav</ShortName>
+					<Path>SFX\Cave_ambience_D79FB2B7.wem</Path>
+				</File>
+				<File Id="390443350" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_26E332E3.wem</Path>
+				</File>
 				<File Id="509047898" Language="SFX">
 					<ShortName>Rain metal_mix2.wav</ShortName>
 					<Path>SFX\Rain metal_mix2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="552986777" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_EF19A047.wem</Path>
+				</File>
+				<File Id="556934660" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_DBAF09FB.wem</Path>
 				</File>
 				<File Id="694582602" Language="SFX">
 					<ShortName>Metal creak continuous_mix2.wav</ShortName>
@@ -79,6 +118,10 @@
 					<ShortName>Factory5.wav</ShortName>
 					<Path>SFX\Factory5_DD37E1AB.wem</Path>
 				</File>
+				<File Id="872721150" Language="SFX">
+					<ShortName>cisternerne.wav</ShortName>
+					<Path>SFX\cisternerne_D79FB2B7.wem</Path>
+				</File>
 				<File Id="896620618" Language="SFX">
 					<ShortName>Heavy wind_mix2.wav</ShortName>
 					<Path>SFX\Heavy wind_mix2_D79FB2B7.wem</Path>
@@ -95,9 +138,21 @@
 					<ShortName>Factory4.wav</ShortName>
 					<Path>SFX\Factory4_5C3172C4.wem</Path>
 				</File>
+				<File Id="999008368" Language="SFX">
+					<ShortName>pebbles_1.wav</ShortName>
+					<Path>SFX\pebbles_1_10C4C929.wem</Path>
+				</File>
+				<File Id="1009188860" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_E2A001AB.wem</Path>
+				</File>
 				<File Id="1012859475" Language="SFX">
 					<ShortName>Factory1.wav</ShortName>
 					<Path>SFX\Factory1_58627626.wem</Path>
+				</File>
+				<File Id="1013661896" Language="SFX">
+					<ShortName>Cave\birds.wav</ShortName>
+					<Path>SFX\Cave\birds_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1019855095" Language="SFX">
 					<ShortName>seagulls.wav</ShortName>

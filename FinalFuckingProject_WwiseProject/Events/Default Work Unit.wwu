@@ -5,38 +5,10 @@
 			<ChildrenList>
 				<Event Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}">
 					<ChildrenList>
-						<Action Name="" ID="{53FAE1E7-4426-47C5-AA10-4E0B6A4FA485}" ShortID="137380210">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Metal_footstep" ID="{FDBCAE59-CF21-44D9-B248-DF19107E7EE7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{CC4CB532-7053-487A-B8AA-00EE90261067}" ShortID="335064960">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{97E2D586-2170-459E-A1B7-81A78BB018C7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6A577BEF-22BC-4C1E-8FEF-03A90096AF79}" ShortID="884492869">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Walk" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -462,6 +434,72 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="pebbles_1" ID="{25C86D1B-CE1F-4DDE-83F5-7B6FE2826A2C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="birds" ID="{CAD7C312-8499-4789-8444-7E13CC925C51}">
+					<ChildrenList>
+						<Action Name="" ID="{CD2B2278-B828-45BD-B2CB-4F313AFEF4DA}" ShortID="503566404">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="birds" ID="{8D0D5B50-826E-4374-B32B-6CCF47D1BA7E}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wind_cave_opening" ID="{56F7EE1C-4960-46FA-B986-48DB0E2212E0}">
+					<ChildrenList>
+						<Action Name="" ID="{9C6C6E0D-FAE9-4D14-9A58-A35951D9FE9E}" ShortID="169658992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wind_cave_opening" ID="{C8D9556B-B655-4760-B72D-3F2288910D9A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cisternerne" ID="{A13E687E-72BE-4CB9-ADAB-2C3DEC6F1136}">
+					<ChildrenList>
+						<Action Name="" ID="{F123CF04-CD74-4A99-AA3B-45CFA275916A}" ShortID="96907219">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cisternerne" ID="{67E038B1-436B-467E-9519-562AC356D634}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cave_ambience" ID="{A909B8DA-97AD-446E-85BB-9902A1E4B6AA}">
+					<ChildrenList>
+						<Action Name="" ID="{EE2D8718-0245-4A14-9F9B-6654237BC1D4}" ShortID="740464158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cave_ambience" ID="{F53688F6-4F31-451D-908A-0BA70D852835}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="water_dripping" ID="{1422C81E-F2FF-4201-BA4E-DD0118766D92}">
+					<ChildrenList>
+						<Action Name="" ID="{20F674C9-54BD-48B8-B782-E7C9E9D981FF}" ShortID="477081570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dripping_water" ID="{7BD6B748-06CA-4DB4-AFAA-6230EFD64CD8}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="chain_cave" ID="{B54C4AA0-240C-4162-A89E-A1EC0CEF5E13}">
+					<ChildrenList>
+						<Action Name="" ID="{FC97F5BC-8AAF-4C75-A035-D9FF0E0938C0}" ShortID="97309294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chain" ID="{3EDEEB52-0218-418A-89EE-E7F8075F5401}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
