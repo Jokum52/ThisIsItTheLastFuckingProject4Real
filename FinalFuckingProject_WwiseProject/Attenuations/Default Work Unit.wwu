@@ -1074,7 +1074,7 @@
 				</Attenuation>
 				<Attenuation Name="stone glow" ID="{0C69F2E4-9D5F-4CDF-A8B3-5744556DBDDF}" ShortID="535253821">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="35"/>
+						<Property Name="RadiusMax" Type="Real64" Value="55"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -1090,12 +1090,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>19.86674</XPos>
-											<YPos>0</YPos>
+											<XPos>25.57257</XPos>
+											<YPos>-0.03021</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
+											<XPos>35.61698</XPos>
+											<YPos>-12.0412</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>55</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1122,12 +1127,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>14.06219</XPos>
+											<XPos>22.0977271428571</XPos>
 											<YPos>38</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
+											<XPos>55</XPos>
 											<YPos>55</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1148,7 +1153,7 @@
 				</Attenuation>
 				<Attenuation Name="car" ID="{51F10ACD-E88B-4ECB-AA67-FF18A7D4CEA3}" ShortID="762456450">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="200"/>
+						<Property Name="RadiusMax" Type="Real64" Value="120"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -1164,18 +1169,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>199.407699901283</XPos>
+											<XPos>78.302064</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>199.998</XPos>
-											<YPos>-0</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>200</XPos>
-											<YPos>-1.36915</YPos>
+											<XPos>120</XPos>
+											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -1189,7 +1189,30 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+								<Curve Name="LowPassFilter" ID="{5DEEB62C-2F85-4FBF-9133-497F71EF2B88}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>36.24876</XPos>
+											<YPos>48</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>120</XPos>
+											<YPos>76</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
