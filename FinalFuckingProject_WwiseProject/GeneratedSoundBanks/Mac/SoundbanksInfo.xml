@@ -16,11 +16,11 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="352130103" Name="birds" ObjectPath="\Events\Default Work Unit\birds" MaxAttenuation="50.000000"/>
+				<Event Id="352130103" Name="birds" ObjectPath="\Events\Default Work Unit\birds" MaxAttenuation="70.000000"/>
 				<Event Id="4223356368" Name="building_creak" ObjectPath="\Events\Default Work Unit\building_creak" MaxAttenuation="16.000000"/>
-				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="95.000000"/>
-				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="10.000000"/>
-				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="95.000000"/>
+				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="85.000000"/>
+				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="15.000000"/>
+				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
 				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="65.000000"/>
 				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
 				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
@@ -90,6 +90,10 @@
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_26E332E3.wem</Path>
 				</File>
+				<File Id="499331955" Language="SFX">
+					<ShortName>pebbles_2.wav</ShortName>
+					<Path>SFX\pebbles_2_10C4C929.wem</Path>
+				</File>
 				<File Id="509047898" Language="SFX">
 					<ShortName>Rain metal_mix2.wav</ShortName>
 					<Path>SFX\Rain metal_mix2_D79FB2B7.wem</Path>
@@ -137,10 +141,6 @@
 				<File Id="935319652" Language="SFX">
 					<ShortName>Factory4.wav</ShortName>
 					<Path>SFX\Factory4_5C3172C4.wem</Path>
-				</File>
-				<File Id="999008368" Language="SFX">
-					<ShortName>pebbles_1.wav</ShortName>
-					<Path>SFX\pebbles_1_10C4C929.wem</Path>
 				</File>
 				<File Id="1009188860" Language="SFX">
 					<ShortName>Chain.wav</ShortName>

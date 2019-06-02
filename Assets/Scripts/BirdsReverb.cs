@@ -22,7 +22,7 @@ public class BirdsReverb : MonoBehaviour
         distance1_ = Vector3.Distance(player.transform.position, point1.transform.position);
 
         AkSoundEngine.SetRTPCValue("cave_birds", distance1_);
-        Debug.Log("distance is " + distance1_);
+        //Debug.Log("distance is " + distance1_);
     }
 
 

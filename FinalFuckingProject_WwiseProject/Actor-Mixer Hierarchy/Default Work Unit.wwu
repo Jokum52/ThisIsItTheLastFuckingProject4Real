@@ -3701,7 +3701,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3734,7 +3734,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3762,6 +3762,11 @@
 						<Sound Name="cisternerne" ID="{67E038B1-436B-467E-9519-562AC356D634}" ShortID="828525140">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3808,11 +3813,7 @@
 						</Sound>
 						<Sound Name="wind_cave_opening" ID="{C8D9556B-B655-4760-B72D-3F2288910D9A}" ShortID="601485594">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
+								<Property Name="BypassEffect" Type="bool">
 									<RTPCList>
 										<RTPC Name="" ID="{B466FC88-24FA-4C30-8101-A564E0867840}" ShortID="834076529">
 											<ReferenceList>
@@ -3822,33 +3823,39 @@
 											</ReferenceList>
 											<Curve Name="" ID="{167828C1-9171-4F9D-82E6-C4F2729A1C1F}">
 												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
+													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-200</YPos>
+														<YPos>0</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
 														<XPos>357.71951</XPos>
-														<YPos>-39.18083</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>401.6008</XPos>
-														<YPos>200</YPos>
+														<YPos>1</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>494</XPos>
-														<YPos>200</YPos>
+														<YPos>1</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
 											</Curve>
 										</RTPC>
 									</RTPCList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -3912,18 +3919,93 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>-22</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Chains" ID="{4BD6D3AC-7BCB-420A-AE87-18497DEF87EE}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+									<Custom CreatedFrom="{4BD6D3AC-7BCB-420A-AE87-18497DEF87EE}">
+										<Attenuation Name="Chains (Custom)" ID="{C14FB355-9762-4800-A147-02D5DC600F99}" ShortID="624990637">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="15"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{6762A1FC-D4C9-4819-BA00-A3C6EA3DDAA3}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>11.535045</XPos>
+																	<YPos>-1.9082</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>15</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{7468AACD-65D1-493F-86D0-F13C94A2AAFC}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10.71255</XPos>
+																	<YPos>35</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>15</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -4262,6 +4344,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<ActorMixer Name="pebbles" ID="{3F19C298-6866-425D-918E-1D6DDB548D18}" ShortID="1038676732">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>

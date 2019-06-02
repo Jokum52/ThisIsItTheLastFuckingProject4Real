@@ -22,8 +22,8 @@ public class Cisternerne : MonoBehaviour
     {
         distance2_ = Vector3.Distance(player.transform.position, point2.transform.position);
         
-        AkSoundEngine.SetRTPCValue("wind_cave_opening", distance2_);
-       Debug.Log("distance is " + distance2_);
+        //AkSoundEngine.SetRTPCValue("wind_cave_opening", distance2_);
+       //Debug.Log("distance is " + distance2_);
     }
 
 
