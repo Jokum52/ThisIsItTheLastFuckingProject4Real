@@ -3696,7 +3696,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>38</Value>
+										<Value>47</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -3732,10 +3732,15 @@
 						<Sound Name="Cave_ambience" ID="{F53688F6-4F31-451D-908A-0BA70D852835}" ShortID="898861537">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="cave_ambience" ID="{B054EEB8-53FE-4074-B8F6-2AC71664BFB0}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+									<ObjectRef Name="cisternerne" ID="{8B375067-9238-4A2C-861D-3CA66B75E186}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -3806,13 +3811,49 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-9</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{B466FC88-24FA-4C30-8101-A564E0867840}" ShortID="834076529">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="wind_cave_opening" ID="{8F8B4125-4095-479B-85E8-3EA1C705E5B1}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{167828C1-9171-4F9D-82E6-C4F2729A1C1F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>357.71951</XPos>
+														<YPos>-39.18083</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>401.6008</XPos>
+														<YPos>200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>494</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="cave_opening" ID="{EAEBDD80-BF24-4E2D-8271-FAE8E84C60A7}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+									<ObjectRef Name="Cave_wind_opening" ID="{05C19DED-E683-4205-BBC0-0C16741E7156}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -4263,12 +4304,12 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>49.91763</XPos>
+																		<XPos>24.958815</XPos>
 																		<YPos>-6.88136</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>50</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>

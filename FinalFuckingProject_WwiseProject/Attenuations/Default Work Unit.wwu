@@ -588,7 +588,7 @@
 				</Attenuation>
 				<Attenuation Name="birds" ID="{959D47EB-6AB6-48B7-AF86-750EFF1F575F}" ShortID="34878318">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="35"/>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -604,12 +604,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>12.66667</XPos>
-											<YPos>-2.57531</YPos>
+											<XPos>27.52266</XPos>
+											<YPos>-4.06439</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
+											<XPos>50</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -636,13 +636,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>19.00001</XPos>
-											<YPos>39</YPos>
+											<XPos>27.53776</XPos>
+											<YPos>31</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
-											<YPos>65</YPos>
+											<XPos>50</XPos>
+											<YPos>25</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -728,7 +728,7 @@
 				</Attenuation>
 				<Attenuation Name="cisternerne" ID="{8B375067-9238-4A2C-861D-3CA66B75E186}" ShortID="293585872">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="35"/>
+						<Property Name="RadiusMax" Type="Real64" Value="95"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -744,22 +744,22 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>12.5555535</XPos>
-											<YPos>0</YPos>
+											<XPos>44.113915</XPos>
+											<YPos>-0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>20.88889</XPos>
-											<YPos>-9.3168</YPos>
+											<XPos>67.76456</XPos>
+											<YPos>-3.6489</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>27.3888895</XPos>
-											<YPos>-12.28217</YPos>
+											<XPos>82.96911</XPos>
+											<YPos>-16.69667</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
+											<XPos>95</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1004,6 +1004,57 @@
 									</PointList>
 								</Curve>
 							</CurveUsageInfo>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="Cave_wind_opening" ID="{05C19DED-E683-4205-BBC0-0C16741E7156}" ShortID="1043686270">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="142"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{2E314EF2-D353-4DEC-80BB-5F48FE175711}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>87.75123</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>142</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
