@@ -21,7 +21,7 @@ public class DistanceWind : MonoBehaviour{
     {
         distance_ = Vector3.Distance(player.transform.position, point.transform.position);
 
-        AkSoundEngine.SetRTPCValue("wind_cave_opening", distance_);
+        //AkSoundEngine.SetRTPCValue("wind_cave_opening", distance_);
         //Debug.Log("distance is " + distance_);
     }
 

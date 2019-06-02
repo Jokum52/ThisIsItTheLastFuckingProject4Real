@@ -286,16 +286,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pitch_down_all" ID="{5AAEF19E-7852-4BA1-83B7-ACE7B12071E0}">
-					<ChildrenList>
-						<Action Name="" ID="{B6EAD3C6-7751-4999-8F27-75BAC48BBC63}" ShortID="862058694">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="13"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}">
 					<ChildrenList>
 						<Action Name="" ID="{81E1C958-BAB8-4BD1-8351-1006D56B8B3E}" ShortID="445410976">
@@ -433,7 +423,7 @@
 						<Action Name="" ID="{EE3A038E-D4D9-48E5-8723-07D5083140E0}" ShortID="174994808">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="pebbles_1" ID="{25C86D1B-CE1F-4DDE-83F5-7B6FE2826A2C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="pebbles_2" ID="{57A04720-E1ED-40BD-BC42-A694883E74A5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -500,6 +490,57 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="chain" ID="{3EDEEB52-0218-418A-89EE-E7F8075F5401}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{CAB7A2A9-CF11-4C72-B739-4DFB0878D724}">
+					<ChildrenList>
+						<Action Name="" ID="{5FCE6A8C-FF03-40CF-BEE3-B376722058E1}" ShortID="524611055">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{4E34ED21-C533-48C2-8015-FA439067F3A9}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stone_glow" ID="{922194A9-CEB3-4227-91CD-AC8B961954CE}">
+					<ChildrenList>
+						<Action Name="" ID="{5B9FFAD0-4A7F-4509-8D2D-C783864E54DD}" ShortID="67144740">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stone_glow" ID="{1EAA2488-6DAD-44A5-AB2D-15F8A17D5F14}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}">
+					<ChildrenList>
+						<Action Name="" ID="{5C901002-4E69-42EB-97A7-DC722223B8B4}" ShortID="532899528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot_steps" ID="{AA403B29-51B7-4A09-9E94-07A59EFEFFFD}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="car" ID="{1AA216AB-EB45-4D74-A7EB-B46549CDFD21}">
+					<ChildrenList>
+						<Action Name="" ID="{9E8A567D-EF7B-481B-AFC6-E0208CBBAEC0}" ShortID="622370615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tires_loop" ID="{6DD276F2-7612-4B25-9022-9C95226E37F8}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B4F2E751-DB68-4C21-A4AF-C6889B4A1964}" ShortID="547946666">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Car loop" ID="{C15CEB1C-E529-4822-80E6-82ABE30BDE20}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
