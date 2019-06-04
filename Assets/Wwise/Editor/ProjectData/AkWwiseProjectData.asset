@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586421967006343104
+    m_lastTime: -8586421936678460574
     List:
     - name: Cave_birds
       guid: fc9a557b6bf91f4095f9019df8d0ce02
@@ -97,7 +97,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 826bf6506d71e74da1a11f4695bf1525
     GuidInternal: 
-    m_lastTime: -8586421922267385706
+    m_lastTime: -8586421041779153299
     List:
     - name: Ambience
       guid: c24f2d49c572f54585a796a2fc5ce9c5
@@ -149,7 +149,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 0d64ac262e426e4db877e4a1f70a1c42
     GuidInternal: 
-    m_lastTime: -8586421899290014587
+    m_lastTime: -8586421041801046644
     List:
     - name: birds
       guid: 12c3d7ca9984894784447e13cc925c51
@@ -160,7 +160,7 @@ MonoBehaviour:
       - ElementName: birds
         ObjectType: 3
       Path: Default Work Unit\birds
-      maxAttenuation: 50
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: boeje
@@ -184,7 +184,19 @@ MonoBehaviour:
       - ElementName: building_creak
         ObjectType: 3
       Path: Default Work Unit\building_creak
-      maxAttenuation: 16
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: car
+      guid: ab16a21a45eb744da7ebb46549cdfd21
+      id: 983016381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: car
+        ObjectType: 3
+      Path: Default Work Unit\car
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: cave_ambience
@@ -196,7 +208,7 @@ MonoBehaviour:
       - ElementName: cave_ambience
         ObjectType: 3
       Path: Default Work Unit\cave_ambience
-      maxAttenuation: 95
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Chain
@@ -208,7 +220,7 @@ MonoBehaviour:
       - ElementName: Chain
         ObjectType: 3
       Path: Default Work Unit\Chain
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: chain_cave
@@ -220,7 +232,7 @@ MonoBehaviour:
       - ElementName: chain_cave
         ObjectType: 3
       Path: Default Work Unit\chain_cave
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: cisternerne
@@ -232,7 +244,7 @@ MonoBehaviour:
       - ElementName: cisternerne
         ObjectType: 3
       Path: Default Work Unit\cisternerne
-      maxAttenuation: 95
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: constrction_site
@@ -244,7 +256,7 @@ MonoBehaviour:
       - ElementName: constrction_site
         ObjectType: 3
       Path: Default Work Unit\constrction_site
-      maxAttenuation: 65
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: crane
@@ -256,7 +268,7 @@ MonoBehaviour:
       - ElementName: crane
         ObjectType: 3
       Path: Default Work Unit\crane
-      maxAttenuation: 60
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: elevator_drive
@@ -268,7 +280,7 @@ MonoBehaviour:
       - ElementName: elevator_drive
         ObjectType: 3
       Path: Default Work Unit\elevator_drive
-      maxAttenuation: 100
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: elevator_land
@@ -292,7 +304,7 @@ MonoBehaviour:
       - ElementName: elevator_start
         ObjectType: 3
       Path: Default Work Unit\elevator_start
-      maxAttenuation: 100
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: elevator_stop
@@ -304,7 +316,7 @@ MonoBehaviour:
       - ElementName: elevator_stop
         ObjectType: 3
       Path: Default Work Unit\elevator_stop
-      maxAttenuation: 100
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: fog_horn
@@ -328,7 +340,7 @@ MonoBehaviour:
       - ElementName: Footstep
         ObjectType: 3
       Path: Default Work Unit\Footstep
-      maxAttenuation: 20
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Intro
@@ -340,6 +352,18 @@ MonoBehaviour:
       - ElementName: Intro
         ObjectType: 3
       Path: Default Work Unit\Intro
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Land
+      guid: a9a2b7ca11cf724cb7394dfb0878d724
+      id: 674522502
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Land
+        ObjectType: 3
+      Path: Default Work Unit\Land
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -376,7 +400,7 @@ MonoBehaviour:
       - ElementName: Neon
         ObjectType: 3
       Path: Default Work Unit\Neon
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: pebbles_1
@@ -388,18 +412,6 @@ MonoBehaviour:
       - ElementName: pebbles_1
         ObjectType: 3
       Path: Default Work Unit\pebbles_1
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Pitch_down_all
-      guid: 9ef1ae5a5278a14b83b7ace7b12071e0
-      id: 3777885212
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Pitch_down_all
-        ObjectType: 3
-      Path: Default Work Unit\Pitch_down_all
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -439,6 +451,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: robot_walk
+      guid: a7dfd374c37f7942aefe4120ec868dd8
+      id: 825506301
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: robot_walk
+        ObjectType: 3
+      Path: Default Work Unit\robot_walk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: seagulls
       guid: 0734c66cfdabea4ab01693a16cc1a676
       id: 2345565601
@@ -448,7 +472,19 @@ MonoBehaviour:
       - ElementName: seagulls
         ObjectType: 3
       Path: Default Work Unit\seagulls
-      maxAttenuation: 50
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: stone_glow
+      guid: a9942192b3ce274291cdac8b961954ce
+      id: 3767073320
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stone_glow
+        ObjectType: 3
+      Path: Default Work Unit\stone_glow
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: the_admin
@@ -544,7 +580,7 @@ MonoBehaviour:
       - ElementName: waves
         ObjectType: 3
       Path: Default Work Unit\waves
-      maxAttenuation: 30
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: wind_cave_opening
@@ -556,7 +592,7 @@ MonoBehaviour:
       - ElementName: wind_cave_opening
         ObjectType: 3
       Path: Default Work Unit\wind_cave_opening
-      maxAttenuation: 142
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: wind_harbour
@@ -580,7 +616,7 @@ MonoBehaviour:
       - ElementName: zeppelin
         ObjectType: 3
       Path: Default Work Unit\zeppelin
-      maxAttenuation: 25
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
@@ -588,7 +624,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586421872858269047
+    m_lastTime: -8586421279415245263
     List:
     - name: cave_birds
       guid: 1022a4e17cf41f4b99e620106de771a0
@@ -631,7 +667,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 32214f11f183c844ad96b6dcb924f20f
     GuidInternal: 
-    m_lastTime: -8586421842819844166
+    m_lastTime: -8586421279412736039
     List:
     - name: Chase
       guid: d249fa96bf99114d8b3ec9886fc1acf8
@@ -797,7 +833,6 @@ MonoBehaviour:
   ExpandedItems:
   - /FinalFuckingProject_WwiseProject
   - /FinalFuckingProject_WwiseProject/Events
-  - /FinalFuckingProject_WwiseProject/Events/Default Work Unit
   - /FinalFuckingProject_WwiseProject/SoundBanks
   - /FinalFuckingProject_WwiseProject/SoundBanks/Default Work Unit
   - /FinalFuckingProject_WwiseProject/States
