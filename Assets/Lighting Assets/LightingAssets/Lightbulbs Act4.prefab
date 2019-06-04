@@ -25,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3774041945927321943}
-  m_LocalRotation: {x: -0.65194696, y: 0.27357414, z: 0.2734787, w: 0.65217465}
+  m_LocalRotation: {x: -0.6520946, y: 0.273446, z: 0.273446, w: 0.6520946}
   m_LocalPosition: {x: 101.255, y: 11.141, z: -93.419}
-  m_LocalScale: {x: 0.5403574, y: 0.5403573, z: 0.5403573}
+  m_LocalScale: {x: 0.16495919, y: 0.16495918, z: 0.1649594}
   m_Children:
   - {fileID: 238416694105449691}
   m_Father: {fileID: 0}
@@ -155,6 +155,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7358599
       objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 32768
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Range
+      value: 20.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 2700
+      objectReference: {fileID: 0}
     - target: {fileID: 375716107250083505, guid: 7066283594f6836489b3212d6ebd9e15,
         type: 3}
       propertyPath: m_VolumetricDimmer
@@ -163,22 +183,7 @@ PrefabInstance:
     - target: {fileID: 375716107250083505, guid: 7066283594f6836489b3212d6ebd9e15,
         type: 3}
       propertyPath: displayLightIntensity
-      value: 6.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 9.917662
-      objectReference: {fileID: 0}
-    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
-        type: 3}
-      propertyPath: m_Range
-      value: 7.455969
-      objectReference: {fileID: 0}
-    - target: {fileID: 5513682179207160699, guid: 7066283594f6836489b3212d6ebd9e15,
-        type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7066283594f6836489b3212d6ebd9e15, type: 3}
