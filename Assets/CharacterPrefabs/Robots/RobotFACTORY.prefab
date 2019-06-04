@@ -47760,7 +47760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1965023728
 Transform:
   m_ObjectHideFlags: 0
@@ -52512,7 +52512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2049005336
 Transform:
   m_ObjectHideFlags: 0
@@ -57264,7 +57264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2070528160
 Transform:
   m_ObjectHideFlags: 0
@@ -70968,6 +70968,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 9103499255043127355, guid: 5285c97274857a44b88a0e76e86bf8c5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103499255043127355, guid: 5285c97274857a44b88a0e76e86bf8c5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103499255043127355, guid: 5285c97274857a44b88a0e76e86bf8c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912130073136786445, guid: 5285c97274857a44b88a0e76e86bf8c5,
+        type: 3}
+      propertyPath: m_LengthScale
+      value: 4.89
+      objectReference: {fileID: 0}
     - target: {fileID: 4912130073136786444, guid: 5285c97274857a44b88a0e76e86bf8c5,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -70988,25 +71008,15 @@ PrefabInstance:
       propertyPath: NoiseModule.strength.scalar
       value: 1.65
       objectReference: {fileID: 0}
-    - target: {fileID: 4912130073136786445, guid: 5285c97274857a44b88a0e76e86bf8c5,
+    - target: {fileID: 5309192040390776578, guid: 5285c97274857a44b88a0e76e86bf8c5,
+        type: 3}
+      propertyPath: SizeModule.curve.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640632638200649132, guid: 5285c97274857a44b88a0e76e86bf8c5,
         type: 3}
       propertyPath: m_LengthScale
-      value: 4.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 9103499255043127355, guid: 5285c97274857a44b88a0e76e86bf8c5,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 9103499255043127355, guid: 5285c97274857a44b88a0e76e86bf8c5,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 9103499255043127355, guid: 5285c97274857a44b88a0e76e86bf8c5,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.97
+      value: 2.31
       objectReference: {fileID: 0}
     - target: {fileID: 4568640617111638427, guid: 5285c97274857a44b88a0e76e86bf8c5,
         type: 3}
@@ -71032,16 +71042,6 @@ PrefabInstance:
         type: 3}
       propertyPath: ShapeModule.angle
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5640632638200649132, guid: 5285c97274857a44b88a0e76e86bf8c5,
-        type: 3}
-      propertyPath: m_LengthScale
-      value: 2.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 5309192040390776578, guid: 5285c97274857a44b88a0e76e86bf8c5,
-        type: 3}
-      propertyPath: SizeModule.curve.scalar
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5285c97274857a44b88a0e76e86bf8c5, type: 3}
