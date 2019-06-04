@@ -16,12 +16,12 @@ MonoBehaviour:
   m_AdvancedMode: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.205
+    m_Value: 0.121
     min: 0
     max: 1
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.728
     min: 0
     max: 1
   tint:
@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Value: {fileID: 2800000, guid: 4e1e00e9e8deba440b2d64eca24db290, type: 3}
   dirtIntensity:
     m_OverrideState: 1
-    m_Value: 1.6
+    m_Value: 1
     min: 0
   highQualityFiltering:
     m_OverrideState: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
     m_Value: 2
   prefilter:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   anamorphic:
     m_OverrideState: 1
     m_Value: 1
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1.3
+    m_Value: 1.36
     min: 0
     max: 4
   thicknessModifier:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6b00fcf518bb94a90b408492e07b44, type: 3}
   m_Name: FilmGrain
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   type:
     m_OverrideState: 1
@@ -180,7 +180,7 @@ MonoBehaviour:
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: -15.5
     min: -100
     max: 100
 --- !u!114 &-1818417052189048763
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   temperature:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 16.2
     min: -100
     max: 100
   tint:
@@ -223,30 +223,30 @@ MonoBehaviour:
   m_AdvancedMode: 0
   depthBufferThickness:
     m_OverrideState: 1
-    m_Value: 0.32
+    m_Value: 1
     min: 0
     max: 1
   screenFadeDistance:
     m_OverrideState: 1
-    m_Value: 0.297
+    m_Value: 0.66
     min: 0
     max: 1
   minSmoothness:
     m_OverrideState: 1
-    m_Value: 0.492
+    m_Value: 0.524
     min: 0
     max: 1
   smoothnessFadeStart:
     m_OverrideState: 1
-    m_Value: 0.735
+    m_Value: 0.83
     min: 0
     max: 1
   reflectSky:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   rayMaxIterations:
     m_OverrideState: 1
-    m_Value: 32
+    m_Value: 64
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
