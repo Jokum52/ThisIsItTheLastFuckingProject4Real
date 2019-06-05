@@ -20,8 +20,6 @@ Material:
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
-  - TransparentDepthPrepass
-  - TransparentDepthPostpass
   - TransparentBackface
   m_SavedProperties:
     serializedVersion: 3
@@ -122,7 +120,7 @@ Material:
     - _AlphaCutoffShadow: 0.5
     - _Anisotropy: 0
     - _BlendMode: 0
-    - _CoatMask: 0.009
+    - _CoatMask: 0.404
     - _CullMode: 0
     - _CullModeForward: 0
     - _Cutoff: 0.5
@@ -135,15 +133,15 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 3
-    - _DistortionBlendMode: 0
+    - _DistortionBlendMode: 2
     - _DistortionBlurBlendMode: 0
-    - _DistortionBlurDstBlend: 1
+    - _DistortionBlurDstBlend: 0
     - _DistortionBlurRemapMax: 1
-    - _DistortionBlurRemapMin: 0.41176468
+    - _DistortionBlurRemapMin: 0.31165853
     - _DistortionBlurScale: 1
     - _DistortionBlurSrcBlend: 1
     - _DistortionDepthTest: 1
-    - _DistortionDstBlend: 1
+    - _DistortionDstBlend: 0
     - _DistortionEnable: 1
     - _DistortionScale: 1
     - _DistortionSrcBlend: 1
@@ -165,10 +163,10 @@ Material:
     - _EnableWind: 0
     - _EnergyConservingSpecularColor: 1
     - _HdrpVersion: 2
-    - _HeightAmplitude: 2.01
-    - _HeightCenter: 0.0049751243
+    - _HeightAmplitude: 0.02
+    - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
-    - _HeightMax: 200
+    - _HeightMax: 1
     - _HeightMin: -1
     - _HeightOffset: 0
     - _HeightPoMAmplitude: 2
@@ -176,7 +174,7 @@ Material:
     - _HeightTessCenter: 0.5
     - _InitialBend: 1
     - _InvTilingScale: 0.9852217
-    - _Ior: 1
+    - _Ior: 2.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 0.457
     - _LinkDetailsWithBase: 1
@@ -194,7 +192,7 @@ Material:
     - _SSRefractionProjectionModel: 0
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
-    - _Smoothness: 0
+    - _Smoothness: 0.936
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -219,14 +217,14 @@ Material:
     - _TessellationFactorTriangleSize: 2.4
     - _TessellationMode: 1
     - _TessellationShapeFactor: 0.864
-    - _TexWorldScale: 1
+    - _TexWorldScale: 0.5
     - _TexWorldScaleEmissive: 1
-    - _Thickness: 0
-    - _ThicknessMultiplier: 1
+    - _Thickness: 0.208
+    - _ThicknessMultiplier: 3.93
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
-    - _TransparentDepthPostpassEnable: 0
-    - _TransparentDepthPrepassEnable: 0
+    - _TransparentDepthPostpassEnable: 1
+    - _TransparentDepthPrepassEnable: 1
     - _TransparentSortPriority: 0
     - _TransparentWritingVelocity: 0
     - _UVBase: 0
@@ -239,9 +237,9 @@ Material:
     - _ZTestModeDistortion: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _DiffusionProfileAsset: {r: 8.821547e+18, g: 0.00000034063524, b: 5.520994e+32,
         a: 2.875849e+10}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
