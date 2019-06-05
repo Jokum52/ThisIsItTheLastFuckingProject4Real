@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.056549024, g: 0.07454651, b: 0.11076259, a: 1}
+  m_IndirectSpecularColor: {r: 0.04981, g: 0.06922286, b: 0.1048262, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -775,22 +775,22 @@ PrefabInstance:
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
       propertyPath: m_TargetAudioSources.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
       propertyPath: m_DirectAudioVolumes.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
       propertyPath: m_EnabledAudioTracks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
       propertyPath: m_DirectAudioMutes.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
@@ -801,7 +801,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: b527390eeef7e68478fa23ee61bc3c74,
+      objectReference: {fileID: 32900000, guid: 5852b87c17689c440b2cfc3f885937e1,
         type: 3}
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
@@ -816,12 +816,12 @@ PrefabInstance:
     - target: {fileID: 6955945845456302240, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
       propertyPath: m_ControlledAudioTrackCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6955945845456302241, guid: 26857275c2408574a87ca03bd818c298,
         type: 3}
       propertyPath: scene
-      value: Act2_2.0
+      value: Act3_Scene_0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26857275c2408574a87ca03bd818c298, type: 3}
