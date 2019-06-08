@@ -7,6 +7,7 @@ public class ShutDownRobot : MonoBehaviour
 
     public GameObject otherObject;
     public Animator otherAnimator;
+    public Animator otherAnimator2;
    // Animator m_Animator;
 
     // Start is called before the first frame update
@@ -20,6 +21,8 @@ public class ShutDownRobot : MonoBehaviour
     void Awake()
     {
         otherAnimator = otherObject.GetComponent<Animator>();
+        otherAnimator2 = otherObject.GetComponent<Animator>();
+
     }
 
 
@@ -31,6 +34,8 @@ public class ShutDownRobot : MonoBehaviour
         {
 
             otherAnimator.SetBool("Deactivate", true);
+            otherAnimator2.SetBool("Deactivate", true);
+
         }
     }
 
