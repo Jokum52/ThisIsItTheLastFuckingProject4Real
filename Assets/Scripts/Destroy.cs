@@ -5,7 +5,7 @@ using UnityEngine;
 public class Destroy : MonoBehaviour
 {
 
-    void OnCollisionEnter(Collision other)
+   /* void OnCollisionEnter(Collision other)
 
     {
 
@@ -16,6 +16,15 @@ public class Destroy : MonoBehaviour
             gameObject.SetActive(false);
 
         }
+        */
+
+      
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+
+            gameObject.SetActive(false);
 
     }
 }
