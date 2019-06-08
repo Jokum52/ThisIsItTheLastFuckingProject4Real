@@ -3630,16 +3630,27 @@
 								<ActiveSource Name="lights" ID="{70906D1D-C817-41D3-AD1F-840B97328228}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Folder Name="ROBOT" ID="{A00FB92C-46F4-49FF-A598-797A0FB105A3}" ShortID="313545199">
+						<ActorMixer Name="Robot" ID="{A15C76EF-B4E7-4AB5-9264-0BE7664A5A99}" ShortID="298973458">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Robot" ID="{316F5189-BE14-49AB-8438-2A0F372C01F6}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
-								<ActorMixer Name="Robot" ID="{A15C76EF-B4E7-4AB5-9264-0BE7664A5A99}" ShortID="298973458">
+								<RandomSequenceContainer Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" ShortID="530472492">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Robot" ID="{316F5189-BE14-49AB-8438-2A0F372C01F6}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
 										</Reference>
@@ -3648,9 +3659,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" ShortID="530472492">
+										<Sound Name="creak_2" ID="{95089F08-04B2-42EE-AC39-754F37520B51}" ShortID="249122570">
 											<PropertyList>
-												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-330</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3661,161 +3676,27 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="creak_2" ID="{95089F08-04B2-42EE-AC39-754F37520B51}" ShortID="249122570">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-330</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="creak_2" ID="{F7A65F39-F884-4DC5-A932-8873828449C1}" ShortID="888594433">
-															<Language>SFX</Language>
-															<AudioFile>robo_creak\creak_2.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="creak_2" ID="{F7A65F39-F884-4DC5-A932-8873828449C1}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="creak_1" ID="{2EF65B94-5309-46B0-9CB5-C465590D685D}" ShortID="272520276">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-200</Value>
-															</ValueList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-5</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="creak_1" ID="{914EA85E-9172-45A2-9D79-00002D9E9DF0}" ShortID="161669851">
-															<Language>SFX</Language>
-															<AudioFile>robo_creak\creak_1.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="creak_1" ID="{914EA85E-9172-45A2-9D79-00002D9E9DF0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="creak_4" ID="{6CDCDEFC-7F3D-4818-8AA8-49D57F4CAD6E}" ShortID="414761268">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-760</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="creak_4" ID="{2858B467-58F3-4815-99CC-1E15BA2A0606}" ShortID="351811156">
-															<Language>SFX</Language>
-															<AudioFile>robo_creak\creak_4.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="creak_4" ID="{2858B467-58F3-4815-99CC-1E15BA2A0606}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="creak_5" ID="{2D1E654A-78FE-4B01-9D46-2A9ED6F5E314}" ShortID="1032367152">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-860</Value>
-															</ValueList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>6</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="creak_5" ID="{841A3E87-A102-4E8E-8C61-A7AF45F3F3C1}" ShortID="948052214">
-															<Language>SFX</Language>
-															<AudioFile>robo_creak\creak_5.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="creak_5" ID="{841A3E87-A102-4E8E-8C61-A7AF45F3F3C1}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="silence" ID="{DED35F41-44A2-4E91-8D28-5A144453CB32}" ShortID="254427703">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<SourcePlugin Name="Wwise Silence" ID="{C86F4B27-5EF9-4DB5-B8E1-85B4B0E38AD3}" ShortID="46290751" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-															<Language>SFX</Language>
-														</SourcePlugin>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Wwise Silence" ID="{C86F4B27-5EF9-4DB5-B8E1-85B4B0E38AD3}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="silence_01" ID="{47CDC815-F3E7-4BD5-9062-2AF4EB0A71B2}" ShortID="21994580">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<SourcePlugin Name="Wwise Silence" ID="{22A12A3F-89FE-458C-822A-A70E81D755EA}" ShortID="908045241" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-															<Language>SFX</Language>
-														</SourcePlugin>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Wwise Silence" ID="{22A12A3F-89FE-458C-822A-A70E81D755EA}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												<AudioFileSource Name="creak_2" ID="{F7A65F39-F884-4DC5-A932-8873828449C1}" ShortID="888594433">
+													<Language>SFX</Language>
+													<AudioFile>robo_creak\creak_2.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" ShortID="884836303">
+											<ActiveSourceList>
+												<ActiveSource Name="creak_2" ID="{F7A65F39-F884-4DC5-A932-8873828449C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="creak_1" ID="{2EF65B94-5309-46B0-9CB5-C465590D685D}" ShortID="272520276">
 											<PropertyList>
-												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-200</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3826,70 +3707,23 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="robot_step1" ID="{91048268-3A7A-48E3-B8DD-D1080D2EB498}" ShortID="506601675">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="robot_step1" ID="{59DC1F35-CBA4-4257-A935-17DF0EC7B57D}" ShortID="369213721">
-															<Language>SFX</Language>
-															<AudioFile>ROBOT\robot_step1.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="robot_step1" ID="{59DC1F35-CBA4-4257-A935-17DF0EC7B57D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="robot_step2" ID="{5DF3194C-AB16-4699-AF10-C64F123149DF}" ShortID="441531456">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="robot_step2" ID="{53535A4B-08DC-436C-9B54-156187C589C8}" ShortID="949833328">
-															<Language>SFX</Language>
-															<AudioFile>ROBOT\robot_step2.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="robot_step2" ID="{53535A4B-08DC-436C-9B54-156187C589C8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<Playlist>
-												<ItemRef Name="robot_step1" ID="{91048268-3A7A-48E3-B8DD-D1080D2EB498}"/>
-												<ItemRef Name="robot_step2" ID="{5DF3194C-AB16-4699-AF10-C64F123149DF}"/>
-											</Playlist>
-										</RandomSequenceContainer>
-										<Sound Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" ShortID="897227580">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="gun_cool_off" ID="{FECD5840-DABF-446E-9C9A-30B404844443}" ShortID="1059700227">
+												<AudioFileSource Name="creak_1" ID="{914EA85E-9172-45A2-9D79-00002D9E9DF0}" ShortID="161669851">
 													<Language>SFX</Language>
-													<AudioFile>ROBOT\gun_cool_off.wav</AudioFile>
+													<AudioFile>robo_creak\creak_1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="gun_cool_off" ID="{FECD5840-DABF-446E-9C9A-30B404844443}" Platform="Linked"/>
+												<ActiveSource Name="creak_1" ID="{914EA85E-9172-45A2-9D79-00002D9E9DF0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="load_gun" ID="{1CB9FA4C-9CE9-4376-9F62-1E9E9D4E3FED}" ShortID="680999555">
+										<Sound Name="creak_4" ID="{6CDCDEFC-7F3D-4818-8AA8-49D57F4CAD6E}" ShortID="414761268">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-760</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -3899,16 +3733,28 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="load_gun" ID="{0F9AA51D-61AF-44CD-BC65-49E950EACF8F}" ShortID="482859576">
+												<AudioFileSource Name="creak_4" ID="{2858B467-58F3-4815-99CC-1E15BA2A0606}" ShortID="351811156">
 													<Language>SFX</Language>
-													<AudioFile>ROBOT\load_gun.wav</AudioFile>
+													<AudioFile>robo_creak\creak_4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="load_gun" ID="{0F9AA51D-61AF-44CD-BC65-49E950EACF8F}" Platform="Linked"/>
+												<ActiveSource Name="creak_4" ID="{2858B467-58F3-4815-99CC-1E15BA2A0606}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" ShortID="182947741">
+										<Sound Name="creak_5" ID="{2D1E654A-78FE-4B01-9D46-2A9ED6F5E314}" ShortID="1032367152">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-860</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -3918,16 +3764,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="shoot_gun" ID="{F14D3BFE-D98C-44F8-B0E1-5D1C24E4A5EF}" ShortID="877837340">
+												<AudioFileSource Name="creak_5" ID="{841A3E87-A102-4E8E-8C61-A7AF45F3F3C1}" ShortID="948052214">
 													<Language>SFX</Language>
-													<AudioFile>ROBOT\shoot_gun.wav</AudioFile>
+													<AudioFile>robo_creak\creak_5.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="shoot_gun" ID="{F14D3BFE-D98C-44F8-B0E1-5D1C24E4A5EF}" Platform="Linked"/>
+												<ActiveSource Name="creak_5" ID="{841A3E87-A102-4E8E-8C61-A7AF45F3F3C1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="start_steam" ID="{96F468FB-0AB5-4582-A2AB-709C1546EB39}" ShortID="428643447">
+										<Sound Name="silence" ID="{DED35F41-44A2-4E91-8D28-5A144453CB32}" ShortID="254427703">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -3937,16 +3783,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="start_steam" ID="{71309001-E835-46F1-ACE2-48D96457DD18}" ShortID="453037357">
+												<SourcePlugin Name="Wwise Silence" ID="{C86F4B27-5EF9-4DB5-B8E1-85B4B0E38AD3}" ShortID="46290751" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 													<Language>SFX</Language>
-													<AudioFile>ROBOT\start_steam.wav</AudioFile>
-												</AudioFileSource>
+												</SourcePlugin>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="start_steam" ID="{71309001-E835-46F1-ACE2-48D96457DD18}" Platform="Linked"/>
+												<ActiveSource Name="Wwise Silence" ID="{C86F4B27-5EF9-4DB5-B8E1-85B4B0E38AD3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="startup" ID="{D6EF99F7-8D25-43A3-A38D-BEBAEB7CA7B5}" ShortID="463044457">
+										<Sound Name="silence_01" ID="{47CDC815-F3E7-4BD5-9062-2AF4EB0A71B2}" ShortID="21994580">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -3956,38 +3801,208 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="startup" ID="{15410B06-21A0-4C40-A9B5-1EF38E466BF2}" ShortID="394612285">
+												<SourcePlugin Name="Wwise Silence" ID="{22A12A3F-89FE-458C-822A-A70E81D755EA}" ShortID="908045241" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 													<Language>SFX</Language>
-													<AudioFile>ROBOT\startup.wav</AudioFile>
-												</AudioFileSource>
+												</SourcePlugin>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="startup" ID="{15410B06-21A0-4C40-A9B5-1EF38E466BF2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="turn" ID="{34AAF753-1F07-4280-89E5-694E2B8A8217}" ShortID="71082769">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="turn" ID="{195E8EDE-2AAA-4407-9A15-BB682C7BAD17}" ShortID="240248549">
-													<Language>SFX</Language>
-													<AudioFile>ROBOT\turn.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="turn" ID="{195E8EDE-2AAA-4407-9A15-BB682C7BAD17}" Platform="Linked"/>
+												<ActiveSource Name="Wwise Silence" ID="{22A12A3F-89FE-458C-822A-A70E81D755EA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-								</ActorMixer>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" ShortID="884836303">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="robot_step1" ID="{91048268-3A7A-48E3-B8DD-D1080D2EB498}" ShortID="506601675">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="robot_step1" ID="{59DC1F35-CBA4-4257-A935-17DF0EC7B57D}" ShortID="369213721">
+													<Language>SFX</Language>
+													<AudioFile>ROBOT\robot_step1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="robot_step1" ID="{59DC1F35-CBA4-4257-A935-17DF0EC7B57D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="robot_step2" ID="{5DF3194C-AB16-4699-AF10-C64F123149DF}" ShortID="441531456">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="robot_step2" ID="{53535A4B-08DC-436C-9B54-156187C589C8}" ShortID="949833328">
+													<Language>SFX</Language>
+													<AudioFile>ROBOT\robot_step2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="robot_step2" ID="{53535A4B-08DC-436C-9B54-156187C589C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="robot_step1" ID="{91048268-3A7A-48E3-B8DD-D1080D2EB498}"/>
+										<ItemRef Name="robot_step2" ID="{5DF3194C-AB16-4699-AF10-C64F123149DF}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" ShortID="897227580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gun_cool_off" ID="{FECD5840-DABF-446E-9C9A-30B404844443}" ShortID="1059700227">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\gun_cool_off.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gun_cool_off" ID="{FECD5840-DABF-446E-9C9A-30B404844443}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="load_gun" ID="{1CB9FA4C-9CE9-4376-9F62-1E9E9D4E3FED}" ShortID="680999555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="load_gun" ID="{0F9AA51D-61AF-44CD-BC65-49E950EACF8F}" ShortID="482859576">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\load_gun.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="load_gun" ID="{0F9AA51D-61AF-44CD-BC65-49E950EACF8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" ShortID="182947741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shoot_gun" ID="{F14D3BFE-D98C-44F8-B0E1-5D1C24E4A5EF}" ShortID="877837340">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\shoot_gun.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shoot_gun" ID="{F14D3BFE-D98C-44F8-B0E1-5D1C24E4A5EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="start_steam" ID="{96F468FB-0AB5-4582-A2AB-709C1546EB39}" ShortID="428643447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="start_steam" ID="{71309001-E835-46F1-ACE2-48D96457DD18}" ShortID="453037357">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\start_steam.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="start_steam" ID="{71309001-E835-46F1-ACE2-48D96457DD18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="startup" ID="{D6EF99F7-8D25-43A3-A38D-BEBAEB7CA7B5}" ShortID="463044457">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="startup" ID="{15410B06-21A0-4C40-A9B5-1EF38E466BF2}" ShortID="394612285">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\startup.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="startup" ID="{15410B06-21A0-4C40-A9B5-1EF38E466BF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="turn" ID="{34AAF753-1F07-4280-89E5-694E2B8A8217}" ShortID="71082769">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="turn" ID="{195E8EDE-2AAA-4407-9A15-BB682C7BAD17}" ShortID="240248549">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\turn.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="turn" ID="{195E8EDE-2AAA-4407-9A15-BB682C7BAD17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" ShortID="974485036">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="startup_2" ID="{6BD0E98F-C6F5-4820-8002-98ABE6684DC7}" ShortID="999953621">
+											<Language>SFX</Language>
+											<AudioFile>startup_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="startup_2" ID="{6BD0E98F-C6F5-4820-8002-98ABE6684DC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-						</Folder>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Cut_scene" ID="{E89F5A31-9E85-4D8A-8169-8A8B7187BF1A}" ShortID="607913075">
