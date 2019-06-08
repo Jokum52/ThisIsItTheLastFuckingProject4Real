@@ -4,7 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="Land_metal_compressor" ID="{ADC60976-69C2-490F-B4DF-7BA7FFDEAF46}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
-					<Comment> </Comment>
 					<PropertyList>
 						<Property Name="OutputGain" Type="Real32" Value="5.4"/>
 						<Property Name="Ratio" Type="Real32" Value="27.6"/>
@@ -15,11 +14,12 @@
 				<Effect Name="New_iZotope_Trash_Distortion" ID="{121592E4-3909-41CB-9E28-59D99BF5DBE0}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1InputGain" Type="Real32" Value="1"/>
+						<Property Name="Distortion1Mix" Type="Real32" Value="75"/>
 						<Property Name="Distortion1OutputGain" Type="Real32" Value="1"/>
-						<Property Name="Distortion1Overdrive" Type="Real32" Value="4.5"/>
-						<Property Name="Distortion1Trash" Type="Real32" Value="0.9"/>
+						<Property Name="Distortion1Overdrive" Type="Real32" Value="3.5"/>
+						<Property Name="Distortion1Trash" Type="Real32" Value="0.8"/>
 						<Property Name="Distortion1Type" Type="int32" Value="3"/>
-						<Property Name="Distortion2InputGain" Type="Real32" Value="-2"/>
+						<Property Name="Distortion2InputGain" Type="Real32" Value="-1"/>
 						<Property Name="Distortion2Overdrive" Type="Real32" Value="3.5"/>
 						<Property Name="Distortion2Trash" Type="Real32" Value="0"/>
 						<Property Name="Distortion2Type" Type="int32" Value="4"/>
@@ -29,6 +29,20 @@
 					<PropertyList>
 						<Property Name="ModDepth" Type="Real32" Value="70"/>
 						<Property Name="ModFrequency" Type="Real32" Value="0.2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="cave_verb" ID="{BDB9C8B1-7444-40B6-BD06-A31A75DFB9D6}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="6.7"/>
+						<Property Name="Density" Type="Real32" Value="100"/>
+						<Property Name="Diffusion" Type="Real32" Value="53"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="ERLevel" Type="Real32" Value="-18"/>
+						<Property Name="HFDamping" Type="Real32" Value="5.3"/>
+						<Property Name="PreDelay" Type="Real32" Value="115"/>
+						<Property Name="Quality" Type="int32" Value="6"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-13"/>
+						<Property Name="RoomSize" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

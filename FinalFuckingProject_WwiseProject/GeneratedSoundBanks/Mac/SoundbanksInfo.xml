@@ -16,61 +16,9 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4223356368" Name="building_creak" ObjectPath="\Events\Default Work Unit\building_creak" MaxAttenuation="16.000000"/>
-				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
-				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
-				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
 				<Event Id="2307991115" Name="wind_harbour" ObjectPath="\Events\Default Work Unit\wind_harbour"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="67009516" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 2.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 2_10C4C929.wem</Path>
-				</File>
-				<File Id="154830572" Language="SFX">
-					<ShortName>tin roof.wav</ShortName>
-					<Path>SFX\tin roof_D79FB2B7.wem</Path>
-				</File>
-				<File Id="158781436" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 5.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 5_10C4C929.wem</Path>
-				</File>
-				<File Id="169319037" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 8.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 8_10C4C929.wem</Path>
-				</File>
-				<File Id="216518634" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 6.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 6_10C4C929.wem</Path>
-				</File>
-				<File Id="291416864" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 4.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 4_10C4C929.wem</Path>
-				</File>
-				<File Id="509047898" Language="SFX">
-					<ShortName>Rain metal_mix2.wav</ShortName>
-					<Path>SFX\Rain metal_mix2_D79FB2B7.wem</Path>
-				</File>
-				<File Id="694582602" Language="SFX">
-					<ShortName>Metal creak continuous_mix2.wav</ShortName>
-					<Path>SFX\Metal creak continuous_mix2_D79FB2B7.wem</Path>
-				</File>
-				<File Id="896620618" Language="SFX">
-					<ShortName>Heavy wind_mix2.wav</ShortName>
-					<Path>SFX\Heavy wind_mix2_D79FB2B7.wem</Path>
-				</File>
-				<File Id="897633259" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 7.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 7_10C4C929.wem</Path>
-				</File>
-				<File Id="922830189" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 1.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 1_10C4C929.wem</Path>
-				</File>
-				<File Id="1049331800" Language="SFX">
-					<ShortName>Metal creak single\Metal creak 3.wav</ShortName>
-					<Path>SFX\Metal creak single\Metal creak 3_10C4C929.wem</Path>
-				</File>
 				<File Id="1057558594" Language="SFX">
 					<ShortName>Harbour\Wind.wav</ShortName>
 					<Path>SFX\Harbour\Wind_D79FB2B7.wem</Path>
@@ -112,24 +60,24 @@
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2273245906" Name="boeje" ObjectPath="\Events\Default Work Unit\boeje"/>
-				<Event Id="327928446" Name="elevator_drive" ObjectPath="\Events\Default Work Unit\elevator_drive" MaxAttenuation="100.000000"/>
-				<Event Id="4242192989" Name="elevator_land" ObjectPath="\Events\Default Work Unit\elevator_land"/>
-				<Event Id="1208976610" Name="elevator_start" ObjectPath="\Events\Default Work Unit\elevator_start" MaxAttenuation="100.000000"/>
-				<Event Id="2818913498" Name="elevator_stop" ObjectPath="\Events\Default Work Unit\elevator_stop" MaxAttenuation="100.000000"/>
-				<Event Id="1301570889" Name="Neon" ObjectPath="\Events\Default Work Unit\Neon" MaxAttenuation="10.000000"/>
-				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up"/>
-				<Event Id="186852181" Name="thunder" ObjectPath="\Events\Default Work Unit\thunder"/>
-				<Event Id="1755348276" Name="zeppelin" ObjectPath="\Events\Default Work Unit\zeppelin" MaxAttenuation="25.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="78525029" Language="SFX">
-					<ShortName>Metal building\Elevator creak.wav</ShortName>
-					<Path>SFX\Metal building\Elevator creak_D79FB2B7.wem</Path>
+				<File Id="937865312" Language="SFX">
+					<ShortName>boeje.wav</ShortName>
+					<Path>SFX\boeje_50ABB052.wem</Path>
 				</File>
-				<File Id="79617372" Language="SFX">
-					<ShortName>Metal building\Elevator start.wav</ShortName>
-					<Path>SFX\Metal building\Elevator start_10C4C929.wem</Path>
-				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="417490929" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Chase</ObjectPath>
+			<ShortName>Chase</ShortName>
+			<Path>Chase.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1301570889" Name="Neon" ObjectPath="\Events\Default Work Unit\Neon" MaxAttenuation="10.000000"/>
+				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
+				<Event Id="186852181" Name="thunder" ObjectPath="\Events\Default Work Unit\thunder"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
 				<File Id="104420028" Language="SFX">
 					<ShortName>Neon.wav</ShortName>
 					<Path>SFX\Neon_BB29280D.wem</Path>
@@ -138,65 +86,9 @@
 					<ShortName>Thunder_4.wav</ShortName>
 					<Path>SFX\Thunder_4_7C4C5420.wem</Path>
 				</File>
-				<File Id="205927459" Language="SFX">
-					<ShortName>Metal building\Zeppeliner pumpy.wav</ShortName>
-					<Path>SFX\Metal building\Zeppeliner pumpy_D79FB2B7.wem</Path>
-				</File>
-				<File Id="217145583" Language="SFX">
-					<ShortName>Movement\Movement_8.wav</ShortName>
-					<Path>SFX\Movement\Movement_8_10C4C929.wem</Path>
-				</File>
-				<File Id="376681258" Language="SFX">
-					<ShortName>Metal building\Elevator rope.wav</ShortName>
-					<Path>SFX\Metal building\Elevator rope_D79FB2B7.wem</Path>
-				</File>
-				<File Id="522801274" Language="SFX">
-					<ShortName>Movement\Movement_4.wav</ShortName>
-					<Path>SFX\Movement\Movement_4_10C4C929.wem</Path>
-				</File>
-				<File Id="559756865" Language="SFX">
-					<ShortName>Movement\Movement_3.wav</ShortName>
-					<Path>SFX\Movement\Movement_3_10C4C929.wem</Path>
-				</File>
-				<File Id="611558284" Language="SFX">
-					<ShortName>Elevator land_new.wav</ShortName>
-					<Path>SFX\Elevator land_new_10C4C929.wem</Path>
-				</File>
-				<File Id="658644423" Language="SFX">
-					<ShortName>Movement\Movement_2.wav</ShortName>
-					<Path>SFX\Movement\Movement_2_10C4C929.wem</Path>
-				</File>
-				<File Id="663177238" Language="SFX">
-					<ShortName>Metal building\Elevator stop.wav</ShortName>
-					<Path>SFX\Metal building\Elevator stop_10C4C929.wem</Path>
-				</File>
-				<File Id="749957843" Language="SFX">
-					<ShortName>Movement\Movement_6.wav</ShortName>
-					<Path>SFX\Movement\Movement_6_10C4C929.wem</Path>
-				</File>
-				<File Id="792934448" Language="SFX">
-					<ShortName>Movement\Movement_7.wav</ShortName>
-					<Path>SFX\Movement\Movement_7_10C4C929.wem</Path>
-				</File>
-				<File Id="844800039" Language="SFX">
-					<ShortName>Metal building\Elevator motor.wav</ShortName>
-					<Path>SFX\Metal building\Elevator motor_D79FB2B7.wem</Path>
-				</File>
-				<File Id="869806088" Language="SFX">
-					<ShortName>Metal building\Zeppeliner propel.wav</ShortName>
-					<Path>SFX\Metal building\Zeppeliner propel_D79FB2B7.wem</Path>
-				</File>
-				<File Id="876005452" Language="SFX">
-					<ShortName>Movement\Movement_5.wav</ShortName>
-					<Path>SFX\Movement\Movement_5_10C4C929.wem</Path>
-				</File>
-				<File Id="937865312" Language="SFX">
-					<ShortName>boeje.wav</ShortName>
-					<Path>SFX\boeje_50ABB052.wem</Path>
-				</File>
-				<File Id="1049139296" Language="SFX">
-					<ShortName>Movement\Movement_1.wav</ShortName>
-					<Path>SFX\Movement\Movement_1_10C4C929.wem</Path>
+				<File Id="154830572" Language="SFX">
+					<ShortName>tin roof.wav</ShortName>
+					<Path>SFX\tin roof_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -291,12 +183,173 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="1737926756" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Tower</ObjectPath>
+			<ShortName>Tower</ShortName>
+			<Path>Tower.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4223356368" Name="building_creak" ObjectPath="\Events\Default Work Unit\building_creak" MaxAttenuation="16.000000"/>
+				<Event Id="327928446" Name="elevator_drive" ObjectPath="\Events\Default Work Unit\elevator_drive" MaxAttenuation="100.000000"/>
+				<Event Id="4242192989" Name="elevator_land" ObjectPath="\Events\Default Work Unit\elevator_land"/>
+				<Event Id="1208976610" Name="elevator_start" ObjectPath="\Events\Default Work Unit\elevator_start" MaxAttenuation="100.000000"/>
+				<Event Id="2818913498" Name="elevator_stop" ObjectPath="\Events\Default Work Unit\elevator_stop" MaxAttenuation="100.000000"/>
+				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
+				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
+				<Event Id="1755348276" Name="zeppelin" ObjectPath="\Events\Default Work Unit\zeppelin" MaxAttenuation="25.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="67009516" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 2.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 2_10C4C929.wem</Path>
+				</File>
+				<File Id="78525029" Language="SFX">
+					<ShortName>Metal building\Elevator creak.wav</ShortName>
+					<Path>SFX\Metal building\Elevator creak_D79FB2B7.wem</Path>
+				</File>
+				<File Id="79617372" Language="SFX">
+					<ShortName>Metal building\Elevator start.wav</ShortName>
+					<Path>SFX\Metal building\Elevator start_10C4C929.wem</Path>
+				</File>
+				<File Id="158781436" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 5.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 5_10C4C929.wem</Path>
+				</File>
+				<File Id="169319037" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 8.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 8_10C4C929.wem</Path>
+				</File>
+				<File Id="205927459" Language="SFX">
+					<ShortName>Metal building\Zeppeliner pumpy.wav</ShortName>
+					<Path>SFX\Metal building\Zeppeliner pumpy_D79FB2B7.wem</Path>
+				</File>
+				<File Id="216518634" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 6.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 6_10C4C929.wem</Path>
+				</File>
+				<File Id="291416864" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 4.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 4_10C4C929.wem</Path>
+				</File>
+				<File Id="376681258" Language="SFX">
+					<ShortName>Metal building\Elevator rope.wav</ShortName>
+					<Path>SFX\Metal building\Elevator rope_D79FB2B7.wem</Path>
+				</File>
+				<File Id="509047898" Language="SFX">
+					<ShortName>Rain metal_mix2.wav</ShortName>
+					<Path>SFX\Rain metal_mix2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="611558284" Language="SFX">
+					<ShortName>Elevator land_new.wav</ShortName>
+					<Path>SFX\Elevator land_new_10C4C929.wem</Path>
+				</File>
+				<File Id="663177238" Language="SFX">
+					<ShortName>Metal building\Elevator stop.wav</ShortName>
+					<Path>SFX\Metal building\Elevator stop_10C4C929.wem</Path>
+				</File>
+				<File Id="694582602" Language="SFX">
+					<ShortName>Metal creak continuous_mix2.wav</ShortName>
+					<Path>SFX\Metal creak continuous_mix2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="844800039" Language="SFX">
+					<ShortName>Metal building\Elevator motor.wav</ShortName>
+					<Path>SFX\Metal building\Elevator motor_D79FB2B7.wem</Path>
+				</File>
+				<File Id="869806088" Language="SFX">
+					<ShortName>Metal building\Zeppeliner propel.wav</ShortName>
+					<Path>SFX\Metal building\Zeppeliner propel_D79FB2B7.wem</Path>
+				</File>
+				<File Id="896620618" Language="SFX">
+					<ShortName>Heavy wind_mix2.wav</ShortName>
+					<Path>SFX\Heavy wind_mix2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="897633259" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 7.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 7_10C4C929.wem</Path>
+				</File>
+				<File Id="922830189" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 1.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 1_10C4C929.wem</Path>
+				</File>
+				<File Id="1049331800" Language="SFX">
+					<ShortName>Metal creak single\Metal creak 3.wav</ShortName>
+					<Path>SFX\Metal creak single\Metal creak 3_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2192450996" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Hangar</ObjectPath>
+			<ShortName>Hangar</ShortName>
+			<Path>Hangar.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="65.000000"/>
+				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="65.000000"/>
+				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="65.000000"/>
+				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="65.000000"/>
+				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="65.000000"/>
+				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="65.000000"/>
+				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="65.000000"/>
+				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="65.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="161669851" Language="SFX">
+					<ShortName>robo_creak\creak_1.wav</ShortName>
+					<Path>SFX\robo_creak\creak_1_10C4C929.wem</Path>
+				</File>
+				<File Id="240248549" Language="SFX">
+					<ShortName>ROBOT\turn.wav</ShortName>
+					<Path>SFX\ROBOT\turn_10C4C929.wem</Path>
+				</File>
+				<File Id="351811156" Language="SFX">
+					<ShortName>robo_creak\creak_4.wav</ShortName>
+					<Path>SFX\robo_creak\creak_4_10C4C929.wem</Path>
+				</File>
+				<File Id="369213721" Language="SFX">
+					<ShortName>ROBOT\robot_step1.wav</ShortName>
+					<Path>SFX\ROBOT\robot_step1_10C4C929.wem</Path>
+				</File>
+				<File Id="394612285" Language="SFX">
+					<ShortName>ROBOT\startup.wav</ShortName>
+					<Path>SFX\ROBOT\startup_10C4C929.wem</Path>
+				</File>
+				<File Id="453037357" Language="SFX">
+					<ShortName>ROBOT\start_steam.wav</ShortName>
+					<Path>SFX\ROBOT\start_steam_10C4C929.wem</Path>
+				</File>
+				<File Id="877837340" Language="SFX">
+					<ShortName>ROBOT\shoot_gun.wav</ShortName>
+					<Path>SFX\ROBOT\shoot_gun_10C4C929.wem</Path>
+				</File>
+				<File Id="888594433" Language="SFX">
+					<ShortName>robo_creak\creak_2.wav</ShortName>
+					<Path>SFX\robo_creak\creak_2_10C4C929.wem</Path>
+				</File>
+				<File Id="948052214" Language="SFX">
+					<ShortName>robo_creak\creak_5.wav</ShortName>
+					<Path>SFX\robo_creak\creak_5_10C4C929.wem</Path>
+				</File>
+				<File Id="949833328" Language="SFX">
+					<ShortName>ROBOT\robot_step2.wav</ShortName>
+					<Path>SFX\ROBOT\robot_step2_10C4C929.wem</Path>
+				</File>
+				<File Id="999953621" Language="SFX">
+					<ShortName>startup_2.wav</ShortName>
+					<Path>SFX\startup_2_10C4C929.wem</Path>
+				</File>
+				<File Id="1059700227" Language="SFX">
+					<ShortName>ROBOT\gun_cool_off.wav</ShortName>
+					<Path>SFX\ROBOT\gun_cool_off_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="2385628198" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Footsteps</ObjectPath>
 			<ShortName>Footsteps</ShortName>
 			<Path>Footsteps.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" MaxAttenuation="20.000000"/>
+				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
+				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up"/>
 				<Event Id="2948715151" Name="walk_clothes" ObjectPath="\Events\Default Work Unit\walk_clothes"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -312,9 +365,17 @@
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212027].wav</ShortName>
 					<Path>SFX\Wood\Wood footsteps rec 1 [2019-05-12 212027]_10C4C929.wem</Path>
 				</File>
+				<File Id="38062357" Language="SFX">
+					<ShortName>Concrete\Footstep, concrete1.wav</ShortName>
+					<Path>SFX\Concrete\Footstep, concrete1_FFA3936F.wem</Path>
+				</File>
 				<File Id="50230645" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid2.wav</ShortName>
 					<Path>SFX\Giiter\Footstep, metal_grid2_10C4C929.wem</Path>
+				</File>
+				<File Id="69108291" Language="SFX">
+					<ShortName>Walk\Walk_Movement_6.wav</ShortName>
+					<Path>SFX\Walk\Walk_Movement_6_73D10F1F.wem</Path>
 				</File>
 				<File Id="88203994" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid4.wav</ShortName>
@@ -336,9 +397,25 @@
 					<ShortName>Mud\Mud step 1 [2019-05-11 175023].wav</ShortName>
 					<Path>SFX\Mud\Mud step 1 [2019-05-11 175023]_10C4C929.wem</Path>
 				</File>
+				<File Id="153609750" Language="SFX">
+					<ShortName>Walk\Walk_Movement_8.wav</ShortName>
+					<Path>SFX\Walk\Walk_Movement_8_A763D6B7.wem</Path>
+				</File>
+				<File Id="158334735" Language="SFX">
+					<ShortName>Concrete\Footstep, concrete6.wav</ShortName>
+					<Path>SFX\Concrete\Footstep, concrete6_326EDEFA.wem</Path>
+				</File>
 				<File Id="162013179" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 5 [2019-05-12 205927].wav</ShortName>
 					<Path>SFX\Metal thick\Metal thick footsteps 5 [2019-05-12 205927]_10C4C929.wem</Path>
+				</File>
+				<File Id="197061346" Language="SFX">
+					<ShortName>Concrete\Footstep, concrete7.wav</ShortName>
+					<Path>SFX\Concrete\Footstep, concrete7_DAADA4DF.wem</Path>
+				</File>
+				<File Id="217145583" Language="SFX">
+					<ShortName>Movement\Movement_8.wav</ShortName>
+					<Path>SFX\Movement\Movement_8_10C4C929.wem</Path>
 				</File>
 				<File Id="220921919" Language="SFX">
 					<ShortName>Walk\Walk_Movement_7.wav</ShortName>
@@ -392,6 +469,10 @@
 					<ShortName>Concrete\Footstep, concrete1.wav</ShortName>
 					<Path>SFX\Concrete\Footstep, concrete1_10C4C929.wem</Path>
 				</File>
+				<File Id="429869172" Language="SFX">
+					<ShortName>Walk\Walk_Movement_3.wav</ShortName>
+					<Path>SFX\Walk\Walk_Movement_3_E161C166.wem</Path>
+				</File>
 				<File Id="431038803" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete4.wav</ShortName>
 					<Path>SFX\Concrete\Footstep, concrete4_10C4C929.wem</Path>
@@ -420,9 +501,17 @@
 					<ShortName>Mud\Mud step 6 [2019-05-11 174800].wav</ShortName>
 					<Path>SFX\Mud\Mud step 6 [2019-05-11 174800]_10C4C929.wem</Path>
 				</File>
+				<File Id="522801274" Language="SFX">
+					<ShortName>Movement\Movement_4.wav</ShortName>
+					<Path>SFX\Movement\Movement_4_10C4C929.wem</Path>
+				</File>
 				<File Id="554775436" Language="SFX">
 					<ShortName>Walk\Walk_Movement_2.wav</ShortName>
 					<Path>SFX\Walk\Walk_Movement_2_10C4C929.wem</Path>
+				</File>
+				<File Id="559756865" Language="SFX">
+					<ShortName>Movement\Movement_3.wav</ShortName>
+					<Path>SFX\Movement\Movement_3_10C4C929.wem</Path>
 				</File>
 				<File Id="575365727" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 2 [2019-05-12 205923].wav</ShortName>
@@ -432,6 +521,10 @@
 					<ShortName>Concrete\Footstep, concrete5.wav</ShortName>
 					<Path>SFX\Concrete\Footstep, concrete5_10C4C929.wem</Path>
 				</File>
+				<File Id="620120641" Language="SFX">
+					<ShortName>Concrete\Footstep, concrete5.wav</ShortName>
+					<Path>SFX\Concrete\Footstep, concrete5_ECA5BEB8.wem</Path>
+				</File>
 				<File Id="638985313" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete2.wav</ShortName>
 					<Path>SFX\Concrete\Footstep, concrete2_10C4C929.wem</Path>
@@ -439,6 +532,14 @@
 				<File Id="642784873" Language="SFX">
 					<ShortName>Walk\Walk_Movement_8.wav</ShortName>
 					<Path>SFX\Walk\Walk_Movement_8_10C4C929.wem</Path>
+				</File>
+				<File Id="658644423" Language="SFX">
+					<ShortName>Movement\Movement_2.wav</ShortName>
+					<Path>SFX\Movement\Movement_2_10C4C929.wem</Path>
+				</File>
+				<File Id="665467852" Language="SFX">
+					<ShortName>Concrete\Footstep, concrete3.wav</ShortName>
+					<Path>SFX\Concrete\Footstep, concrete3_2701E7E7.wem</Path>
 				</File>
 				<File Id="694486988" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid6.wav</ShortName>
@@ -464,6 +565,10 @@
 					<ShortName>Footstep, metal3.wav</ShortName>
 					<Path>SFX\Footstep, metal3_10C4C929.wem</Path>
 				</File>
+				<File Id="749957843" Language="SFX">
+					<ShortName>Movement\Movement_6.wav</ShortName>
+					<Path>SFX\Movement\Movement_6_10C4C929.wem</Path>
+				</File>
 				<File Id="757793963" Language="SFX">
 					<ShortName>Walk\Walk_Movement_3.wav</ShortName>
 					<Path>SFX\Walk\Walk_Movement_3_10C4C929.wem</Path>
@@ -476,6 +581,14 @@
 					<ShortName>Metal thick\Metal thick footsteps 10 [2019-05-12 205939].wav</ShortName>
 					<Path>SFX\Metal thick\Metal thick footsteps 10 [2019-05-12 205939]_10C4C929.wem</Path>
 				</File>
+				<File Id="792934448" Language="SFX">
+					<ShortName>Movement\Movement_7.wav</ShortName>
+					<Path>SFX\Movement\Movement_7_10C4C929.wem</Path>
+				</File>
+				<File Id="838596383" Language="SFX">
+					<ShortName>Walk\Walk_Movement_1.wav</ShortName>
+					<Path>SFX\Walk\Walk_Movement_1_CD894797.wem</Path>
+				</File>
 				<File Id="867444372" Language="SFX">
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212026].wav</ShortName>
 					<Path>SFX\Wood\Wood footsteps rec 1 [2019-05-12 212026]_10C4C929.wem</Path>
@@ -483,6 +596,10 @@
 				<File Id="875258753" Language="SFX">
 					<ShortName>Mud\Mud step 6 [2019-05-11 175015].wav</ShortName>
 					<Path>SFX\Mud\Mud step 6 [2019-05-11 175015]_10C4C929.wem</Path>
+				</File>
+				<File Id="876005452" Language="SFX">
+					<ShortName>Movement\Movement_5.wav</ShortName>
+					<Path>SFX\Movement\Movement_5_10C4C929.wem</Path>
 				</File>
 				<File Id="889503930" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 8 [2019-05-12 205936].wav</ShortName>
@@ -500,9 +617,21 @@
 					<ShortName>Giiter\Footstep, metal_grid5.wav</ShortName>
 					<Path>SFX\Giiter\Footstep, metal_grid5_10C4C929.wem</Path>
 				</File>
+				<File Id="981932133" Language="SFX">
+					<ShortName>Walk\Walk_Movement_5.wav</ShortName>
+					<Path>SFX\Walk\Walk_Movement_5_7A410E7C.wem</Path>
+				</File>
 				<File Id="992048168" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 7 [2019-05-12 205933].wav</ShortName>
 					<Path>SFX\Metal thick\Metal thick footsteps 7 [2019-05-12 205933]_10C4C929.wem</Path>
+				</File>
+				<File Id="1018437287" Language="SFX">
+					<ShortName>Concrete\Footstep, concrete2.wav</ShortName>
+					<Path>SFX\Concrete\Footstep, concrete2_5FC80082.wem</Path>
+				</File>
+				<File Id="1022351146" Language="SFX">
+					<ShortName>Walk\Walk_Movement_2.wav</ShortName>
+					<Path>SFX\Walk\Walk_Movement_2_45FEC020.wem</Path>
 				</File>
 				<File Id="1036642382" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 4 [2019-05-12 205925].wav</ShortName>
@@ -511,6 +640,10 @@
 				<File Id="1039983838" Language="SFX">
 					<ShortName>Footstep, metal2.wav</ShortName>
 					<Path>SFX\Footstep, metal2_10C4C929.wem</Path>
+				</File>
+				<File Id="1049139296" Language="SFX">
+					<ShortName>Movement\Movement_1.wav</ShortName>
+					<Path>SFX\Movement\Movement_1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -599,15 +732,7 @@
 				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="15.000000"/>
 				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
 				<Event Id="4115393080" Name="pebbles_1" ObjectPath="\Events\Default Work Unit\pebbles_1"/>
-				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="65.000000"/>
-				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="65.000000"/>
-				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="65.000000"/>
-				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="65.000000"/>
-				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="65.000000"/>
-				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="65.000000"/>
-				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="65.000000"/>
-				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="65.000000"/>
-				<Event Id="3767073320" Name="stone_glow" ObjectPath="\Events\Default Work Unit\stone_glow" MaxAttenuation="55.000000"/>
+				<Event Id="3767073320" Name="stone_glow" ObjectPath="\Events\Default Work Unit\stone_glow" MaxAttenuation="65.000000"/>
 				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping"/>
 				<Event Id="4002189376" Name="wind_cave_opening" ObjectPath="\Events\Default Work Unit\wind_cave_opening" MaxAttenuation="142.000000"/>
 			</IncludedEvents>
@@ -628,45 +753,21 @@
 					<ShortName>Car loop.wav</ShortName>
 					<Path>SFX\Car loop_D79FB2B7.wem</Path>
 				</File>
-				<File Id="161669851" Language="SFX">
-					<ShortName>robo_creak\creak_1.wav</ShortName>
-					<Path>SFX\robo_creak\creak_1_10C4C929.wem</Path>
-				</File>
 				<File Id="235028013" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_78B1F0F8.wem</Path>
-				</File>
-				<File Id="240248549" Language="SFX">
-					<ShortName>ROBOT\turn.wav</ShortName>
-					<Path>SFX\ROBOT\turn_10C4C929.wem</Path>
 				</File>
 				<File Id="338058714" Language="SFX">
 					<ShortName>Cave_ambience.wav</ShortName>
 					<Path>SFX\Cave_ambience_D79FB2B7.wem</Path>
 				</File>
-				<File Id="351811156" Language="SFX">
-					<ShortName>robo_creak\creak_4.wav</ShortName>
-					<Path>SFX\robo_creak\creak_4_10C4C929.wem</Path>
-				</File>
 				<File Id="366965488" Language="SFX">
 					<ShortName>Tires_loop.wav</ShortName>
 					<Path>SFX\Tires_loop_D79FB2B7.wem</Path>
 				</File>
-				<File Id="369213721" Language="SFX">
-					<ShortName>ROBOT\robot_step1.wav</ShortName>
-					<Path>SFX\ROBOT\robot_step1_10C4C929.wem</Path>
-				</File>
 				<File Id="390443350" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_26E332E3.wem</Path>
-				</File>
-				<File Id="394612285" Language="SFX">
-					<ShortName>ROBOT\startup.wav</ShortName>
-					<Path>SFX\ROBOT\startup_10C4C929.wem</Path>
-				</File>
-				<File Id="453037357" Language="SFX">
-					<ShortName>ROBOT\start_steam.wav</ShortName>
-					<Path>SFX\ROBOT\start_steam_10C4C929.wem</Path>
 				</File>
 				<File Id="499331955" Language="SFX">
 					<ShortName>pebbles_2.wav</ShortName>
@@ -684,29 +785,9 @@
 					<ShortName>cisternerne.wav</ShortName>
 					<Path>SFX\cisternerne_D79FB2B7.wem</Path>
 				</File>
-				<File Id="877837340" Language="SFX">
-					<ShortName>ROBOT\shoot_gun.wav</ShortName>
-					<Path>SFX\ROBOT\shoot_gun_10C4C929.wem</Path>
-				</File>
-				<File Id="888594433" Language="SFX">
-					<ShortName>robo_creak\creak_2.wav</ShortName>
-					<Path>SFX\robo_creak\creak_2_10C4C929.wem</Path>
-				</File>
 				<File Id="899519259" Language="SFX">
 					<ShortName>stone_glow.wav</ShortName>
 					<Path>SFX\stone_glow_D79FB2B7.wem</Path>
-				</File>
-				<File Id="948052214" Language="SFX">
-					<ShortName>robo_creak\creak_5.wav</ShortName>
-					<Path>SFX\robo_creak\creak_5_10C4C929.wem</Path>
-				</File>
-				<File Id="949833328" Language="SFX">
-					<ShortName>ROBOT\robot_step2.wav</ShortName>
-					<Path>SFX\ROBOT\robot_step2_10C4C929.wem</Path>
-				</File>
-				<File Id="999953621" Language="SFX">
-					<ShortName>startup_2.wav</ShortName>
-					<Path>SFX\startup_2_10C4C929.wem</Path>
 				</File>
 				<File Id="1009188860" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
@@ -715,10 +796,6 @@
 				<File Id="1013661896" Language="SFX">
 					<ShortName>Cave\birds.wav</ShortName>
 					<Path>SFX\Cave\birds_D79FB2B7.wem</Path>
-				</File>
-				<File Id="1059700227" Language="SFX">
-					<ShortName>ROBOT\gun_cool_off.wav</ShortName>
-					<Path>SFX\ROBOT\gun_cool_off_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

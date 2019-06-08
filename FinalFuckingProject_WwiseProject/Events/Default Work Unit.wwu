@@ -560,6 +560,26 @@
 				<Event Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}">
 					<ChildrenList>
 						<Action Name="" ID="{4EF8DD50-59EE-47D0-A731-A9959A79EA87}" ShortID="483097537">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9979F8DC-A70C-47E1-9A52-68FB00753717}" ShortID="895338447">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4CD4F13F-84C1-49CD-A89D-7C570FB62495}" ShortID="797885194">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
@@ -582,6 +602,26 @@
 				<Event Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}">
 					<ChildrenList>
 						<Action Name="" ID="{BA8F973A-E569-4EE8-854E-8862C60AA761}" ShortID="1028408194">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1FAFEFD7-F051-43A9-8557-D25171A45015}" ShortID="1027850189">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C295F2ED-42C0-4296-9AB7-3DA802D83C58}" ShortID="502259479">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
@@ -615,6 +655,26 @@
 				<Event Name="robot_load_gun" ID="{BA43BB10-9207-4A53-A37E-35259186DB15}">
 					<ChildrenList>
 						<Action Name="" ID="{3482B995-525B-4B6E-947E-C619C0DDF316}" ShortID="1017792994">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E32A6E8-791A-47DB-87C0-341F27A1EC6A}" ShortID="217105048">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{09DF07B9-17F5-4647-A3CF-0A03758A291E}" ShortID="349767461">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
@@ -629,6 +689,110 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_shut_down" ID="{86A0C28A-BC05-4A79-A158-0FE896556C8A}">
+					<ChildrenList>
+						<Action Name="" ID="{1C012E82-984B-4921-AB7A-099F05DBB03C}" ShortID="838296064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="-300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9874F197-EED4-4AA6-8D66-929ECD4C585C}" ShortID="1012007907">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="-300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D21C3CB7-92A5-48AD-92D0-2BE7920C59B7}" ShortID="257144018">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="-300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D7F8F943-3197-4BEC-843C-3DBCCCF66D86}" ShortID="15353427">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="-300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{66919245-0894-4DA9-81E8-784C1CB647E2}" ShortID="641747160">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="-300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E042C913-4D17-47CD-9051-70BE42B378B2}" ShortID="242418739">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Pitch" Type="int32" Value="-300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{72F297BD-95AB-4EBE-B124-640FD4A67CFF}" ShortID="76928919">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shut_down" ID="{1DEE8A9E-A511-42EC-9590-4C2487C26421}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="jump" ID="{E2B009E1-592B-44E0-ABA2-37508015D2A7}">
+					<ChildrenList>
+						<Action Name="" ID="{5638788F-02CE-4940-8ADB-C07F7DE98A3E}" ShortID="647794661">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump_clothes" ID="{F7EF1242-465D-4EAA-92F3-AA652EC0C25C}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6EFCE404-8EC8-4BE8-B339-9EEF47BDBED5}" ShortID="802557919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{97E2D586-2170-459E-A1B7-81A78BB018C7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

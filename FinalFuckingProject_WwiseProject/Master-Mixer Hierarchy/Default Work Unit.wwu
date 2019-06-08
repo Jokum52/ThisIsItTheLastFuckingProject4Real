@@ -15,6 +15,9 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{B7559524-9DC7-484E-81EC-3314B08E88DE}" WorkUnitID="{D6C4AB83-1307-4B80-A5B6-C0AB84DA4183}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Extreme_Limiting_1" ID="{8F08A8A7-3313-4E5D-9EBD-2B1B564DE411}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Environment" ID="{0875A2DF-9794-4D0F-8B39-A11B597917DB}"/>
@@ -226,6 +229,118 @@
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="cave_footsteps" ID="{26102F5C-B077-4AF5-8DF1-157B7DBB7EA0}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}">
+										<Effect Name="Machine_Gun_Hangar_(Custom)" ID="{29F8E63F-8197-4B28-B94A-A2B9DAF3B9F8}" ShortID="626153827" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="6.7"/>
+												<Property Name="Density" Type="Real32" Value="100"/>
+												<Property Name="Diffusion" Type="Real32" Value="53"/>
+												<Property Name="ERLevel" Type="Real32" Value="-18">
+													<RTPCList>
+														<RTPC Name="" ID="{9E8B413D-8721-4E46-A580-52C866B23C59}" ShortID="1016656688">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="footstep_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{087CDC19-6BD8-4F3F-B688-E3BD7DDF48DC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.04133</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>83.88627</XPos>
+																		<YPos>0.0412</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>88.55225</XPos>
+																		<YPos>-1.77515</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>90.1752</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>99</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="ERPattern" Type="int32" Value="30"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="-4.5"/>
+												<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+												<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="1"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.3"/>
+												<Property Name="PreDelay" Type="Real32" Value="115"/>
+												<Property Name="Quality" Type="int32" Value="6"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-13">
+													<RTPCList>
+														<RTPC Name="" ID="{681D1322-A5C5-400E-AB5F-94488EEC858E}" ShortID="595750144">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="footstep_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{930BB89F-6AB7-42C0-8EC0-98892B0E0480}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.12431</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>78.30738</XPos>
+																		<YPos>0.02457</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>82.36476</XPos>
+																		<YPos>-1.87673</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>90.07377</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>99</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="RoomSize" Type="Real32" Value="100"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 							</ReferenceList>
 						</AuxBus>

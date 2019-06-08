@@ -22,6 +22,12 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="cisternerne" ID="{AE0F4A50-5722-4949-9C64-59564FE7E1B2}"/>
+				<GameParameter Name="footstep_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="99"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

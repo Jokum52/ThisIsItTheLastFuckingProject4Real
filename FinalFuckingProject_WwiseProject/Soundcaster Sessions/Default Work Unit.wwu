@@ -243,6 +243,54 @@
 						<CurrentSwitchRef Name="Concrete" ID="{0EC70FF3-5201-450F-810C-A89D742D9A54}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="robot" ID="{5356B1C6-1D42-4F7E-8385-2EDF81EE6921}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="robot_shut_down" ID="{86A0C28A-BC05-4A79-A158-0FE896556C8A}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="robot_load_gun" ID="{BA43BB10-9207-4A53-A37E-35259186DB15}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="footstep_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}"/>
+							<Value>64.3111111111111</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="seagull_reverb" ID="{394838A1-31DE-4487-B550-47B71AA172A5}"/>
+							<Value>0.709833344701362</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="wind_cave_opening" ID="{8F8B4125-4095-479B-85E8-3EA1C705E5B1}"/>
+							<Value>82.3824451410658</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="cisternerne" ID="{AE0F4A50-5722-4949-9C64-59564FE7E1B2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="cave_birds" ID="{E1A42210-F47C-4B1F-99E6-20106DE771A0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Cave" ID="{50F6DA8E-A6BE-467A-BF23-EA7591B26726}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Metal_thick_reverb" ID="{ADBAC88D-347D-4FDD-A79A-E0817D8C5E61}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
