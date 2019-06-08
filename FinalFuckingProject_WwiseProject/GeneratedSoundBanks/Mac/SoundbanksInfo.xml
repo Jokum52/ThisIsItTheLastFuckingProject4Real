@@ -22,17 +22,12 @@
 				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="85.000000"/>
 				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="15.000000"/>
 				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
-				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="65.000000"/>
-				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
 				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
 				<Event Id="4115393080" Name="pebbles_1" ObjectPath="\Events\Default Work Unit\pebbles_1"/>
 				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
 				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
-				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk"/>
-				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="50.000000"/>
 				<Event Id="3767073320" Name="stone_glow" ObjectPath="\Events\Default Work Unit\stone_glow" MaxAttenuation="55.000000"/>
 				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping"/>
-				<Event Id="2453122309" Name="waves" ObjectPath="\Events\Default Work Unit\waves" MaxAttenuation="30.000000"/>
 				<Event Id="4002189376" Name="wind_cave_opening" ObjectPath="\Events\Default Work Unit\wind_cave_opening" MaxAttenuation="142.000000"/>
 				<Event Id="2307991115" Name="wind_harbour" ObjectPath="\Events\Default Work Unit\wind_harbour"/>
 			</IncludedEvents>
@@ -52,10 +47,6 @@
 				<File Id="79451613" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_C483DBDB.wem</Path>
-				</File>
-				<File Id="94366758" Language="SFX">
-					<ShortName>Factory3.wav</ShortName>
-					<Path>SFX\Factory3_0BB82B16.wem</Path>
 				</File>
 				<File Id="153068991" Language="SFX">
 					<ShortName>Car loop.wav</ShortName>
@@ -77,17 +68,9 @@
 					<ShortName>Metal creak single\Metal creak 6.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 6_10C4C929.wem</Path>
 				</File>
-				<File Id="228100385" Language="SFX">
-					<ShortName>Harbour\waves.wav</ShortName>
-					<Path>SFX\Harbour\waves_D79FB2B7.wem</Path>
-				</File>
 				<File Id="235028013" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_78B1F0F8.wem</Path>
-				</File>
-				<File Id="264183541" Language="SFX">
-					<ShortName>robot_steps\robot_step_3.wav</ShortName>
-					<Path>SFX\robot_steps\robot_step_3_10C4C929.wem</Path>
 				</File>
 				<File Id="291416864" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 4.wav</ShortName>
@@ -125,18 +108,6 @@
 					<ShortName>Metal creak continuous_mix2.wav</ShortName>
 					<Path>SFX\Metal creak continuous_mix2_D79FB2B7.wem</Path>
 				</File>
-				<File Id="775501888" Language="SFX">
-					<ShortName>Harbour\Crane and voices.wav</ShortName>
-					<Path>SFX\Harbour\Crane and voices_D79FB2B7.wem</Path>
-				</File>
-				<File Id="788189936" Language="SFX">
-					<ShortName>Factory2.wav</ShortName>
-					<Path>SFX\Factory2_29870809.wem</Path>
-				</File>
-				<File Id="851624831" Language="SFX">
-					<ShortName>Factory5.wav</ShortName>
-					<Path>SFX\Factory5_DD37E1AB.wem</Path>
-				</File>
 				<File Id="872721150" Language="SFX">
 					<ShortName>cisternerne.wav</ShortName>
 					<Path>SFX\cisternerne_D79FB2B7.wem</Path>
@@ -157,29 +128,13 @@
 					<ShortName>Metal creak single\Metal creak 1.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 1_10C4C929.wem</Path>
 				</File>
-				<File Id="935319652" Language="SFX">
-					<ShortName>Factory4.wav</ShortName>
-					<Path>SFX\Factory4_5C3172C4.wem</Path>
-				</File>
-				<File Id="943632813" Language="SFX">
-					<ShortName>robot_steps\robot_step_1.wav</ShortName>
-					<Path>SFX\robot_steps\robot_step_1_10C4C929.wem</Path>
-				</File>
 				<File Id="1009188860" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_E2A001AB.wem</Path>
 				</File>
-				<File Id="1012859475" Language="SFX">
-					<ShortName>Factory1.wav</ShortName>
-					<Path>SFX\Factory1_58627626.wem</Path>
-				</File>
 				<File Id="1013661896" Language="SFX">
 					<ShortName>Cave\birds.wav</ShortName>
 					<Path>SFX\Cave\birds_D79FB2B7.wem</Path>
-				</File>
-				<File Id="1019855095" Language="SFX">
-					<ShortName>seagulls.wav</ShortName>
-					<Path>SFX\seagulls_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1049331800" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 3.wav</ShortName>
@@ -188,10 +143,6 @@
 				<File Id="1057558594" Language="SFX">
 					<ShortName>Harbour\Wind.wav</ShortName>
 					<Path>SFX\Harbour\Wind_10C4C929.wem</Path>
-				</File>
-				<File Id="1064517655" Language="SFX">
-					<ShortName>robot_steps\robot_step_2.wav</ShortName>
-					<Path>SFX\robot_steps\robot_step_2_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -230,7 +181,6 @@
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2273245906" Name="boeje" ObjectPath="\Events\Default Work Unit\boeje"/>
-				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="10.000000"/>
 				<Event Id="327928446" Name="elevator_drive" ObjectPath="\Events\Default Work Unit\elevator_drive" MaxAttenuation="100.000000"/>
 				<Event Id="4242192989" Name="elevator_land" ObjectPath="\Events\Default Work Unit\elevator_land"/>
 				<Event Id="1208976610" Name="elevator_start" ObjectPath="\Events\Default Work Unit\elevator_start" MaxAttenuation="100.000000"/>
@@ -297,10 +247,6 @@
 					<ShortName>Movement\Movement_7.wav</ShortName>
 					<Path>SFX\Movement\Movement_7_10C4C929.wem</Path>
 				</File>
-				<File Id="799950012" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_D79FB2B7.wem</Path>
-				</File>
 				<File Id="844800039" Language="SFX">
 					<ShortName>Metal building\Elevator motor.wav</ShortName>
 					<Path>SFX\Metal building\Elevator motor_D79FB2B7.wem</Path>
@@ -327,6 +273,65 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1372494610" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Harbour</ObjectPath>
+			<ShortName>Harbour</ShortName>
+			<Path>Harbour.bnk</Path>
+			<IncludedEvents>
+				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="10.000000"/>
+				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="62.000000"/>
+				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
+				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk"/>
+				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="50.000000"/>
+				<Event Id="2453122309" Name="waves" ObjectPath="\Events\Default Work Unit\waves" MaxAttenuation="30.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="94366758" Language="SFX">
+					<ShortName>Factory3.wav</ShortName>
+					<Path>SFX\Factory3_0BB82B16.wem</Path>
+				</File>
+				<File Id="228100385" Language="SFX">
+					<ShortName>Harbour\waves.wav</ShortName>
+					<Path>SFX\Harbour\waves_D79FB2B7.wem</Path>
+				</File>
+				<File Id="369213721" Language="SFX">
+					<ShortName>ROBOT\robot_step1.wav</ShortName>
+					<Path>SFX\ROBOT\robot_step1_10C4C929.wem</Path>
+				</File>
+				<File Id="775501888" Language="SFX">
+					<ShortName>Harbour\Crane and voices.wav</ShortName>
+					<Path>SFX\Harbour\Crane and voices_D79FB2B7.wem</Path>
+				</File>
+				<File Id="788189936" Language="SFX">
+					<ShortName>Factory2.wav</ShortName>
+					<Path>SFX\Factory2_29870809.wem</Path>
+				</File>
+				<File Id="799950012" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_D79FB2B7.wem</Path>
+				</File>
+				<File Id="851624831" Language="SFX">
+					<ShortName>Factory5.wav</ShortName>
+					<Path>SFX\Factory5_DD37E1AB.wem</Path>
+				</File>
+				<File Id="935319652" Language="SFX">
+					<ShortName>Factory4.wav</ShortName>
+					<Path>SFX\Factory4_5C3172C4.wem</Path>
+				</File>
+				<File Id="949833328" Language="SFX">
+					<ShortName>ROBOT\robot_step2.wav</ShortName>
+					<Path>SFX\ROBOT\robot_step2_10C4C929.wem</Path>
+				</File>
+				<File Id="1012859475" Language="SFX">
+					<ShortName>Factory1.wav</ShortName>
+					<Path>SFX\Factory1_58627626.wem</Path>
+				</File>
+				<File Id="1019855095" Language="SFX">
+					<ShortName>seagulls.wav</ShortName>
+					<Path>SFX\seagulls_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2385628198" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Footsteps</ObjectPath>
