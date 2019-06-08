@@ -2401,6 +2401,7 @@
 						<Sound Name="Chain" ID="{E149C282-881E-4E11-AC19-C23F9530AB03}" ShortID="175392420">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -3060,6 +3061,7 @@
 						<Sound Name="waves" ID="{E30FAD57-D10B-460A-8FB7-DA7159423995}" ShortID="325647638">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -3117,6 +3119,7 @@
 						<RandomSequenceContainer Name="Factory" ID="{B93E9BA5-5C06-48FD-8094-29E4CC03484A}" ShortID="847176269">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -3168,7 +3171,7 @@
 									<Custom CreatedFrom="{09365374-E81A-4FE5-A022-BACD9C54A4FB}">
 										<Attenuation Name="Factory (Custom)" ID="{20873710-168E-4C0D-B04E-59B48F0CF9DE}" ShortID="164730538">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="65"/>
+												<Property Name="RadiusMax" Type="Real64" Value="62"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -3184,17 +3187,17 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>40.8736427272727</XPos>
+																	<XPos>38.9871669090909</XPos>
 																	<YPos>-17.17678</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>59.6742309090909</XPos>
+																	<XPos>56.9200356363636</XPos>
 																	<YPos>-23.64289</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>65</XPos>
+																	<XPos>62</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3218,22 +3221,22 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>35.29122</XPos>
+																	<XPos>33.6623944615385</XPos>
 																	<YPos>-11.60167</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>52.35932</XPos>
+																	<XPos>49.942736</XPos>
 																	<YPos>-9.48253</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>60.50838</XPos>
+																	<XPos>57.7156855384615</XPos>
 																	<YPos>-11.37607</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>65</XPos>
+																	<XPos>62</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3254,17 +3257,17 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>35.7403681818182</XPos>
+																	<XPos>34.0908127272727</XPos>
 																	<YPos>31</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>53.2576672727273</XPos>
+																	<XPos>50.7996210909091</XPos>
 																	<YPos>40</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>65</XPos>
+																	<XPos>62</XPos>
 																	<YPos>56</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -3426,6 +3429,7 @@
 						<Sound Name="seagulls" ID="{EF6C8724-DDD2-4B59-B88F-713E53D88090}" ShortID="790786459">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="BypassEffect0" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -3606,7 +3610,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="robot_steps" ID="{AA403B29-51B7-4A09-9E94-07A59EFEFFFD}" ShortID="999304619">
+						<Sound Name="lights" ID="{3ACD9C67-E2AD-4BBB-9F3A-4AA1D2202CD0}" ShortID="195363019">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -3616,65 +3620,190 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="robot_step_2" ID="{F5EF9125-E81C-414C-A3EA-C1FDF530DB2A}" ShortID="601635170">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="robot_step_2" ID="{351392EB-8846-4B95-A9DD-BEEF00B542EC}" ShortID="1064517655">
-											<Language>SFX</Language>
-											<AudioFile>robot_steps\robot_step_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="robot_step_2" ID="{351392EB-8846-4B95-A9DD-BEEF00B542EC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="robot_step_3" ID="{DEA1F3DF-54F3-4B60-98D4-9D1696F5A795}" ShortID="834348775">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="robot_step_3" ID="{456D937D-942D-4610-B1A0-3773B1AA1177}" ShortID="264183541">
-											<Language>SFX</Language>
-											<AudioFile>robot_steps\robot_step_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="robot_step_3" ID="{456D937D-942D-4610-B1A0-3773B1AA1177}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="robot_step_1" ID="{4514AA0E-3708-4502-B0EC-953CF7562E5C}" ShortID="940341663">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="robot_step_1" ID="{D060DB4C-5BBB-4B21-9883-190F6BE4F3F0}" ShortID="943632813">
-											<Language>SFX</Language>
-											<AudioFile>robot_steps\robot_step_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="robot_step_1" ID="{D060DB4C-5BBB-4B21-9883-190F6BE4F3F0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								<AudioFileSource Name="lights" ID="{70906D1D-C817-41D3-AD1F-840B97328228}" ShortID="840428941">
+									<Language>SFX</Language>
+									<AudioFile>lights.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
-						</RandomSequenceContainer>
+							<ActiveSourceList>
+								<ActiveSource Name="lights" ID="{70906D1D-C817-41D3-AD1F-840B97328228}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Folder Name="ROBOT" ID="{A00FB92C-46F4-49FF-A598-797A0FB105A3}" ShortID="313545199">
+							<ChildrenList>
+								<Sound Name="load_gun" ID="{1CB9FA4C-9CE9-4376-9F62-1E9E9D4E3FED}" ShortID="680999555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="load_gun" ID="{0F9AA51D-61AF-44CD-BC65-49E950EACF8F}" ShortID="482859576">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\load_gun.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="load_gun" ID="{0F9AA51D-61AF-44CD-BC65-49E950EACF8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" ShortID="897227580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gun_cool_off" ID="{FECD5840-DABF-446E-9C9A-30B404844443}" ShortID="1059700227">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\gun_cool_off.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gun_cool_off" ID="{FECD5840-DABF-446E-9C9A-30B404844443}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" ShortID="182947741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shoot_gun" ID="{F14D3BFE-D98C-44F8-B0E1-5D1C24E4A5EF}" ShortID="877837340">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\shoot_gun.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shoot_gun" ID="{F14D3BFE-D98C-44F8-B0E1-5D1C24E4A5EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="turn" ID="{34AAF753-1F07-4280-89E5-694E2B8A8217}" ShortID="71082769">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="turn" ID="{195E8EDE-2AAA-4407-9A15-BB682C7BAD17}" ShortID="240248549">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\turn.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="turn" ID="{195E8EDE-2AAA-4407-9A15-BB682C7BAD17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="start_steam" ID="{96F468FB-0AB5-4582-A2AB-709C1546EB39}" ShortID="428643447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="start_steam" ID="{71309001-E835-46F1-ACE2-48D96457DD18}" ShortID="453037357">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\start_steam.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="start_steam" ID="{71309001-E835-46F1-ACE2-48D96457DD18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="startup" ID="{D6EF99F7-8D25-43A3-A38D-BEBAEB7CA7B5}" ShortID="463044457">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="startup" ID="{15410B06-21A0-4C40-A9B5-1EF38E466BF2}" ShortID="394612285">
+											<Language>SFX</Language>
+											<AudioFile>ROBOT\startup.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="startup" ID="{15410B06-21A0-4C40-A9B5-1EF38E466BF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" ShortID="884836303">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="robot_step1" ID="{91048268-3A7A-48E3-B8DD-D1080D2EB498}" ShortID="506601675">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="robot_step1" ID="{59DC1F35-CBA4-4257-A935-17DF0EC7B57D}" ShortID="369213721">
+													<Language>SFX</Language>
+													<AudioFile>ROBOT\robot_step1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="robot_step1" ID="{59DC1F35-CBA4-4257-A935-17DF0EC7B57D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="robot_step2" ID="{5DF3194C-AB16-4699-AF10-C64F123149DF}" ShortID="441531456">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="robot_step2" ID="{53535A4B-08DC-436C-9B54-156187C589C8}" ShortID="949833328">
+													<Language>SFX</Language>
+													<AudioFile>ROBOT\robot_step2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="robot_step2" ID="{53535A4B-08DC-436C-9B54-156187C589C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="robot_step1" ID="{91048268-3A7A-48E3-B8DD-D1080D2EB498}"/>
+										<ItemRef Name="robot_step2" ID="{5DF3194C-AB16-4699-AF10-C64F123149DF}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Cut_scene" ID="{E89F5A31-9E85-4D8A-8169-8A8B7187BF1A}" ShortID="607913075">
