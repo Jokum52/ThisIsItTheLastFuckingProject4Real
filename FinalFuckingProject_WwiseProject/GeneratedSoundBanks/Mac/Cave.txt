@@ -1,0 +1,62 @@
+Event	ID	Name			Wwise Object Path	Notes
+	352130103	birds			\Default Work Unit\birds	
+	825506301	robot_walk			\Default Work Unit\robot_walk	
+	983016381	car			\Default Work Unit\car	
+	1104087918	robot_gun_cool_off			\Default Work Unit\robot_gun_cool_off	
+	1455232537	cave_ambience			\Default Work Unit\cave_ambience	
+	1559958719	cisternerne			\Default Work Unit\cisternerne	
+	1574202028	robot_shoot_gun			\Default Work Unit\robot_shoot_gun	
+	1596304284	chain_cave			\Default Work Unit\chain_cave	
+	1776277574	robot_creak			\Default Work Unit\robot_creak	
+	1944012274	robot_start_up			\Default Work Unit\robot_start_up	
+	2179852791	robot_turn			\Default Work Unit\robot_turn	
+	2201009132	water_dripping			\Default Work Unit\water_dripping	
+	2919926466	robot_steam			\Default Work Unit\robot_steam	
+	3730689157	robot_load_gun			\Default Work Unit\robot_load_gun	
+	3767073320	stone_glow			\Default Work Unit\stone_glow	
+	4002189376	wind_cave_opening			\Default Work Unit\wind_cave_opening	
+	4115393080	pebbles_1			\Default Work Unit\pebbles_1	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1815227543	cave_birds			\Default Work Unit\cave_birds	
+	4002189376	wind_cave_opening			\Default Work Unit\wind_cave_opening	
+
+Effect plug-ins	ID	Name	Type				Notes
+	415841907	Space_Garage	Wwise RoomVerb			
+	812624342	Machine_Gun_Hangar_(Custom)	Wwise RoomVerb			
+	1023255511	Machine_Gun_Hangar_(Custom)	Wwise RoomVerb			
+	2552406971	r_tremc	Wwise Tremolo			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	46290751	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robo_creak\silence\Wwise Silence	
+	908045241	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robo_creak\silence_01\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16358839	Dripping_water	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Dripping_water_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\Dripping_water		5376064
+	49995845	wind_cave_opening	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\wind_cave_opening_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\wind_cave_opening		7296064
+	79451613	Chain	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_C483DBDB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\chain\Chain		54348
+	153068991	Car loop	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Car loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\car\Car loop		1323144
+	161669851	creak_1	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robo_creak\creak_1		237112
+	235028013	Chain_02	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_78B1F0F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\chain\Chain_02		53656
+	240248549	turn	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\turn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\turn		788352
+	338058714	Cave_ambience	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Cave_ambience_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\Cave_ambience		16896064
+	351811156	creak_4	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robo_creak\creak_4		132364
+	366965488	Tires_loop	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Tires_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\car\Tires_loop		2028744
+	369213721	robot_step1	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\robot_step1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robot_walk\robot_step1		557620
+	390443350	Chain_04	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_26E332E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\chain\Chain_04		35636
+	394612285	startup	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\startup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\startup		736672
+	453037357	start_steam	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\start_steam_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\start_steam		650540
+	499331955	pebbles_2	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\pebbles_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\pebbles\pebbles_2		647228
+	552986777	Chain_05	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_EF19A047.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\chain\Chain_05		35252
+	556934660	Chain_01	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_DBAF09FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\chain\Chain_01		46176
+	872721150	cisternerne	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\cisternerne_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\cisternerne		20928064
+	877837340	shoot_gun	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\shoot_gun_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\shoot_gun		1036412
+	888594433	creak_2	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robo_creak\creak_2		274172
+	899519259	stone_glow	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\stone_glow_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\stone_glow		10656064
+	948052214	creak_5	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robo_creak\creak_5		99288
+	949833328	robot_step2	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\robot_step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\robot_walk\robot_step2		617464
+	999953621	load_gun_2	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\startup_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\load_gun_2		363888
+	1009188860	Chain_03	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_E2A001AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\chain\Chain_03		41880
+	1013661896	birds	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Cave\birds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\birds		17664064
+	1059700227	gun_cool_off	D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\gun_cool_off_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Robot\gun_cool_off		518240
+

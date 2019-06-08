@@ -16,41 +16,16 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="352130103" Name="birds" ObjectPath="\Events\Default Work Unit\birds" MaxAttenuation="70.000000"/>
 				<Event Id="4223356368" Name="building_creak" ObjectPath="\Events\Default Work Unit\building_creak" MaxAttenuation="16.000000"/>
-				<Event Id="983016381" Name="car" ObjectPath="\Events\Default Work Unit\car" MaxAttenuation="120.000000"/>
-				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="85.000000"/>
-				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="15.000000"/>
-				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
 				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
-				<Event Id="4115393080" Name="pebbles_1" ObjectPath="\Events\Default Work Unit\pebbles_1"/>
 				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
 				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
-				<Event Id="3767073320" Name="stone_glow" ObjectPath="\Events\Default Work Unit\stone_glow" MaxAttenuation="55.000000"/>
-				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping"/>
-				<Event Id="4002189376" Name="wind_cave_opening" ObjectPath="\Events\Default Work Unit\wind_cave_opening" MaxAttenuation="142.000000"/>
 				<Event Id="2307991115" Name="wind_harbour" ObjectPath="\Events\Default Work Unit\wind_harbour"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="16358839" Language="SFX">
-					<ShortName>Dripping_water.wav</ShortName>
-					<Path>SFX\Dripping_water_D79FB2B7.wem</Path>
-				</File>
-				<File Id="49995845" Language="SFX">
-					<ShortName>wind_cave_opening.wav</ShortName>
-					<Path>SFX\wind_cave_opening_D79FB2B7.wem</Path>
-				</File>
 				<File Id="67009516" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 2.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 2_10C4C929.wem</Path>
-				</File>
-				<File Id="79451613" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_C483DBDB.wem</Path>
-				</File>
-				<File Id="153068991" Language="SFX">
-					<ShortName>Car loop.wav</ShortName>
-					<Path>SFX\Car loop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="154830572" Language="SFX">
 					<ShortName>tin roof.wav</ShortName>
@@ -68,49 +43,17 @@
 					<ShortName>Metal creak single\Metal creak 6.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 6_10C4C929.wem</Path>
 				</File>
-				<File Id="235028013" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_78B1F0F8.wem</Path>
-				</File>
 				<File Id="291416864" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 4.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 4_10C4C929.wem</Path>
-				</File>
-				<File Id="338058714" Language="SFX">
-					<ShortName>Cave_ambience.wav</ShortName>
-					<Path>SFX\Cave_ambience_D79FB2B7.wem</Path>
-				</File>
-				<File Id="366965488" Language="SFX">
-					<ShortName>Tires_loop.wav</ShortName>
-					<Path>SFX\Tires_loop_D79FB2B7.wem</Path>
-				</File>
-				<File Id="390443350" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_26E332E3.wem</Path>
-				</File>
-				<File Id="499331955" Language="SFX">
-					<ShortName>pebbles_2.wav</ShortName>
-					<Path>SFX\pebbles_2_10C4C929.wem</Path>
 				</File>
 				<File Id="509047898" Language="SFX">
 					<ShortName>Rain metal_mix2.wav</ShortName>
 					<Path>SFX\Rain metal_mix2_D79FB2B7.wem</Path>
 				</File>
-				<File Id="552986777" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_EF19A047.wem</Path>
-				</File>
-				<File Id="556934660" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_DBAF09FB.wem</Path>
-				</File>
 				<File Id="694582602" Language="SFX">
 					<ShortName>Metal creak continuous_mix2.wav</ShortName>
 					<Path>SFX\Metal creak continuous_mix2_D79FB2B7.wem</Path>
-				</File>
-				<File Id="872721150" Language="SFX">
-					<ShortName>cisternerne.wav</ShortName>
-					<Path>SFX\cisternerne_D79FB2B7.wem</Path>
 				</File>
 				<File Id="896620618" Language="SFX">
 					<ShortName>Heavy wind_mix2.wav</ShortName>
@@ -120,21 +63,9 @@
 					<ShortName>Metal creak single\Metal creak 7.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 7_10C4C929.wem</Path>
 				</File>
-				<File Id="899519259" Language="SFX">
-					<ShortName>stone_glow.wav</ShortName>
-					<Path>SFX\stone_glow_D79FB2B7.wem</Path>
-				</File>
 				<File Id="922830189" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 1.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 1_10C4C929.wem</Path>
-				</File>
-				<File Id="1009188860" Language="SFX">
-					<ShortName>Chain.wav</ShortName>
-					<Path>SFX\Chain_E2A001AB.wem</Path>
-				</File>
-				<File Id="1013661896" Language="SFX">
-					<ShortName>Cave\birds.wav</ShortName>
-					<Path>SFX\Cave\birds_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1049331800" Language="SFX">
 					<ShortName>Metal creak single\Metal creak 3.wav</ShortName>
@@ -654,6 +585,140 @@
 				<File Id="1069444021" Language="SFX">
 					<ShortName>island_end_120bpm_L36_P00.wav</ShortName>
 					<Path>SFX\island_end_120bpm_L36_P00_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="352130103" Name="birds" ObjectPath="\Events\Default Work Unit\birds" MaxAttenuation="70.000000"/>
+				<Event Id="983016381" Name="car" ObjectPath="\Events\Default Work Unit\car" MaxAttenuation="120.000000"/>
+				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="85.000000"/>
+				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="15.000000"/>
+				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
+				<Event Id="4115393080" Name="pebbles_1" ObjectPath="\Events\Default Work Unit\pebbles_1"/>
+				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="65.000000"/>
+				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="65.000000"/>
+				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="65.000000"/>
+				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="65.000000"/>
+				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="65.000000"/>
+				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="65.000000"/>
+				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="65.000000"/>
+				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="65.000000"/>
+				<Event Id="3767073320" Name="stone_glow" ObjectPath="\Events\Default Work Unit\stone_glow" MaxAttenuation="55.000000"/>
+				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping"/>
+				<Event Id="4002189376" Name="wind_cave_opening" ObjectPath="\Events\Default Work Unit\wind_cave_opening" MaxAttenuation="142.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="16358839" Language="SFX">
+					<ShortName>Dripping_water.wav</ShortName>
+					<Path>SFX\Dripping_water_D79FB2B7.wem</Path>
+				</File>
+				<File Id="49995845" Language="SFX">
+					<ShortName>wind_cave_opening.wav</ShortName>
+					<Path>SFX\wind_cave_opening_D79FB2B7.wem</Path>
+				</File>
+				<File Id="79451613" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_C483DBDB.wem</Path>
+				</File>
+				<File Id="153068991" Language="SFX">
+					<ShortName>Car loop.wav</ShortName>
+					<Path>SFX\Car loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="161669851" Language="SFX">
+					<ShortName>robo_creak\creak_1.wav</ShortName>
+					<Path>SFX\robo_creak\creak_1_10C4C929.wem</Path>
+				</File>
+				<File Id="235028013" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_78B1F0F8.wem</Path>
+				</File>
+				<File Id="240248549" Language="SFX">
+					<ShortName>ROBOT\turn.wav</ShortName>
+					<Path>SFX\ROBOT\turn_10C4C929.wem</Path>
+				</File>
+				<File Id="338058714" Language="SFX">
+					<ShortName>Cave_ambience.wav</ShortName>
+					<Path>SFX\Cave_ambience_D79FB2B7.wem</Path>
+				</File>
+				<File Id="351811156" Language="SFX">
+					<ShortName>robo_creak\creak_4.wav</ShortName>
+					<Path>SFX\robo_creak\creak_4_10C4C929.wem</Path>
+				</File>
+				<File Id="366965488" Language="SFX">
+					<ShortName>Tires_loop.wav</ShortName>
+					<Path>SFX\Tires_loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="369213721" Language="SFX">
+					<ShortName>ROBOT\robot_step1.wav</ShortName>
+					<Path>SFX\ROBOT\robot_step1_10C4C929.wem</Path>
+				</File>
+				<File Id="390443350" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_26E332E3.wem</Path>
+				</File>
+				<File Id="394612285" Language="SFX">
+					<ShortName>ROBOT\startup.wav</ShortName>
+					<Path>SFX\ROBOT\startup_10C4C929.wem</Path>
+				</File>
+				<File Id="453037357" Language="SFX">
+					<ShortName>ROBOT\start_steam.wav</ShortName>
+					<Path>SFX\ROBOT\start_steam_10C4C929.wem</Path>
+				</File>
+				<File Id="499331955" Language="SFX">
+					<ShortName>pebbles_2.wav</ShortName>
+					<Path>SFX\pebbles_2_10C4C929.wem</Path>
+				</File>
+				<File Id="552986777" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_EF19A047.wem</Path>
+				</File>
+				<File Id="556934660" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_DBAF09FB.wem</Path>
+				</File>
+				<File Id="872721150" Language="SFX">
+					<ShortName>cisternerne.wav</ShortName>
+					<Path>SFX\cisternerne_D79FB2B7.wem</Path>
+				</File>
+				<File Id="877837340" Language="SFX">
+					<ShortName>ROBOT\shoot_gun.wav</ShortName>
+					<Path>SFX\ROBOT\shoot_gun_10C4C929.wem</Path>
+				</File>
+				<File Id="888594433" Language="SFX">
+					<ShortName>robo_creak\creak_2.wav</ShortName>
+					<Path>SFX\robo_creak\creak_2_10C4C929.wem</Path>
+				</File>
+				<File Id="899519259" Language="SFX">
+					<ShortName>stone_glow.wav</ShortName>
+					<Path>SFX\stone_glow_D79FB2B7.wem</Path>
+				</File>
+				<File Id="948052214" Language="SFX">
+					<ShortName>robo_creak\creak_5.wav</ShortName>
+					<Path>SFX\robo_creak\creak_5_10C4C929.wem</Path>
+				</File>
+				<File Id="949833328" Language="SFX">
+					<ShortName>ROBOT\robot_step2.wav</ShortName>
+					<Path>SFX\ROBOT\robot_step2_10C4C929.wem</Path>
+				</File>
+				<File Id="999953621" Language="SFX">
+					<ShortName>startup_2.wav</ShortName>
+					<Path>SFX\startup_2_10C4C929.wem</Path>
+				</File>
+				<File Id="1009188860" Language="SFX">
+					<ShortName>Chain.wav</ShortName>
+					<Path>SFX\Chain_E2A001AB.wem</Path>
+				</File>
+				<File Id="1013661896" Language="SFX">
+					<ShortName>Cave\birds.wav</ShortName>
+					<Path>SFX\Cave\birds_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1059700227" Language="SFX">
+					<ShortName>ROBOT\gun_cool_off.wav</ShortName>
+					<Path>SFX\ROBOT\gun_cool_off_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
