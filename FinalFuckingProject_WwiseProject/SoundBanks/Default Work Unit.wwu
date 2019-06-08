@@ -14,24 +14,10 @@
 				<SoundBank Name="Ambience" ID="{492D4FC2-72C5-45F5-85A7-96A2FC5CE9C5}">
 					<ObjectInclusionList>
 						<ObjectRef Name="building_creak" ID="{E831E43C-BE45-4043-8B98-695887B61081}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="chain_cave" ID="{B54C4AA0-240C-4162-A89E-A1EC0CEF5E13}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="water_dripping" ID="{1422C81E-F2FF-4201-BA4E-DD0118766D92}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="stone_glow" ID="{922194A9-CEB3-4227-91CD-AC8B961954CE}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="cave_ambience" ID="{A909B8DA-97AD-446E-85BB-9902A1E4B6AA}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wind_harbour" ID="{AB609430-151B-453C-B593-9641955EAA48}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="wind_cave_opening" ID="{56F7EE1C-4960-46FA-B986-48DB0E2212E0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="birds" ID="{CAD7C312-8499-4789-8444-7E13CC925C51}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="waves" ID="{95D9A455-CE9E-4970-94C9-F9A6B1F7EE43}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="constrction_site" ID="{1D2166D3-609B-4A2D-BDE8-E9931AC816AC}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="metal_building_wind" ID="{E2BF2B3D-96F6-4A54-9720-654BBDAD7EF4}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="seagulls" ID="{6CC63407-ABFD-4AEA-B016-93A16CC1A676}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="rain_on_metal" ID="{386CBC06-DCE4-4BE8-B049-F1679ECE635B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="pebbles_1" ID="{B67E5551-EABC-4C70-BCFF-DDD3530AE478}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="cisternerne" ID="{A13E687E-72BE-4CB9-ADAB-2C3DEC6F1136}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="car" ID="{1AA216AB-EB45-4D74-A7EB-B46549CDFD21}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="rain" ID="{BBD1B690-EADA-4DA3-8A05-C6A6B980CC14}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="crane" ID="{97E527A1-92EC-4DAA-913E-FF82B5D98F0B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -39,7 +25,6 @@
 				<SoundBank Name="SFX" ID="{14E63E00-D3A1-48B4-BB92-EF578AE045D8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Neon" ID="{5913796D-6393-4042-85DD-E14294DA6D1F}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="elevator_drive" ID="{C0DE9C9F-C291-4750-A5B6-B930F8DC0908}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="elevator_start" ID="{62CD9DDA-E3FB-4902-9BDC-E5F26B5280AF}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="elevator_stop" ID="{CE41EEE1-5CC8-49B5-9B5A-9E6128C9F967}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
@@ -65,6 +50,44 @@
 						<ObjectRef Name="the_admin" ID="{D4675610-2FF9-4163-81FD-FA20121A4D55}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Intro" ID="{4186F5B3-3FAB-4393-ACA1-82966752D77C}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="the_rat" ID="{30E17589-078F-4D73-B986-19DEE01285AA}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Harbour" ID="{0FDA5A9A-BDBD-483A-91B2-2233A8823B83}">
+					<ObjectInclusionList>
+						<ObjectRef Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_creak" ID="{C88B4773-0600-443F-B569-DB69A96A840D}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_start_up" ID="{7465A777-0355-4789-B325-04555691658B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="waves" ID="{95D9A455-CE9E-4970-94C9-F9A6B1F7EE43}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="constrction_site" ID="{1D2166D3-609B-4A2D-BDE8-E9931AC816AC}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="seagulls" ID="{6CC63407-ABFD-4AEA-B016-93A16CC1A676}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_steam" ID="{9E964277-A4EE-4B96-A3B7-8AD400E68447}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="crane" ID="{97E527A1-92EC-4DAA-913E-FF82B5D98F0B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Cave" ID="{F653C887-B456-4A7E-86F4-0EB22F9E6135}">
+					<ObjectInclusionList>
+						<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="chain_cave" ID="{B54C4AA0-240C-4162-A89E-A1EC0CEF5E13}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="water_dripping" ID="{1422C81E-F2FF-4201-BA4E-DD0118766D92}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="stone_glow" ID="{922194A9-CEB3-4227-91CD-AC8B961954CE}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_creak" ID="{C88B4773-0600-443F-B569-DB69A96A840D}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="cave_ambience" ID="{A909B8DA-97AD-446E-85BB-9902A1E4B6AA}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_turn" ID="{F03F97E1-8E1E-46B0-A6F0-ADD5345BB060}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wind_cave_opening" ID="{56F7EE1C-4960-46FA-B986-48DB0E2212E0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_start_up" ID="{7465A777-0355-4789-B325-04555691658B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="birds" ID="{CAD7C312-8499-4789-8444-7E13CC925C51}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_load_gun" ID="{BA43BB10-9207-4A53-A37E-35259186DB15}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_steam" ID="{9E964277-A4EE-4B96-A3B7-8AD400E68447}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="pebbles_1" ID="{B67E5551-EABC-4C70-BCFF-DDD3530AE478}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="cisternerne" ID="{A13E687E-72BE-4CB9-ADAB-2C3DEC6F1136}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="car" ID="{1AA216AB-EB45-4D74-A7EB-B46549CDFD21}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

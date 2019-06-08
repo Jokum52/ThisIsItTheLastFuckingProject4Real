@@ -522,7 +522,7 @@
 						<Action Name="" ID="{5C901002-4E69-42EB-97A7-DC722223B8B4}" ShortID="532899528">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="robot_steps" ID="{AA403B29-51B7-4A09-9E94-07A59EFEFFFD}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -541,6 +541,94 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Car loop" ID="{C15CEB1C-E529-4822-80E6-82ABE30BDE20}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lights" ID="{29231991-1191-4A18-97F9-3B3A63AD7D32}">
+					<ChildrenList>
+						<Action Name="" ID="{ED8B9F49-240D-4426-8B13-3A1DA1CBD0CE}" ShortID="702754458">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lights" ID="{3ACD9C67-E2AD-4BBB-9F3A-4AA1D2202CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}">
+					<ChildrenList>
+						<Action Name="" ID="{4EF8DD50-59EE-47D0-A731-A9959A79EA87}" ShortID="483097537">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_turn" ID="{F03F97E1-8E1E-46B0-A6F0-ADD5345BB060}">
+					<ChildrenList>
+						<Action Name="" ID="{3ECBE00B-D3D6-4064-A96F-86112A8D7666}" ShortID="134370130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turn" ID="{34AAF753-1F07-4280-89E5-694E2B8A8217}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}">
+					<ChildrenList>
+						<Action Name="" ID="{BA8F973A-E569-4EE8-854E-8862C60AA761}" ShortID="1028408194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_steam" ID="{9E964277-A4EE-4B96-A3B7-8AD400E68447}">
+					<ChildrenList>
+						<Action Name="" ID="{4B9EEB0F-2B18-4E8E-9523-F4BD00A916EC}" ShortID="258523798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="start_steam" ID="{96F468FB-0AB5-4582-A2AB-709C1546EB39}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_start_up" ID="{7465A777-0355-4789-B325-04555691658B}">
+					<ChildrenList>
+						<Action Name="" ID="{54E8C75F-3882-407C-8AF0-629A1A83F4F2}" ShortID="906347339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="startup" ID="{D6EF99F7-8D25-43A3-A38D-BEBAEB7CA7B5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_load_gun" ID="{BA43BB10-9207-4A53-A37E-35259186DB15}">
+					<ChildrenList>
+						<Action Name="" ID="{3482B995-525B-4B6E-947E-C619C0DDF316}" ShortID="1017792994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="robot_creak" ID="{C88B4773-0600-443F-B569-DB69A96A840D}">
+					<ChildrenList>
+						<Action Name="" ID="{A6D90509-54C2-40A3-8DBF-7F8EFCA457D0}" ShortID="438343534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

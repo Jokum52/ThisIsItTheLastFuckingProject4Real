@@ -5,7 +5,8 @@ using UnityEngine;
 public class StartShootingRobot : MonoBehaviour
 {
 
-
+    public GameObject otherObject;
+    public Animator otherAnimator;
     Animator m_Animator;
 
 
@@ -17,6 +18,11 @@ public class StartShootingRobot : MonoBehaviour
     }
 
 
+    void Awake()
+    {
+        otherAnimator = otherObject.GetComponent<Animator>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -24,9 +30,15 @@ public class StartShootingRobot : MonoBehaviour
         {
 
             m_Animator.SetBool("Activate", true);
+          //  otherAnimator.SetBool("Acctivate", true);
         }
     }
 
+    public void StartRobot()
+    {
+
+        otherAnimator.SetBool("Activate", true);
+    }
     // Update is called once per frame
     void Update()
     {
