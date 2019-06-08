@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1be1b6c95cd2e41b27903b9270817f, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
@@ -28,7 +28,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.187
+    m_Value: 0.155
     min: 0
     max: 1
   smoothness:
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384c4d03a551c44448145f4093304119, type: 3}
   m_Name: ScreenSpaceReflection
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   depthBufferThickness:
     m_OverrideState: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
     m_Value: 0
   compensation:
     m_OverrideState: 1
-    m_Value: 2.79
+    m_Value: 13
   limitMin:
     m_OverrideState: 0
     m_Value: -10
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7649d9368d3a5c4ab8ad01a63e04962, type: 3}
   m_Name: ChannelMixer
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   redOutRedIn:
     m_OverrideState: 1
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1.16
+    m_Value: 1.5
     min: 0
     max: 4
   thicknessModifier:
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
@@ -326,7 +326,7 @@ MonoBehaviour:
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: -9.5
+    m_Value: -17.9
     min: -100
     max: 100
 --- !u!114 &-1445369767402871600
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b24b200358312b4fa1004e2431c2f1f, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   shadows:
     m_OverrideState: 1
@@ -387,7 +387,7 @@ MonoBehaviour:
     m_Value: 8
   intensity:
     m_OverrideState: 1
-    m_Value: 0.284
+    m_Value: 0.349
     min: 0
     max: 1
   response:
@@ -441,12 +441,12 @@ MonoBehaviour:
   m_AdvancedMode: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.201
+    m_Value: 0.265
     min: 0
     max: 1
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.138
     min: 0
     max: 1
   tint:
@@ -460,7 +460,7 @@ MonoBehaviour:
     m_Value: {fileID: 2800000, guid: 4e1e00e9e8deba440b2d64eca24db290, type: 3}
   dirtIntensity:
     m_OverrideState: 1
-    m_Value: 1.73
+    m_Value: 1.2
     min: 0
   highQualityFiltering:
     m_OverrideState: 1
@@ -486,14 +486,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa3b8214f75b354e9ba2caadd022259, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 1
   focusMode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   focusDistance:
     m_OverrideState: 1
-    m_Value: 4.15
+    m_Value: 3
     min: 0.1
   nearFocusStart:
     m_OverrideState: 1
@@ -513,12 +513,12 @@ MonoBehaviour:
     min: 0
   nearSampleCount:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 6
     min: 3
     max: 8
   nearMaxBlur:
     m_OverrideState: 1
-    m_Value: 6.46
+    m_Value: 2.59
     min: 0
     max: 8
   farSampleCount:
@@ -528,14 +528,14 @@ MonoBehaviour:
     max: 16
   farMaxBlur:
     m_OverrideState: 1
-    m_Value: 4.92
+    m_Value: 0
     min: 0
     max: 16
   highQualityFiltering:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   resolution:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
 --- !u!114 &6664776742877447684
 MonoBehaviour:
@@ -594,11 +594,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b51a78e223a2e504bb88a059b55229ea, type: 3}
   m_Name: WhiteBalance
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   temperature:
     m_OverrideState: 1
-    m_Value: -3.5
+    m_Value: 4
     min: -100
     max: 100
   tint:
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
   m_Name: IndirectLightingController
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   indirectSpecularIntensity:
     m_OverrideState: 1
@@ -626,5 +626,5 @@ MonoBehaviour:
     min: 0
   indirectDiffuseIntensity:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.6
     min: 0

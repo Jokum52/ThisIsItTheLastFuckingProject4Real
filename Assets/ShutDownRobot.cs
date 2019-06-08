@@ -7,8 +7,12 @@ public class ShutDownRobot : MonoBehaviour
 
     public GameObject otherObject;
     public Animator otherAnimator;
+    public GameObject otherObject2;
     public Animator otherAnimator2;
-   // Animator m_Animator;
+
+   
+
+    // Animator m_Animator;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +25,7 @@ public class ShutDownRobot : MonoBehaviour
     void Awake()
     {
         otherAnimator = otherObject.GetComponent<Animator>();
-        otherAnimator2 = otherObject.GetComponent<Animator>();
+        otherAnimator2 = otherObject2.GetComponent<Animator>();
 
     }
 
@@ -32,16 +36,14 @@ public class ShutDownRobot : MonoBehaviour
         if (other.tag == "Player")
 
         {
-
+            otherAnimator2.SetTrigger("DeactivateTrig");
             otherAnimator.SetBool("Deactivate", true);
-            otherAnimator2.SetBool("Deactivate", true);
+           
 
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
+
+    
 }

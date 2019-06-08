@@ -44,11 +44,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         public AudioClip shootclip;
         public GameObject shootpat;
         public GameObject Shootingpoint;
-
+        public Transform target;
         //EdgeGrab
         bool m_EdgeGrabbed;
         bool m_EdgePullup;
         float m_LastEdgeGrabbed = 0;
+        public GameObject otherObject;
+        public Animator otherAnimator;
+
+
+        float speed;
 
         void Start()
         {
@@ -99,6 +104,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             UpdateAnimator(move);
         }
 
+
+        private void Awake()
+        {
+            otherAnimator = otherObject.GetComponent<Animator>();
+        }
 
         void ScaleCapsuleForCrouching(bool crouch)
         {
@@ -202,7 +212,15 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
 
         }
+        
+        public void KillMonitor()
+        {
 
+            otherAnimator.SetBool("Deactivate", true);
+
+
+        }
+        
 
         void HandleAirborneMovement()
         {
