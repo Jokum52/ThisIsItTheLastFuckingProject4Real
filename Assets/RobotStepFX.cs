@@ -6,6 +6,7 @@ public class RobotStepFX : MonoBehaviour
 {
     public GameObject[] fxList;
     public GameObject fxPrefab;
+    public GameObject fxPrefab2;
     public GameObject rightFoot;
     public GameObject leftFoot;
    
@@ -14,6 +15,8 @@ public class RobotStepFX : MonoBehaviour
         
         
         GameObject _instantiatedFX = Instantiate(fxPrefab, rightFoot.transform.position, rightFoot.transform.rotation) as GameObject;
+
+        GameObject _instantiatedFX2 = Instantiate(fxPrefab2, rightFoot.transform.position, rightFoot.transform.rotation) as GameObject;
     }
 
     public void LeftStepFx()
