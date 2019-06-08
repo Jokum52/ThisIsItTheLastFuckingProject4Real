@@ -3206,6 +3206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 472307856657284973, guid: 5f731c7d3dc2f0945a57cdc7204ed02f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3519176796534214014, guid: 5f731c7d3dc2f0945a57cdc7204ed02f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3279,11 +3284,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RobotFACTORY
-      objectReference: {fileID: 0}
-    - target: {fileID: 8451280899719518581, guid: 7a8249715c336a34ba88cea03158e70e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4833385957367851878, guid: 7a8249715c336a34ba88cea03158e70e,
         type: 3}
@@ -4691,7 +4691,7 @@ PrefabInstance:
     - target: {fileID: 5418800177536451853, guid: eeff7a4917ede9d48955412ab0ce0d0f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5418800177536451852, guid: eeff7a4917ede9d48955412ab0ce0d0f,
         type: 3}
@@ -4925,10 +4925,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExecuteAdmin
       objectReference: {fileID: 0}
+    - target: {fileID: 7846767982444722783, guid: 51242ae60969e944d86ca8e1357041a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7846767982444722782, guid: 51242ae60969e944d86ca8e1357041a4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.42597783
+      value: 1.931
       objectReference: {fileID: 0}
     - target: {fileID: 7846767982444722782, guid: 51242ae60969e944d86ca8e1357041a4,
         type: 3}
