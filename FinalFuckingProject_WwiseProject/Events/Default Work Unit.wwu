@@ -623,6 +623,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="robot_creak" ID="{C88B4773-0600-443F-B569-DB69A96A840D}">
+					<ChildrenList>
+						<Action Name="" ID="{A6D90509-54C2-40A3-8DBF-7F8EFCA457D0}" ShortID="438343534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
