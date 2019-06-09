@@ -285,6 +285,7 @@
 				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="65.000000"/>
 				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="65.000000"/>
 				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="65.000000"/>
+				<Event Id="321279739" Name="robot_shut_down" ObjectPath="\Events\Default Work Unit\robot_shut_down" MaxAttenuation="65.000000"/>
 				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="65.000000"/>
 				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="65.000000"/>
 				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="65.000000"/>
@@ -331,6 +332,10 @@
 					<ShortName>ROBOT\robot_step2.wav</ShortName>
 					<Path>SFX\ROBOT\robot_step2_10C4C929.wem</Path>
 				</File>
+				<File Id="953699668" Language="SFX">
+					<ShortName>shut_down.wav</ShortName>
+					<Path>SFX\shut_down_10C4C929.wem</Path>
+				</File>
 				<File Id="999953621" Language="SFX">
 					<ShortName>startup_2.wav</ShortName>
 					<Path>SFX\startup_2_10C4C929.wem</Path>
@@ -367,7 +372,7 @@
 				</File>
 				<File Id="38062357" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete1.wav</ShortName>
-					<Path>SFX\Concrete\Footstep, concrete1_FFA3936F.wem</Path>
+					<Path>SFX\Concrete\Footstep, concrete1_C958BAF8.wem</Path>
 				</File>
 				<File Id="50230645" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid2.wav</ShortName>
@@ -375,7 +380,7 @@
 				</File>
 				<File Id="69108291" Language="SFX">
 					<ShortName>Walk\Walk_Movement_6.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_6_73D10F1F.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_6_7453E467.wem</Path>
 				</File>
 				<File Id="88203994" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid4.wav</ShortName>
@@ -399,11 +404,11 @@
 				</File>
 				<File Id="153609750" Language="SFX">
 					<ShortName>Walk\Walk_Movement_8.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_8_A763D6B7.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_8_027E932B.wem</Path>
 				</File>
 				<File Id="158334735" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete6.wav</ShortName>
-					<Path>SFX\Concrete\Footstep, concrete6_326EDEFA.wem</Path>
+					<Path>SFX\Concrete\Footstep, concrete6_DE3BAB7C.wem</Path>
 				</File>
 				<File Id="162013179" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 5 [2019-05-12 205927].wav</ShortName>
@@ -411,7 +416,7 @@
 				</File>
 				<File Id="197061346" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete7.wav</ShortName>
-					<Path>SFX\Concrete\Footstep, concrete7_DAADA4DF.wem</Path>
+					<Path>SFX\Concrete\Footstep, concrete7_B45EAD2D.wem</Path>
 				</File>
 				<File Id="217145583" Language="SFX">
 					<ShortName>Movement\Movement_8.wav</ShortName>
@@ -471,7 +476,7 @@
 				</File>
 				<File Id="429869172" Language="SFX">
 					<ShortName>Walk\Walk_Movement_3.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_3_E161C166.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_3_02ECCE86.wem</Path>
 				</File>
 				<File Id="431038803" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete4.wav</ShortName>
@@ -523,7 +528,7 @@
 				</File>
 				<File Id="620120641" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete5.wav</ShortName>
-					<Path>SFX\Concrete\Footstep, concrete5_ECA5BEB8.wem</Path>
+					<Path>SFX\Concrete\Footstep, concrete5_7ED53F5D.wem</Path>
 				</File>
 				<File Id="638985313" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete2.wav</ShortName>
@@ -539,7 +544,7 @@
 				</File>
 				<File Id="665467852" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete3.wav</ShortName>
-					<Path>SFX\Concrete\Footstep, concrete3_2701E7E7.wem</Path>
+					<Path>SFX\Concrete\Footstep, concrete3_0A0CC9AD.wem</Path>
 				</File>
 				<File Id="694486988" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid6.wav</ShortName>
@@ -587,7 +592,7 @@
 				</File>
 				<File Id="838596383" Language="SFX">
 					<ShortName>Walk\Walk_Movement_1.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_1_CD894797.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_1_2E9D6900.wem</Path>
 				</File>
 				<File Id="867444372" Language="SFX">
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212026].wav</ShortName>
@@ -619,7 +624,7 @@
 				</File>
 				<File Id="981932133" Language="SFX">
 					<ShortName>Walk\Walk_Movement_5.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_5_7A410E7C.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_5_6134AA01.wem</Path>
 				</File>
 				<File Id="992048168" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 7 [2019-05-12 205933].wav</ShortName>
@@ -627,11 +632,11 @@
 				</File>
 				<File Id="1018437287" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete2.wav</ShortName>
-					<Path>SFX\Concrete\Footstep, concrete2_5FC80082.wem</Path>
+					<Path>SFX\Concrete\Footstep, concrete2_35AD6E47.wem</Path>
 				</File>
 				<File Id="1022351146" Language="SFX">
 					<ShortName>Walk\Walk_Movement_2.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_2_45FEC020.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_2_236B24FE.wem</Path>
 				</File>
 				<File Id="1036642382" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 4 [2019-05-12 205925].wav</ShortName>
