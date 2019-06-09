@@ -23,7 +23,7 @@ public class DestroyTrigger : MonoBehaviour
     {
         if (other.tag == "Player")
 
-            Object.Destroy(gameObject, 0.5f);
+            Object.Destroy(gameObject, 1.0f);
 
     }
 }

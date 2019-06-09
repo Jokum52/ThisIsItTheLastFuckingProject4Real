@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586417720881989855
+    m_lastTime: -8586415261302100274
     List:
     - name: Cave_birds
       guid: fc9a557b6bf91f4095f9019df8d0ce02
@@ -37,6 +37,17 @@ MonoBehaviour:
       - ElementName: Cave_birds
         ObjectType: 1
       Path: Default Work Unit\Master Audio Bus\Cave_birds
+    - name: cave_footsteps
+      guid: 5c2f102677b0f54a8df1157b7dbb7ea0
+      id: 479262342
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: cave_footsteps
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\cave_footsteps
     - name: Celloverb
       guid: b3e4db17795ce5409e11e865fef451e6
       id: 2224548067
@@ -97,7 +108,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 826bf6506d71e74da1a11f4695bf1525
     GuidInternal: 
-    m_lastTime: -8586415944680746113
+    m_lastTime: -8586415261288214732
     List:
     - name: Ambience
       guid: c24f2d49c572f54585a796a2fc5ce9c5
@@ -108,6 +119,24 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 7
       Path: Default Work Unit\Ambience
+    - name: Cave
+      guid: 87c853f656b47e4a86f40eb22f9e6135
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cave
+        ObjectType: 7
+      Path: Default Work Unit\Cave
+    - name: Chase
+      guid: 0e8ab7ae58aecc4982297d2b78d6763c
+      id: 417490929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chase
+        ObjectType: 7
+      Path: Default Work Unit\Chase
     - name: Cut_scenes
       guid: dc1aaf8bb7a05c4abc6fe9dd91ab8997
       id: 126860541
@@ -126,6 +155,15 @@ MonoBehaviour:
       - ElementName: Footsteps
         ObjectType: 7
       Path: Default Work Unit\Footsteps
+    - name: Hangar
+      guid: a09dbf89e127ab4ca488984324914ffb
+      id: 2192450996
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hangar
+        ObjectType: 7
+      Path: Default Work Unit\Hangar
     - name: Harbour
       guid: 9a5ada0fbdbd3a4891b22233a8823b83
       id: 1372494610
@@ -153,12 +191,21 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 7
       Path: Default Work Unit\SFX
+    - name: Tower
+      guid: ddc850a9ba360848b654f18927547f5c
+      id: 1737926756
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Tower
+        ObjectType: 7
+      Path: Default Work Unit\Tower
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 0d64ac262e426e4db877e4a1f70a1c42
     GuidInternal: 
-    m_lastTime: -8586415944700400007
+    m_lastTime: -8586415261440890937
     List:
     - name: birds
       guid: 12c3d7ca9984894784447e13cc925c51
@@ -364,6 +411,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: jump
+      guid: e109b0e22b59e044aba237508015d2a7
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: jump
+        ObjectType: 3
+      Path: Default Work Unit\jump
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Land
       guid: a9a2b7ca11cf724cb7394dfb0878d724
       id: 674522502
@@ -517,6 +576,18 @@ MonoBehaviour:
       - ElementName: robot_shoot_gun
         ObjectType: 3
       Path: Default Work Unit\robot_shoot_gun
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: robot_shut_down
+      guid: 8ac2a08605bc794aa1580fe896556c8a
+      id: 321279739
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: robot_shut_down
+        ObjectType: 3
+      Path: Default Work Unit\robot_shut_down
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -729,7 +800,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586417720923096641
+    m_lastTime: -8586415261442000582
     List:
     - name: cave_birds
       guid: 1022a4e17cf41f4b99e620106de771a0
@@ -749,6 +820,15 @@ MonoBehaviour:
       - ElementName: cisternerne
         ObjectType: 13
       Path: Default Work Unit\cisternerne
+    - name: footstep_reverb
+      guid: d448ad20d8fe8142b826bf5c0876e392
+      id: 3331794742
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: footstep_reverb
+        ObjectType: 13
+      Path: Default Work Unit\footstep_reverb
     - name: seagull_reverb
       guid: a1384839de318744b55047b71aa172a5
       id: 3396433405
@@ -865,7 +945,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3e8e9c9b95f7f24785bdd5d0dae4bbce
     GuidInternal: 
-    m_lastTime: -8586417720270576250
+    m_lastTime: -8586415261288064770
     List:
     - name: Material
       guid: 8b387f24eb29e449a0092f122dd6579b
@@ -900,6 +980,12 @@ MonoBehaviour:
         id: 2539991428
         PathAndIcons:
         - ElementName: Metal_thick
+          ObjectType: 10
+      - name: Metal_thick_reverb
+        guid: 8dc8baad7d34dd4fa79ae0817d8c5e61
+        id: 1392263035
+        PathAndIcons:
+        - ElementName: Metal_thick_reverb
           ObjectType: 10
       - name: Mud
         guid: df27c946b2eb5544b4369719213b3457
@@ -937,12 +1023,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /FinalFuckingProject_WwiseProject
-  - /FinalFuckingProject_WwiseProject/Auxiliary Busses
-  - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio
-    Bus
   - /FinalFuckingProject_WwiseProject/Events
+  - /FinalFuckingProject_WwiseProject/Events/Default Work Unit
   - /FinalFuckingProject_WwiseProject/SoundBanks
-  - /FinalFuckingProject_WwiseProject/SoundBanks/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/Switches
+  - /FinalFuckingProject_WwiseProject/Switches/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/Switches/Default Work Unit/Material
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
