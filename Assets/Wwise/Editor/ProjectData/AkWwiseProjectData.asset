@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586415261302100274
+    m_lastTime: -8586415083592622104
     List:
     - name: Cave_birds
       guid: fc9a557b6bf91f4095f9019df8d0ce02
@@ -588,7 +588,7 @@ MonoBehaviour:
       - ElementName: robot_shut_down
         ObjectType: 3
       Path: Default Work Unit\robot_shut_down
-      maxAttenuation: 0
+      maxAttenuation: 65
       maxDuration: 0
       minDuration: 0
     - name: robot_start_up
@@ -744,7 +744,7 @@ MonoBehaviour:
       - ElementName: water_dripping
         ObjectType: 3
       Path: Default Work Unit\water_dripping
-      maxAttenuation: 0
+      maxAttenuation: 70
       maxDuration: 0
       minDuration: 0
     - name: waves
@@ -800,7 +800,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586415261442000582
+    m_lastTime: -8586415112396862911
     List:
     - name: cave_birds
       guid: 1022a4e17cf41f4b99e620106de771a0
@@ -811,6 +811,15 @@ MonoBehaviour:
       - ElementName: cave_birds
         ObjectType: 13
       Path: Default Work Unit\cave_birds
+    - name: cave_reverb_out
+      guid: 8ddc0a245fc4004fa7613212f63b5c21
+      id: 2431388028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: cave_reverb_out
+        ObjectType: 13
+      Path: Default Work Unit\cave_reverb_out
     - name: cisternerne
       guid: 504a0fae225749499c6459564fe7e1b2
       id: 1559958719
@@ -820,15 +829,15 @@ MonoBehaviour:
       - ElementName: cisternerne
         ObjectType: 13
       Path: Default Work Unit\cisternerne
-    - name: footstep_reverb
+    - name: footstep_cave_reverb
       guid: d448ad20d8fe8142b826bf5c0876e392
-      id: 3331794742
+      id: 3962384776
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: footstep_reverb
+      - ElementName: footstep_cave_reverb
         ObjectType: 13
-      Path: Default Work Unit\footstep_reverb
+      Path: Default Work Unit\footstep_cave_reverb
     - name: seagull_reverb
       guid: a1384839de318744b55047b71aa172a5
       id: 3396433405
@@ -1023,5 +1032,10 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /FinalFuckingProject_WwiseProject
+  - /FinalFuckingProject_WwiseProject/Events
+  - /FinalFuckingProject_WwiseProject/Events/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/States
+  - /FinalFuckingProject_WwiseProject/States/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/States/Default Work Unit/Music_switch
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
