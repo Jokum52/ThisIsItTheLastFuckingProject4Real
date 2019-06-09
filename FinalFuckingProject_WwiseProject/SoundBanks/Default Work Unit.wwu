@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Footsteps" ID="{9EE79F07-455E-48C3-9F0D-9DBF0DDF234E}">
 					<ObjectInclusionList>
+						<ObjectRef Name="footstep_climb" ID="{9A1505D9-A557-4000-A769-0BBD9B8216A8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="jump" ID="{E2B009E1-592B-44E0-ABA2-37508015D2A7}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pull_up" ID="{BBE6FEFB-7BFD-4A86-90A6-729471BA6A47}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
@@ -83,6 +84,7 @@
 						<ObjectRef Name="robot_turn" ID="{F03F97E1-8E1E-46B0-A6F0-ADD5345BB060}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_start_up" ID="{7465A777-0355-4789-B325-04555691658B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_load_gun" ID="{BA43BB10-9207-4A53-A37E-35259186DB15}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_shut_down" ID="{86A0C28A-BC05-4A79-A158-0FE896556C8A}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_steam" ID="{9E964277-A4EE-4B96-A3B7-8AD400E68447}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

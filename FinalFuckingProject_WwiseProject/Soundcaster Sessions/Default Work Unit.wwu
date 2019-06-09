@@ -107,7 +107,7 @@
 							<Position X="5" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Walk" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<ObjectRef Name="Walk clothes" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
@@ -264,8 +264,8 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="footstep_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}"/>
-							<Value>64.3111111111111</Value>
+							<GameParameterRef Name="footstep_cave_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}"/>
+							<Value>29.0119307832422</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="seagull_reverb" ID="{394838A1-31DE-4487-B550-47B71AA172A5}"/>
@@ -283,12 +283,16 @@
 							<GameParameterRef Name="cave_birds" ID="{E1A42210-F47C-4B1F-99E6-20106DE771A0}"/>
 							<Value>50</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="cave_reverb_out" ID="{240ADC8D-C45F-4F00-A761-3212F63B5C21}"/>
+							<Value>1.46225095404761E-311</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Cave" ID="{50F6DA8E-A6BE-467A-BF23-EA7591B26726}"/>
+						<CurrentStateRef Name="None" ID="{B1AB151C-DFB8-410F-8288-D6D9E4158354}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Metal_thick_reverb" ID="{ADBAC88D-347D-4FDD-A79A-E0817D8C5E61}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{0EC70FF3-5201-450F-810C-A89D742D9A54}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

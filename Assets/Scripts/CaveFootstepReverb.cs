@@ -6,7 +6,7 @@ public class CaveFootstepReverb : MonoBehaviour
 {
     public GameObject player;
     public GameObject point_reverb;
-    public float distance_reverb;
+    public float distance_in_reverb;
 
 
     // Start is called before the first frame update
@@ -19,10 +19,10 @@ public class CaveFootstepReverb : MonoBehaviour
     void Update()
 
     {
-        distance_reverb = Vector3.Distance(player.transform.position, point_reverb.transform.position);
+        distance_in_reverb = Vector3.Distance(player.transform.position, point_reverb.transform.position);
 
-        AkSoundEngine.SetRTPCValue("footstep_reverb", distance_reverb);
-        Debug.Log("distance is " + distance_reverb);
+        AkSoundEngine.SetRTPCValue("footstep_cave_reverb", distance_in_reverb);
+        Debug.Log("distance in is " + distance_in_reverb);
     }
 
 
