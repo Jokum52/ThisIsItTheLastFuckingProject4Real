@@ -18,14 +18,17 @@ public class StarLevel1Animation : MonoBehaviour
     void Start()
     {
         // anim = GetComponentInChildren<Animator>();
+        otherAnimator = otherObject.GetComponent<Animator>();
+        otherAnimator2 = otherObject2.GetComponent<Animator>();
 
+       // otherAnimator2.SetBool("Scene1StopGrounded", true);
+      //  otherAnimator2["Grounded"].enabled = false;
         // GetComponent<Animator>().enabled = false;
     }
 
     void Awake()
     {
-        otherAnimator = otherObject.GetComponent<Animator>();
-        otherAnimator2 = otherObject2.GetComponent<Animator>();
+        otherAnimator2.SetBool("Scene1StopGrounded", true);
 
     }
 
@@ -34,8 +37,10 @@ public class StarLevel1Animation : MonoBehaviour
     private void StartGame1()
     {
         
-            otherAnimator2.SetTrigger("EntryJump");
-            otherAnimator.SetBool("Deactivate", true);
+
+        otherAnimator2.SetTrigger("EntryJump");
+        
+        otherAnimator.SetBool("Deactivate", true);
 
 
         
