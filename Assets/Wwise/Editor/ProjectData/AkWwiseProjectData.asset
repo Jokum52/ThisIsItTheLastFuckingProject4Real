@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 826bf6506d71e74da1a11f4695bf1525
     GuidInternal: 
-    m_lastTime: -8586415140313270111
+    m_lastTime: -8586414975086362861
     List:
     - name: Ambience
       guid: c24f2d49c572f54585a796a2fc5ce9c5
@@ -205,8 +205,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 0d64ac262e426e4db877e4a1f70a1c42
     GuidInternal: 
-    m_lastTime: -8586415261440890937
+    m_lastTime: -8586414975086632778
     List:
+    - name: alarm
+      guid: 1c91e23637e93842bf39d2469b1cda19
+      id: 855317084
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: alarm
+        ObjectType: 3
+      Path: Default Work Unit\alarm
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: birds
       guid: 12c3d7ca9984894784447e13cc925c51
       id: 352130103
@@ -399,6 +411,42 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
+    - name: footstep_climb
+      guid: d905159a57a50040a7690bbd9b8216a8
+      id: 2000723837
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: footstep_climb
+        ObjectType: 3
+      Path: Default Work Unit\footstep_climb
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: hangar_ambience
+      guid: e40027da3e254246945e7ee6497c5056
+      id: 1833174107
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: hangar_ambience
+        ObjectType: 3
+      Path: Default Work Unit\hangar_ambience
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: hangar_light
+      guid: 8c59fdac3cfc3b4da06ee302b453bd06
+      id: 1106973425
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: hangar_light
+        ObjectType: 3
+      Path: Default Work Unit\hangar_light
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Intro
       guid: b3f58641ab3f9343aca182966752d77c
       id: 1125500713
@@ -504,7 +552,7 @@ MonoBehaviour:
       - ElementName: Pull_up
         ObjectType: 3
       Path: Default Work Unit\Pull_up
-      maxAttenuation: 0
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: rain
@@ -540,7 +588,7 @@ MonoBehaviour:
       - ElementName: robot_creak
         ObjectType: 3
       Path: Default Work Unit\robot_creak
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_gun_cool_off
@@ -552,7 +600,7 @@ MonoBehaviour:
       - ElementName: robot_gun_cool_off
         ObjectType: 3
       Path: Default Work Unit\robot_gun_cool_off
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_load_gun
@@ -564,7 +612,7 @@ MonoBehaviour:
       - ElementName: robot_load_gun
         ObjectType: 3
       Path: Default Work Unit\robot_load_gun
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_shoot_gun
@@ -576,7 +624,7 @@ MonoBehaviour:
       - ElementName: robot_shoot_gun
         ObjectType: 3
       Path: Default Work Unit\robot_shoot_gun
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_shut_down
@@ -588,7 +636,7 @@ MonoBehaviour:
       - ElementName: robot_shut_down
         ObjectType: 3
       Path: Default Work Unit\robot_shut_down
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_start_up
@@ -600,7 +648,7 @@ MonoBehaviour:
       - ElementName: robot_start_up
         ObjectType: 3
       Path: Default Work Unit\robot_start_up
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_steam
@@ -612,7 +660,7 @@ MonoBehaviour:
       - ElementName: robot_steam
         ObjectType: 3
       Path: Default Work Unit\robot_steam
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_turn
@@ -624,7 +672,7 @@ MonoBehaviour:
       - ElementName: robot_turn
         ObjectType: 3
       Path: Default Work Unit\robot_turn
-      maxAttenuation: 65
+      maxAttenuation: 35
       maxDuration: 0
       minDuration: 0
     - name: robot_walk
@@ -636,7 +684,19 @@ MonoBehaviour:
       - ElementName: robot_walk
         ObjectType: 3
       Path: Default Work Unit\robot_walk
-      maxAttenuation: 65
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: robot_walk_mud
+      guid: a09a9193154e614b9cbbe909d44e24ef
+      id: 1921484442
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: robot_walk_mud
+        ObjectType: 3
+      Path: Default Work Unit\robot_walk_mud
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: seagulls
@@ -649,6 +709,18 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\seagulls
       maxAttenuation: 50
+      maxDuration: 0
+      minDuration: 0
+    - name: shutters
+      guid: 057b24373b1ed341a7752360854a35c5
+      id: 924529059
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: shutters
+        ObjectType: 3
+      Path: Default Work Unit\shutters
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: stone_glow
@@ -732,7 +804,7 @@ MonoBehaviour:
       - ElementName: walk_clothes
         ObjectType: 3
       Path: Default Work Unit\walk_clothes
-      maxAttenuation: 0
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: water_dripping
@@ -800,7 +872,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586415112396862911
+    m_lastTime: -8586414931135455992
     List:
     - name: cave_birds
       guid: 1022a4e17cf41f4b99e620106de771a0
@@ -811,6 +883,15 @@ MonoBehaviour:
       - ElementName: cave_birds
         ObjectType: 13
       Path: Default Work Unit\cave_birds
+    - name: cave_reverb_on_off
+      guid: 69c0ceda95eb7742805a46c89b20b266
+      id: 3490083541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: cave_reverb_on_off
+        ObjectType: 13
+      Path: Default Work Unit\cave_reverb_on_off
     - name: cave_reverb_out
       guid: 8ddc0a245fc4004fa7613212f63b5c21
       id: 2431388028
@@ -838,6 +919,24 @@ MonoBehaviour:
       - ElementName: footstep_cave_reverb
         ObjectType: 13
       Path: Default Work Unit\footstep_cave_reverb
+    - name: gravel
+      guid: 1c840807edd802499b51c68e1fee6ca6
+      id: 2185786256
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gravel
+        ObjectType: 13
+      Path: Default Work Unit\gravel
+    - name: mud
+      guid: f8094eb51a290e4f9c4753584721e332
+      id: 712897245
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mud
+        ObjectType: 13
+      Path: Default Work Unit\mud
     - name: seagull_reverb
       guid: a1384839de318744b55047b71aa172a5
       id: 3396433405
@@ -1034,8 +1133,6 @@ MonoBehaviour:
   - /FinalFuckingProject_WwiseProject
   - /FinalFuckingProject_WwiseProject/Events
   - /FinalFuckingProject_WwiseProject/Events/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/States
-  - /FinalFuckingProject_WwiseProject/States/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/States/Default Work Unit/Music_switch
+  - /FinalFuckingProject_WwiseProject/Switches
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
