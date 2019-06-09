@@ -280,7 +280,7 @@
 						<Action Name="" ID="{A18B696D-A7A8-413B-A2BF-1DBB90C15CEF}" ShortID="105991870">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Walk" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="Walk clothes" ID="{55EA1574-09F0-4627-A461-BE4FD8DA0C70}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -793,6 +793,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{97E2D586-2170-459E-A1B7-81A78BB018C7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="footstep_climb" ID="{9A1505D9-A557-4000-A769-0BBD9B8216A8}">
+					<ChildrenList>
+						<Action Name="" ID="{EEC98222-CF69-4570-925E-D0CDCAFE4BD9}" ShortID="751328631">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_climb" ID="{C770C866-4F77-48B8-A13B-18EC4224E686}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

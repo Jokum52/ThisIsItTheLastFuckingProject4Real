@@ -17,6 +17,30 @@ public class PlayerSounds : MonoBehaviour
             
     }
 
+    private void WalkClothes()
+    {
+
+        AkSoundEngine.PostEvent("walk_clothes", gameObject);
+    }
+
+    private void ClimbFootstep()
+    {
+
+        AkSoundEngine.PostEvent("footstep_climb", gameObject);
+    }
+
+    private void PullUp()
+    {
+
+        AkSoundEngine.PostEvent("Pull_up", gameObject);
+    }
+
+    private void Jump()
+
+    {
+
+        AkSoundEngine.PostEvent("jump", gameObject);
+    }
 
     private void Shoot()
     {

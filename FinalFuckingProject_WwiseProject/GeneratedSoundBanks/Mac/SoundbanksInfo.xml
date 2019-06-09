@@ -352,10 +352,11 @@
 			<Path>Footsteps.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" MaxAttenuation="20.000000"/>
+				<Event Id="2000723837" Name="footstep_climb" ObjectPath="\Events\Default Work Unit\footstep_climb" MaxAttenuation="20.000000"/>
 				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
-				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up"/>
-				<Event Id="2948715151" Name="walk_clothes" ObjectPath="\Events\Default Work Unit\walk_clothes"/>
+				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up" MaxAttenuation="20.000000"/>
+				<Event Id="2948715151" Name="walk_clothes" ObjectPath="\Events\Default Work Unit\walk_clothes" MaxAttenuation="20.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="1784122" Language="SFX">
@@ -424,7 +425,7 @@
 				</File>
 				<File Id="220921919" Language="SFX">
 					<ShortName>Walk\Walk_Movement_7.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_7_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_7_F38AC447.wem</Path>
 				</File>
 				<File Id="227126226" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete6.wav</ShortName>
@@ -444,7 +445,7 @@
 				</File>
 				<File Id="326190607" Language="SFX">
 					<ShortName>Walk\Walk_Movement_5.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_5_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_5_3A713B59.wem</Path>
 				</File>
 				<File Id="339511653" Language="SFX">
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212031].wav</ShortName>
@@ -468,7 +469,7 @@
 				</File>
 				<File Id="424556451" Language="SFX">
 					<ShortName>Walk\Walk_Movement_1.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_1_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_1_746D6A28.wem</Path>
 				</File>
 				<File Id="426851335" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete1.wav</ShortName>
@@ -496,7 +497,7 @@
 				</File>
 				<File Id="480058962" Language="SFX">
 					<ShortName>Walk\Walk_Movement_6.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_6_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_6_990F0CE5.wem</Path>
 				</File>
 				<File Id="504789308" Language="SFX">
 					<ShortName>Footstep, metal8.wav</ShortName>
@@ -512,7 +513,7 @@
 				</File>
 				<File Id="554775436" Language="SFX">
 					<ShortName>Walk\Walk_Movement_2.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_2_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_2_90E5FEB8.wem</Path>
 				</File>
 				<File Id="559756865" Language="SFX">
 					<ShortName>Movement\Movement_3.wav</ShortName>
@@ -536,7 +537,7 @@
 				</File>
 				<File Id="642784873" Language="SFX">
 					<ShortName>Walk\Walk_Movement_8.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_8_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_8_E8BEE396.wem</Path>
 				</File>
 				<File Id="658644423" Language="SFX">
 					<ShortName>Movement\Movement_2.wav</ShortName>
@@ -576,7 +577,7 @@
 				</File>
 				<File Id="757793963" Language="SFX">
 					<ShortName>Walk\Walk_Movement_3.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_3_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_3_6B5805CC.wem</Path>
 				</File>
 				<File Id="772298276" Language="SFX">
 					<ShortName>Footstep, metal5.wav</ShortName>
@@ -612,7 +613,7 @@
 				</File>
 				<File Id="920666157" Language="SFX">
 					<ShortName>Walk\Walk_Movement_4.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_4_10C4C929.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_4_BFA0C147.wem</Path>
 				</File>
 				<File Id="931497519" Language="SFX">
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212028].wav</ShortName>
@@ -738,7 +739,7 @@
 				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
 				<Event Id="4115393080" Name="pebbles_1" ObjectPath="\Events\Default Work Unit\pebbles_1"/>
 				<Event Id="3767073320" Name="stone_glow" ObjectPath="\Events\Default Work Unit\stone_glow" MaxAttenuation="65.000000"/>
-				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping"/>
+				<Event Id="2201009132" Name="water_dripping" ObjectPath="\Events\Default Work Unit\water_dripping" MaxAttenuation="70.000000"/>
 				<Event Id="4002189376" Name="wind_cave_opening" ObjectPath="\Events\Default Work Unit\wind_cave_opening" MaxAttenuation="142.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
