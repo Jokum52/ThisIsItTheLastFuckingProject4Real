@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Users\caol1467\SIDSTECHANCESpeciale\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\caol1467\SIDSTECHANCESpeciale\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\caol1467\SIDSTECHANCESpeciale\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Users\caol1467\NuGiderJegIkkeMere\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Users\caol1467\SIDSTECHANCESpeciale\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -105,11 +105,11 @@
 				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="10.000000"/>
 				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="62.000000"/>
 				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
-				<Event Id="3192784746" Name="lights" ObjectPath="\Events\Default Work Unit\lights" MaxAttenuation="7.000000"/>
-				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="35.000000"/>
-				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="35.000000"/>
-				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="35.000000"/>
-				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="35.000000"/>
+				<Event Id="3192784746" Name="lights" ObjectPath="\Events\Default Work Unit\lights" MaxAttenuation="25.000000"/>
+				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="45.000000"/>
+				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="45.000000"/>
+				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="45.000000"/>
+				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="45.000000"/>
 				<Event Id="1921484442" Name="robot_walk_mud" ObjectPath="\Events\Default Work Unit\robot_walk_mud" MaxAttenuation="45.000000"/>
 				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="50.000000"/>
 				<Event Id="2453122309" Name="waves" ObjectPath="\Events\Default Work Unit\waves" MaxAttenuation="30.000000"/>
@@ -303,17 +303,18 @@
 			<ShortName>Hangar</ShortName>
 			<Path>Hangar.bnk</Path>
 			<IncludedEvents>
+				<Event Id="855317084" Name="alarm" ObjectPath="\Events\Default Work Unit\alarm"/>
 				<Event Id="1833174107" Name="hangar_ambience" ObjectPath="\Events\Default Work Unit\hangar_ambience"/>
 				<Event Id="1106973425" Name="hangar_light" ObjectPath="\Events\Default Work Unit\hangar_light"/>
-				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="35.000000"/>
-				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="35.000000"/>
-				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="35.000000"/>
-				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="35.000000"/>
-				<Event Id="321279739" Name="robot_shut_down" ObjectPath="\Events\Default Work Unit\robot_shut_down" MaxAttenuation="35.000000"/>
-				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="35.000000"/>
-				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="35.000000"/>
-				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="35.000000"/>
-				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="35.000000"/>
+				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="45.000000"/>
+				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="45.000000"/>
+				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="45.000000"/>
+				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="45.000000"/>
+				<Event Id="321279739" Name="robot_shut_down" ObjectPath="\Events\Default Work Unit\robot_shut_down" MaxAttenuation="45.000000"/>
+				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="45.000000"/>
+				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="45.000000"/>
+				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="45.000000"/>
+				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="45.000000"/>
 				<Event Id="924529059" Name="shutters" ObjectPath="\Events\Default Work Unit\shutters"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -328,6 +329,10 @@
 				<File Id="161669851" Language="SFX">
 					<ShortName>robo_creak\creak_1.wav</ShortName>
 					<Path>SFX\robo_creak\creak_1_10C4C929.wem</Path>
+				</File>
+				<File Id="177677800" Language="SFX">
+					<ShortName>alarm.wav</ShortName>
+					<Path>SFX\alarm_10C4C929.wem</Path>
 				</File>
 				<File Id="199703658" Language="SFX">
 					<ShortName>robot_step_no_mud_1.wav</ShortName>
@@ -355,7 +360,7 @@
 				</File>
 				<File Id="480200345" Language="SFX">
 					<ShortName>Hangar ambience.wav</ShortName>
-					<Path>SFX\Hangar ambience_10C4C929.wem</Path>
+					<Path>SFX\Hangar ambience_D79FB2B7.wem</Path>
 				</File>
 				<File Id="604166369" Language="SFX">
 					<ShortName>hangar_light.wav</ShortName>
@@ -406,6 +411,8 @@
 			<IncludedEvents>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" MaxAttenuation="20.000000"/>
 				<Event Id="2000723837" Name="footstep_climb" ObjectPath="\Events\Default Work Unit\footstep_climb" MaxAttenuation="20.000000"/>
+				<Event Id="775794941" Name="gun_holster" ObjectPath="\Events\Default Work Unit\gun_holster"/>
+				<Event Id="3666238164" Name="gun_shot" ObjectPath="\Events\Default Work Unit\gun_shot"/>
 				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up" MaxAttenuation="20.000000"/>
@@ -467,6 +474,10 @@
 				<File Id="162013179" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 5 [2019-05-12 205927].wav</ShortName>
 					<Path>SFX\Metal thick\Metal thick footsteps 5 [2019-05-12 205927]_10C4C929.wem</Path>
+				</File>
+				<File Id="196692993" Language="SFX">
+					<ShortName>GunTest1.wav</ShortName>
+					<Path>SFX\GunTest1_10C4C929.wem</Path>
 				</File>
 				<File Id="197061346" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete7.wav</ShortName>
@@ -563,6 +574,10 @@
 				<File Id="480058962" Language="SFX">
 					<ShortName>Walk\Walk_Movement_6.wav</ShortName>
 					<Path>SFX\Walk\Walk_Movement_6_AF9DD030.wem</Path>
+				</File>
+				<File Id="495009779" Language="SFX">
+					<ShortName>Holster.wav</ShortName>
+					<Path>SFX\Holster_10C4C929.wem</Path>
 				</File>
 				<File Id="504789308" Language="SFX">
 					<ShortName>Footstep, metal8.wav</ShortName>

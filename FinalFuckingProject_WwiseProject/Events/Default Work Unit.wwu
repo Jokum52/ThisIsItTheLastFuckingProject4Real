@@ -820,7 +820,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="alarm" ID="{36E2911C-E937-4238-BF39-D2469B1CDA19}"/>
+				<Event Name="alarm" ID="{36E2911C-E937-4238-BF39-D2469B1CDA19}">
+					<ChildrenList>
+						<Action Name="" ID="{3E690BED-466C-46DA-ABAC-03F6053BB98F}" ShortID="497855788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{D00854A2-59D2-4A5F-8B3B-8D515AB71AB5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="shutters" ID="{37247B05-1E3B-41D3-A775-2360854A35C5}">
 					<ChildrenList>
 						<Action Name="" ID="{42048577-03A5-44B1-BCC6-DE0194B67F02}" ShortID="473179754">
@@ -849,6 +859,29 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="hangar_light" ID="{4F185E1B-EEA1-4D2B-89D0-120D8AFCAF19}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_shot" ID="{CD281696-C9E8-44EA-BF06-904DA1C7149A}">
+					<ChildrenList>
+						<Action Name="" ID="{2BFFF538-9E25-4C10-AB55-01CE5A1E4940}" ShortID="32223012">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GunTest1" ID="{B947322D-0EF6-49F2-9CED-0503E8B063C6}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gun_unholster" ID="{425E87D4-83FD-4F3A-ADF1-F4A76AD2E27E}"/>
+				<Event Name="gun_holster" ID="{D57DC386-1008-4477-A6BB-C23C43CC9B64}">
+					<ChildrenList>
+						<Action Name="" ID="{D0DE482E-0FC5-47A8-8F1C-8700845C1039}" ShortID="741842169">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Holster" ID="{898F22ED-25A3-41C8-8CA0-6956EF2779E4}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

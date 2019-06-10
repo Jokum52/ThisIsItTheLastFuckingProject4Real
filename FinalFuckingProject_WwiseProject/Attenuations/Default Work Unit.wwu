@@ -1227,7 +1227,7 @@
 				</Attenuation>
 				<Attenuation Name="Robot" ID="{316F5189-BE14-49AB-8438-2A0F372C01F6}" ShortID="603012955">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="35"/>
+						<Property Name="RadiusMax" Type="Real64" Value="45"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -1243,17 +1243,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>17.7936811111111</XPos>
+											<XPos>22.87759</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>28.9536022222222</XPos>
+											<XPos>37.22606</XPos>
 											<YPos>-12.53767</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
+											<XPos>45</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1280,18 +1280,18 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>11.4363277777778</XPos>
+											<XPos>14.70385</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>23.2872577777778</XPos>
-											<YPos>31</YPos>
+											<XPos>30.11845</XPos>
+											<YPos>13</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>35</XPos>
-											<YPos>50</YPos>
+											<XPos>45</XPos>
+											<YPos>49</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -1311,7 +1311,7 @@
 				</Attenuation>
 				<Attenuation Name="island lights" ID="{A25BE749-56F3-44C0-9B84-B4E1AA1ACB02}" ShortID="94908122">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="7"/>
+						<Property Name="RadiusMax" Type="Real64" Value="25"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -1327,12 +1327,18 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>4.871671</XPos>
-											<YPos>-2.53908</YPos>
+											<XPos>2.51677</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>7.79961</XPos>
+											<YPos>-200</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>7</XPos>
+											<XPos>25</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1359,18 +1365,23 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>3.46199</XPos>
+											<XPos>3.52912</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>4.82330333333333</XPos>
-											<YPos>51</YPos>
+											<XPos>8.02075</XPos>
+											<YPos>77</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>7</XPos>
-											<YPos>93</YPos>
+											<XPos>10.21718</XPos>
+											<YPos>78</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>25</XPos>
+											<YPos>98</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
