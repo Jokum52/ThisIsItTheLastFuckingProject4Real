@@ -105,6 +105,7 @@
 				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="10.000000"/>
 				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="62.000000"/>
 				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
+				<Event Id="3192784746" Name="lights" ObjectPath="\Events\Default Work Unit\lights" MaxAttenuation="7.000000"/>
 				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="35.000000"/>
 				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="35.000000"/>
 				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="35.000000"/>
@@ -169,6 +170,10 @@
 				<File Id="799950012" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_D79FB2B7.wem</Path>
+				</File>
+				<File Id="840428941" Language="SFX">
+					<ShortName>lights.wav</ShortName>
+					<Path>SFX\lights_D79FB2B7.wem</Path>
 				</File>
 				<File Id="851624831" Language="SFX">
 					<ShortName>Factory5.wav</ShortName>
@@ -473,7 +478,7 @@
 				</File>
 				<File Id="220921919" Language="SFX">
 					<ShortName>Walk\Walk_Movement_7.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_7_F38AC447.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_7_E7FECEB7.wem</Path>
 				</File>
 				<File Id="227126226" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete6.wav</ShortName>
@@ -497,7 +502,7 @@
 				</File>
 				<File Id="326190607" Language="SFX">
 					<ShortName>Walk\Walk_Movement_5.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_5_3A713B59.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_5_1116E841.wem</Path>
 				</File>
 				<File Id="339511653" Language="SFX">
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212031].wav</ShortName>
@@ -529,7 +534,7 @@
 				</File>
 				<File Id="424556451" Language="SFX">
 					<ShortName>Walk\Walk_Movement_1.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_1_746D6A28.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_1_E23C40DA.wem</Path>
 				</File>
 				<File Id="426851335" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete1.wav</ShortName>
@@ -557,7 +562,7 @@
 				</File>
 				<File Id="480058962" Language="SFX">
 					<ShortName>Walk\Walk_Movement_6.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_6_990F0CE5.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_6_AF9DD030.wem</Path>
 				</File>
 				<File Id="504789308" Language="SFX">
 					<ShortName>Footstep, metal8.wav</ShortName>
@@ -577,7 +582,7 @@
 				</File>
 				<File Id="554775436" Language="SFX">
 					<ShortName>Walk\Walk_Movement_2.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_2_90E5FEB8.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_2_C2CB6ABD.wem</Path>
 				</File>
 				<File Id="559756865" Language="SFX">
 					<ShortName>Movement\Movement_3.wav</ShortName>
@@ -601,7 +606,7 @@
 				</File>
 				<File Id="642784873" Language="SFX">
 					<ShortName>Walk\Walk_Movement_8.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_8_E8BEE396.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_8_DB860031.wem</Path>
 				</File>
 				<File Id="658644423" Language="SFX">
 					<ShortName>Movement\Movement_2.wav</ShortName>
@@ -649,7 +654,7 @@
 				</File>
 				<File Id="757793963" Language="SFX">
 					<ShortName>Walk\Walk_Movement_3.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_3_6B5805CC.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_3_28249854.wem</Path>
 				</File>
 				<File Id="772298276" Language="SFX">
 					<ShortName>Footstep, metal5.wav</ShortName>
@@ -693,7 +698,7 @@
 				</File>
 				<File Id="920666157" Language="SFX">
 					<ShortName>Walk\Walk_Movement_4.wav</ShortName>
-					<Path>SFX\Walk\Walk_Movement_4_BFA0C147.wem</Path>
+					<Path>SFX\Walk\Walk_Movement_4_547BA1AC.wem</Path>
 				</File>
 				<File Id="931497519" Language="SFX">
 					<ShortName>Wood\Wood footsteps rec 1 [2019-05-12 212028].wav</ShortName>

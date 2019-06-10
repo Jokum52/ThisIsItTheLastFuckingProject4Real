@@ -7,38 +7,82 @@ public class SceneChangeOnetoOne : MonoBehaviour
 {
     // Start is called before the first frame update
     GameObject playerObject;
-   // public float timer = 10f;
-   // bool isTriggered = false;
+  
 
     // Start is called before the first frame update
     void Start()
     {
-        playerObject = GameObject.FindWithTag("Player");
+       // playerObject = GameObject.FindWithTag("Player");
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        /*
-        if (isTriggered == true)
-        {
-            timer -= Time.deltaTime;
-        }
-       
-        if (timer <= 5f)
+
+
+        if (Input.GetButtonDown("1"))
         {
 
-            //  ><
-            SceneManager.LoadScene("3");
+            SceneManager.LoadScene("Act_1.1");
+
         }
-        if (timer == 0f)
+
+
+        if (Input.GetButtonDown("2"))
         {
-            isTriggered = false;
+
+            SceneManager.LoadScene("Act_1.1_KillingTheRat");
+
         }
-        */
+
+        if (Input.GetButtonDown("3"))
+        {
+
+            SceneManager.LoadScene("Act_1.2");
+
+        }
+
+
+        if (Input.GetButtonDown("4"))
+        {
+
+            SceneManager.LoadScene("Act2_2.0");
+
+        }
+
+
+        if (Input.GetButtonDown("5"))
+        {
+
+            SceneManager.LoadScene("Act2_2.0_Killing_The_Admin");
+
+        }
+
+     
+        if (Input.GetButtonDown("6"))
+        {
+
+            SceneManager.LoadScene("Act3_Scene_0.1");
+
+        }
+
+        if (Input.GetButtonDown("7"))
+        {
+
+            SceneManager.LoadScene("Act3_0.2");
+
+        }
+
+        if (Input.GetButtonDown("8"))
+        {
+
+            SceneManager.LoadScene("Act4GrayboxingStuff");
+
+        }
+
     }
-    void OnTriggerEnter(Collider playerObject)
+   /* void OnTriggerEnter(Collider playerObject)
     {
 
         if (playerObject.gameObject.tag == "Player") ;
@@ -46,40 +90,11 @@ public class SceneChangeOnetoOne : MonoBehaviour
 
             SceneManager.LoadScene("Act_1.2");
 
-            /*   if (!isTriggered)
-               {
-                   isTriggered = true;
-                   print("new scene Triggered!");
-                   //LoadSceneMode.Additive
-               }*/
-
+         
         }
 
 
     }
+    */
 }
 
-/*
- public AudioClip alertLoop;
-float timer = 3f;
-bool isTriggered = false;
-
-public void OnTriggerEnter(Collider col)
-{
-    if(!isTriggered)
-    {
-        isTriggered = true;
-        AudioManager.instance.PlayOneShot(alertLoop);
-        print("Alarm Triggered!");
-    }
-
-}
-public void OnTriggerExit(Collider col)
-{
-    timer -= Time.deltaTime;
-    if(timer == 0)
-    {
-        isTriggered = false;
-    }
-}
- */

@@ -26,7 +26,44 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Environment" ID="{0875A2DF-9794-4D0F-8B39-A11B597917DB}"/>
-						<Bus Name="Music" ID="{A19ECFA7-A083-4216-8622-1A33A1D081F6}"/>
+						<Bus Name="Music" ID="{A19ECFA7-A083-4216-8622-1A33A1D081F6}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2A5BDECF-CA22-47BD-AF79-6CC85BF877A7}" ShortID="588292868">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="lights_sidechain" ID="{C98EDAC9-EE37-4880-9641-B2B39481F12D}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{ED68C716-F759-46E9-8746-1A97D643C57D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-23.13885</XPos>
+														<YPos>0.09598</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-14.57185</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<Bus Name="SFX" ID="{2DD949A4-FFA1-4816-9C93-BF7E99F93692}">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
@@ -35,6 +72,15 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="lights" ID="{05488150-8FE0-45A5-9549-69534C57B9E5}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="lights" ID="{EB03C28E-EF80-4E84-BA5F-38007DA24537}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Environment" ID="{0875A2DF-9794-4D0F-8B39-A11B597917DB}"/>
@@ -48,7 +94,7 @@
 								<DuckItem>
 									<BusRef Name="Music" ID="{A19ECFA7-A083-4216-8622-1A33A1D081F6}"/>
 									<DuckingParam>
-										<Volume>-7</Volume>
+										<Volume>0</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
