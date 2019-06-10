@@ -175,15 +175,55 @@
 							<ObjectRef Name="Chain" ID="{1E88FCE5-FF17-43DF-B38F-E5AB5EBA8FF1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="3" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="lights" ID="{29231991-1191-4A18-97F9-3B3A63AD7D32}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="4" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="cave_reverb_on_off" ID="{DACEC069-EB95-4277-805A-46C89B20B266}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="footstep_cave_reverb" ID="{20AD48D4-FED8-4281-B826-BF5C0876E392}"/>
+							<Value>29.0119307832422</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="seagull_reverb" ID="{394838A1-31DE-4487-B550-47B71AA172A5}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="wind_cave_opening" ID="{8F8B4125-4095-479B-85E8-3EA1C705E5B1}"/>
+							<Value>82.3824451410658</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="lights_sidechain" ID="{C98EDAC9-EE37-4880-9641-B2B39481F12D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="gravel" ID="{0708841C-D8ED-4902-9B51-C68E1FEE6CA6}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="cisternerne" ID="{AE0F4A50-5722-4949-9C64-59564FE7E1B2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="cave_birds" ID="{E1A42210-F47C-4B1F-99E6-20106DE771A0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="cave_reverb_out" ID="{240ADC8D-C45F-4F00-A761-3212F63B5C21}"/>
+							<Value>25</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="mud" ID="{B54E09F8-291A-4F0E-9C47-53584721E332}"/>
+							<Value>5</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Harbour" ID="{35DB869C-CA80-4615-B2A8-F42B8AEBE41A}"/>
+						<CurrentStateRef Name="Island" ID="{9C682901-31AB-463B-9A91-995EF7E4DE69}"/>
 						<CurrentStateRef Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
@@ -278,6 +318,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="wind_cave_opening" ID="{8F8B4125-4095-479B-85E8-3EA1C705E5B1}"/>
 							<Value>82.3824451410658</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="lights_sidechain" ID="{C98EDAC9-EE37-4880-9641-B2B39481F12D}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="gravel" ID="{0708841C-D8ED-4902-9B51-C68E1FEE6CA6}"/>
