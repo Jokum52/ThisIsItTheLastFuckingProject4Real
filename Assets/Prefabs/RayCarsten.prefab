@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7437642466090205784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437642466090205785}
+  - component: {fileID: 7437642466090205786}
+  m_Layer: 0
+  m_Name: BabyRayCarsten (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7437642466090205785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642466090205784}
+  m_LocalRotation: {x: 0, y: -0.008726465, z: 0, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7437642467493855443}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -1, z: 0}
+--- !u!114 &7437642466090205786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642466090205784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818725ee9885ea4408efea32e69f9d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cumColor: {r: 1, g: 0, b: 0, a: 1}
+  playerAlive: {fileID: 0}
+  playerAlivePuch: {fileID: 0}
+  gun: {fileID: 0}
+  playerAliveGun: {fileID: 0}
+  playerAliveClip: {fileID: 0}
+  playerSplatt: {fileID: 0}
+  playerObject: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  reSpawn: 0
+  timer: 5
+  timerStart: 0
+--- !u!1 &7437642466465709672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437642466465709673}
+  - component: {fileID: 7437642466465709674}
+  m_Layer: 0
+  m_Name: BabyRayCarsten (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7437642466465709673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642466465709672}
+  m_LocalRotation: {x: 0, y: 0.008726558, z: 0, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7437642467493855443}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
+--- !u!114 &7437642466465709674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642466465709672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818725ee9885ea4408efea32e69f9d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cumColor: {r: 1, g: 0, b: 0, a: 1}
+  playerAlive: {fileID: 0}
+  playerAlivePuch: {fileID: 0}
+  gun: {fileID: 0}
+  playerAliveGun: {fileID: 0}
+  playerAliveClip: {fileID: 0}
+  playerSplatt: {fileID: 0}
+  playerObject: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  reSpawn: 0
+  timer: 5
+  timerStart: 0
+--- !u!1 &7437642466600914382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437642466600914376}
+  - component: {fileID: 7437642466600914383}
+  m_Layer: 0
+  m_Name: BabyRayCarsten
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7437642466600914376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642466600914382}
+  m_LocalRotation: {x: -0, y: -0, z: -4.622523e-23, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7437642467493855443}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7437642466600914383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642466600914382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818725ee9885ea4408efea32e69f9d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cumColor: {r: 1, g: 0, b: 0, a: 1}
+  playerAlive: {fileID: 0}
+  playerAlivePuch: {fileID: 0}
+  gun: {fileID: 0}
+  playerAliveGun: {fileID: 0}
+  playerAliveClip: {fileID: 0}
+  playerSplatt: {fileID: 0}
+  playerObject: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  reSpawn: 0
+  timer: 5
+  timerStart: 0
+--- !u!1 &7437642467493855442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437642467493855443}
+  m_Layer: 0
+  m_Name: RayCarsten
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7437642467493855443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437642467493855442}
+  m_LocalRotation: {x: -0.0007603504, y: 0.0012471004, z: -0.0000009567186, w: 0.9999989}
+  m_LocalPosition: {x: -0.23508908, y: 0.62689495, z: -2.040378}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7437642466600914376}
+  - {fileID: 7437642466090205785}
+  - {fileID: 7437642466465709673}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

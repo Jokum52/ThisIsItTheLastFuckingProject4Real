@@ -8,7 +8,13 @@ public class RobotRayCarsten : MonoBehaviour
     public Color cumColor;
 
     public GameObject playerAlive;
+    public GameObject playerAlivePuch;
+    public Renderer gun;
+    public GameObject playerAliveGun;
+    public GameObject playerAliveClip;
+
     public GameObject playerSplatt;
+
     public GameObject playerObject;
     public Transform spawnPoint;
 
@@ -24,6 +30,12 @@ public class RobotRayCarsten : MonoBehaviour
     void Start()
     {
         playerAlive.SetActive(true);
+
+        playerAlivePuch.SetActive(true);
+        gun.enabled = true;
+        playerAliveGun.SetActive(true);
+        playerAliveClip.SetActive(true);
+
         playerSplatt.SetActive(false);
     }
 
@@ -43,6 +55,12 @@ public class RobotRayCarsten : MonoBehaviour
             {
 
                 playerAlive.SetActive(false);
+
+                playerAlivePuch.SetActive(false);
+                gun.enabled = false;
+                playerAliveGun.SetActive(false);
+                playerAliveClip.SetActive(false);
+
                 playerSplatt.SetActive(true);
                 Debug.Log("I hit ya booty!");
              
@@ -76,6 +94,12 @@ public class RobotRayCarsten : MonoBehaviour
 
             timer = 3f;
             playerAlive.SetActive(true);
+
+            playerAlivePuch.SetActive(true);
+            gun.enabled = true;
+            playerAliveGun.SetActive(true);
+            playerAliveClip.SetActive(true);
+
             playerSplatt.SetActive(false);
         
 
