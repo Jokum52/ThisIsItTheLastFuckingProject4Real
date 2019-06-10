@@ -12,7 +12,9 @@ public class RobotRayCarsten : MonoBehaviour
     public GameObject playerObject;
     public Transform spawnPoint;
 
-    public float timer = 5f;
+    public bool reSpawn = false;
+
+    public float timer = 3f;
     public bool timerStart = false;
 
     //  bool playerHitByCum;
@@ -59,9 +61,9 @@ public class RobotRayCarsten : MonoBehaviour
             if (timer <= 0)
             {
                 // bool slowMo = false;
-              
-              
-           
+
+
+                reSpawn = true;
                 timerStart = false;
                 // lightningStrike.gameObject.SetActive(false);
                 //Debug.Log("NoCollusion");
@@ -72,53 +74,24 @@ public class RobotRayCarsten : MonoBehaviour
         if (timerStart == false)
         {
 
-            timer = 5f;
+            timer = 3f;
             playerAlive.SetActive(true);
             playerSplatt.SetActive(false);
+        
+
+        }
+
+        if (reSpawn == true)
+        {
+
+         
             playerObject.transform.position = spawnPoint.position;
             playerObject.transform.rotation = spawnPoint.rotation;
+            reSpawn = false;
 
 
         }
 
 
-        /*  RaycastHit hit = Physics.Raycast(transform.position, player.transform.position);
-          if (hit == player.rigidbody)
-          {
-              Debug.Log("i see you");
-          }
-
-          //        RaycastHit hit;
-          /*
-                  if (Physics.Raycast(transform.position, transform.forward, out hit) &&
-                      hit.collider.CompareTag("Player"))
-
-                  {
-                      Debug.Log("Hello World");
-                  }
-
-           * /*
-
-                  if (Physics.Raycast(transform.position, transform.forward, 30));
-                  {
-                      playerHitByCum=true;
-                  }
-          */
-
-        /*  if (Physics.Raycast(rayCumLord, out hit))
-            {
-
-                if (hit.collider.tag == "Player")
-                // if (hit.rigidbody != null)
-                {
-
-                Debug.Log("Hello World");
-
-                // hit.rigidbody.AddForce(rayCumLord.direction * hitForce);
-            }
-
-
-        }
-        */
     }
 }
