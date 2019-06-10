@@ -3939,9 +3939,10 @@ GameObject:
   m_Component:
   - component: {fileID: 366716213}
   - component: {fileID: 366716212}
-  - component: {fileID: 366716211}
   - component: {fileID: 366716214}
   - component: {fileID: 366716215}
+  - component: {fileID: 366716216}
+  - component: {fileID: 366716211}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3949,14 +3950,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &366716211
-AudioListener:
+--- !u!114 &366716211
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366716210}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d666854bcfab814aa0acb9e7c33f001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
 --- !u!20 &366716212
 Camera:
   m_ObjectHideFlags: 0
@@ -4144,6 +4151,28 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &366716216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366716210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd4b95c57f9724448845c419dacfc34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &389923225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8180,6 +8209,65 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: -3452608760009275553, guid: 50a692ed72bd75744abcfffa518c7ddc, type: 3}
+--- !u!1 &911253752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911253754}
+  - component: {fileID: 911253753}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &911253753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911253752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613d05cfedacebe458bc40ec01706870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: ae09f1f0f2247d141a7d5b29b98edbb7,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  diffractionFlags: 0
+  engineLogging: 0
+--- !u!4 &911253754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911253752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &923202406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24623,6 +24711,22 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
+  showEdgeBox: 1
+  m_EdgeBoxCenter: {x: 0, y: 1, z: 1}
+  m_EdgeBoxDImensions: {x: 1, y: 2, z: 0.5}
+  m_EdgeLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_EdgeGrabOffset: {x: 0, y: 0, z: 0}
+  m_EdgeWallJumpForce: 3
+  m_EdgeGrabCooldown: 0.5
+  aS: {fileID: 0}
+  shootclip: {fileID: 0}
+  shootpat: {fileID: 0}
+  Shootingpoint: {fileID: 0}
+  target: {fileID: 0}
+  otherObject: {fileID: 0}
+  otherAnimator: {fileID: 0}
 --- !u!136 &5057842445261631069
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24652,6 +24756,30 @@ MonoBehaviour:
   path: {fileID: 5057842445281275340}
   pathDistanceTolerance: 0
   pathDistanceSteering: 1
+  adjustedInput:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &5057842445281275340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26624,6 +26752,30 @@ MonoBehaviour:
   path: {fileID: 5057842445281275340}
   pathDistanceTolerance: 0.1
   pathDistanceSteering: 1
+  adjustedInput:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5057842446830742278
 GameObject:
   m_ObjectHideFlags: 0
@@ -27886,6 +28038,22 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
+  showEdgeBox: 1
+  m_EdgeBoxCenter: {x: 0, y: 1, z: 1}
+  m_EdgeBoxDImensions: {x: 1, y: 2, z: 0.5}
+  m_EdgeLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_EdgeGrabOffset: {x: 0, y: 0, z: 0}
+  m_EdgeWallJumpForce: 3
+  m_EdgeGrabCooldown: 0.5
+  aS: {fileID: 0}
+  shootclip: {fileID: 0}
+  shootpat: {fileID: 0}
+  Shootingpoint: {fileID: 0}
+  target: {fileID: 0}
+  otherObject: {fileID: 0}
+  otherAnimator: {fileID: 0}
 --- !u!95 &5057842446838090020
 Animator:
   serializedVersion: 3

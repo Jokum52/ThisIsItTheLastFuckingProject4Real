@@ -809,6 +809,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="robot_walk_mud" ID="{93919AA0-4E15-4B61-9CBB-E909D44E24EF}">
+					<ChildrenList>
+						<Action Name="" ID="{1BF7D015-4709-424C-8162-B0F95678D633}" ShortID="652955409">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot_walk_mud" ID="{84768F46-E47B-4551-B187-BB8A090D4B2A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="alarm" ID="{36E2911C-E937-4238-BF39-D2469B1CDA19}"/>
+				<Event Name="shutters" ID="{37247B05-1E3B-41D3-A775-2360854A35C5}">
+					<ChildrenList>
+						<Action Name="" ID="{42048577-03A5-44B1-BCC6-DE0194B67F02}" ShortID="473179754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shutters" ID="{F8DF503F-6BA9-41F3-9A93-6F8A1ED09B7F}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hangar_ambience" ID="{DA2700E4-253E-4642-945E-7EE6497C5056}">
+					<ChildrenList>
+						<Action Name="" ID="{5F2C8F31-FE79-4C37-A4AF-DD239D710399}" ShortID="506907644">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hangar ambience" ID="{DA767AB4-D697-4C08-893A-4FBCF2EB611D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hangar_light" ID="{ACFD598C-FC3C-4D3B-A06E-E302B453BD06}">
+					<ChildrenList>
+						<Action Name="" ID="{18FA0186-87F4-4A9F-BAE4-7B24ED75715C}" ShortID="275939230">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hangar_light" ID="{4F185E1B-EEA1-4D2B-89D0-120D8AFCAF19}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

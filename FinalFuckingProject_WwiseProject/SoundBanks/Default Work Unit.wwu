@@ -55,6 +55,7 @@
 						<ObjectRef Name="waves" ID="{95D9A455-CE9E-4970-94C9-F9A6B1F7EE43}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="constrction_site" ID="{1D2166D3-609B-4A2D-BDE8-E9931AC816AC}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="seagulls" ID="{6CC63407-ABFD-4AEA-B016-93A16CC1A676}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="robot_walk_mud" ID="{93919AA0-4E15-4B61-9CBB-E909D44E24EF}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_steam" ID="{9E964277-A4EE-4B96-A3B7-8AD400E68447}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="crane" ID="{97E527A1-92EC-4DAA-913E-FF82B5D98F0B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
@@ -79,14 +80,17 @@
 				<SoundBank Name="Hangar" ID="{89BF9DA0-27E1-4CAB-A488-984324914FFB}">
 					<ObjectInclusionList>
 						<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="shutters" ID="{37247B05-1E3B-41D3-A775-2360854A35C5}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_creak" ID="{C88B4773-0600-443F-B569-DB69A96A840D}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hangar_ambience" ID="{DA2700E4-253E-4642-945E-7EE6497C5056}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_turn" ID="{F03F97E1-8E1E-46B0-A6F0-ADD5345BB060}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_start_up" ID="{7465A777-0355-4789-B325-04555691658B}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_load_gun" ID="{BA43BB10-9207-4A53-A37E-35259186DB15}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_shut_down" ID="{86A0C28A-BC05-4A79-A158-0FE896556C8A}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_steam" ID="{9E964277-A4EE-4B96-A3B7-8AD400E68447}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="hangar_light" ID="{ACFD598C-FC3C-4D3B-A06E-E302B453BD06}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

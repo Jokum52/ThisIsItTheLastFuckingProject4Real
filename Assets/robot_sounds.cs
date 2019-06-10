@@ -31,6 +31,13 @@ public class robot_sounds : MonoBehaviour
 
     }
 
+    private void robot_walk_mud()
+    {
+
+        AkSoundEngine.PostEvent("robot_walk_mud", gameObject);
+
+    }
+
     private void robot_load_gun()
     {
 
