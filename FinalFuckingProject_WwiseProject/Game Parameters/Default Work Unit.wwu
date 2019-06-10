@@ -48,6 +48,13 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="cave_reverb_on_off" ID="{DACEC069-EB95-4277-805A-46C89B20B266}"/>
+				<GameParameter Name="lights_sidechain" ID="{C98EDAC9-EE37-4880-9641-B2B39481F12D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

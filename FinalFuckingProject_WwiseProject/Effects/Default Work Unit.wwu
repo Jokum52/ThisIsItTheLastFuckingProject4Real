@@ -45,6 +45,15 @@
 						<Property Name="RoomSize" Type="Real32" Value="100"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="lights" ID="{EB03C28E-EF80-4E84-BA5F-38007DA24537}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="lights_sidechain" ID="{C98EDAC9-EE37-4880-9641-B2B39481F12D}"/>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
