@@ -54,6 +54,20 @@
 	<GameParameter Name="lights_sidechain" ID="{C98EDAC9-EE37-4880-9641-B2B39481F12D}"/>
 </PluginData>
 				</Effect>
+				<Effect Name="New_Wwise_Compressor" ID="{B989E718-7385-461A-928E-CBFCE38ED011}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="OutputGain" Type="Real32" Value="3.2"/>
+						<Property Name="Ratio" Type="Real32" Value="1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="morelevel" ID="{B81596B0-0A52-452C-8A5E-A71D9BF6D1C8}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0"/>
+						<Property Name="OutputGain" Type="Real32" Value="2.3"/>
+						<Property Name="Ratio" Type="Real32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

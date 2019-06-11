@@ -3055,7 +3055,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>3</Value>
+										<Value>32</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -3066,6 +3066,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-130</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -3079,6 +3084,9 @@
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="New_Wwise_Compressor" ID="{B989E718-7385-461A-928E-CBFCE38ED011}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -4378,6 +4386,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -4385,6 +4398,9 @@
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Boost_3dB_10KHz" ID="{59632554-9396-4E15-889E-7A2F5458DEC3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="lights" ID="{05488150-8FE0-45A5-9549-69534C57B9E5}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -10326,9 +10342,20 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Hangar ambience" ID="{DA767AB4-D697-4C08-893A-4FBCF2EB611D}" ShortID="653434088">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="morelevel" ID="{B81596B0-0A52-452C-8A5E-A71D9BF6D1C8}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -10387,9 +10414,42 @@
 				<ActorMixer Name="Robot" ID="{A15C76EF-B4E7-4AB5-9264-0BE7664A5A99}" ShortID="298973458">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False">
+							<RTPCList>
+								<RTPC Name="" ID="{B1C4C25B-37EE-45E3-8F9F-808253490A83}" ShortID="149399453">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="robot_attenuation" ID="{AF8AC53D-171A-41CA-815A-7DDA47B67F55}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{07B94819-C2B8-4A6E-842D-F9264BF50E87}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>49.2979719188768</XPos>
+												<YPos>1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -10407,7 +10467,14 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" ShortID="530472492">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -10572,7 +10639,14 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" ShortID="884836303">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -10704,6 +10778,15 @@
 							</Playlist>
 						</RandomSequenceContainer>
 						<Sound Name="gun_cool_off" ID="{FB04B110-192D-4EC8-BA4B-A11C49073910}" ShortID="897227580">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10723,6 +10806,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="load_gun" ID="{1CB9FA4C-9CE9-4376-9F62-1E9E9D4E3FED}" ShortID="680999555">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10742,6 +10834,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="shoot_gun" ID="{61CD4BDE-C1EC-4BBD-B1A7-1CB838D7C2E1}" ShortID="182947741">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10761,6 +10862,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="start_steam" ID="{96F468FB-0AB5-4582-A2AB-709C1546EB39}" ShortID="428643447">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10780,6 +10890,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="startup" ID="{D6EF99F7-8D25-43A3-A38D-BEBAEB7CA7B5}" ShortID="463044457">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10799,6 +10918,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="turn" ID="{34AAF753-1F07-4280-89E5-694E2B8A8217}" ShortID="71082769">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10818,6 +10946,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="load_gun_2" ID="{8AD4348C-A81E-4438-929C-3071F3AA2CD0}" ShortID="974485036">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10837,6 +10974,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="shut_down" ID="{1DEE8A9E-A511-42EC-9590-4C2487C26421}" ShortID="399605060">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -10858,7 +11004,9 @@
 						<RandomSequenceContainer Name="robot_walk_mud" ID="{84768F46-E47B-4551-B187-BB8A090D4B2A}" ShortID="22767837">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -10873,6 +11021,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -11139,6 +11292,70 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Holster" ID="{898F22ED-25A3-41C8-8CA0-6956EF2779E4}" ShortID="183884817">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Holster" ID="{2EC08718-552E-4E87-83EA-C61029237057}" ShortID="495009779">
+							<Language>SFX</Language>
+							<AudioFile>Holster.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="GunTest1" ID="{80F71DBC-53E8-4AE0-882F-25D7D536E27B}" ShortID="196692993">
+							<Language>SFX</Language>
+							<AudioFile>GunTest1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Holster" ID="{2EC08718-552E-4E87-83EA-C61029237057}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Unholster" ID="{B4F1C4EF-1103-48CF-BFD1-E25F5B5D168B}" ShortID="875477619">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Unholster" ID="{2E3EFA4C-3195-4B55-BF5A-945A94F3B3CE}" ShortID="1002828337">
+							<Language>SFX</Language>
+							<AudioFile>Unholster.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Unholster" ID="{2E3EFA4C-3195-4B55-BF5A-945A94F3B3CE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GunTest1" ID="{B947322D-0EF6-49F2-9CED-0503E8B063C6}" ShortID="7468889">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GunTest1" ID="{D7010FDA-0CC9-4E58-A225-B179B66F0626}" ShortID="1061338843">
+							<Language>SFX</Language>
+							<AudioFile>GunTest1.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="196692993"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GunTest1" ID="{D7010FDA-0CC9-4E58-A225-B179B66F0626}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

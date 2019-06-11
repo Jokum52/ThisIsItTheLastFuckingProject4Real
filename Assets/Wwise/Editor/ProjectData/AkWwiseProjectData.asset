@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 9a047ac70d56a64d8d96bdfcd53a15d5
     GuidInternal: 
-    m_lastTime: -8586417720270536261
+    m_lastTime: -8586414254573997106
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586415083592622104
+    m_lastTime: -8586414255639144881
     List:
     - name: Cave_birds
       guid: fc9a557b6bf91f4095f9019df8d0ce02
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 826bf6506d71e74da1a11f4695bf1525
     GuidInternal: 
-    m_lastTime: -8586414975086362861
+    m_lastTime: -8586414145228770261
     List:
     - name: Ambience
       guid: c24f2d49c572f54585a796a2fc5ce9c5
@@ -205,7 +205,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 0d64ac262e426e4db877e4a1f70a1c42
     GuidInternal: 
-    m_lastTime: -8586414975086632778
+    m_lastTime: -8586414145228830384
     List:
     - name: alarm
       guid: 1c91e23637e93842bf39d2469b1cda19
@@ -423,6 +423,42 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
+    - name: gun_holster
+      guid: 86c37dd508107744a6bbc23c43cc9b64
+      id: 775794941
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gun_holster
+        ObjectType: 3
+      Path: Default Work Unit\gun_holster
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: gun_shot
+      guid: 961628cde8c9ea44bf06904da1c7149a
+      id: 3666238164
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gun_shot
+        ObjectType: 3
+      Path: Default Work Unit\gun_shot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: gun_unholster
+      guid: d4875e42fd833a4fadf1f4a76ad2e27e
+      id: 1926290942
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: gun_unholster
+        ObjectType: 3
+      Path: Default Work Unit\gun_unholster
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: hangar_ambience
       guid: e40027da3e254246945e7ee6497c5056
       id: 1833174107
@@ -492,7 +528,7 @@ MonoBehaviour:
       - ElementName: lights
         ObjectType: 3
       Path: Default Work Unit\lights
-      maxAttenuation: 0
+      maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
     - name: metal_building_wind
@@ -588,7 +624,7 @@ MonoBehaviour:
       - ElementName: robot_creak
         ObjectType: 3
       Path: Default Work Unit\robot_creak
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_gun_cool_off
@@ -600,7 +636,7 @@ MonoBehaviour:
       - ElementName: robot_gun_cool_off
         ObjectType: 3
       Path: Default Work Unit\robot_gun_cool_off
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_load_gun
@@ -612,7 +648,7 @@ MonoBehaviour:
       - ElementName: robot_load_gun
         ObjectType: 3
       Path: Default Work Unit\robot_load_gun
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_shoot_gun
@@ -624,7 +660,7 @@ MonoBehaviour:
       - ElementName: robot_shoot_gun
         ObjectType: 3
       Path: Default Work Unit\robot_shoot_gun
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_shut_down
@@ -636,7 +672,7 @@ MonoBehaviour:
       - ElementName: robot_shut_down
         ObjectType: 3
       Path: Default Work Unit\robot_shut_down
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_start_up
@@ -648,7 +684,7 @@ MonoBehaviour:
       - ElementName: robot_start_up
         ObjectType: 3
       Path: Default Work Unit\robot_start_up
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_steam
@@ -660,7 +696,7 @@ MonoBehaviour:
       - ElementName: robot_steam
         ObjectType: 3
       Path: Default Work Unit\robot_steam
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_turn
@@ -672,7 +708,7 @@ MonoBehaviour:
       - ElementName: robot_turn
         ObjectType: 3
       Path: Default Work Unit\robot_turn
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_walk
@@ -684,7 +720,7 @@ MonoBehaviour:
       - ElementName: robot_walk
         ObjectType: 3
       Path: Default Work Unit\robot_walk
-      maxAttenuation: 35
+      maxAttenuation: 45
       maxDuration: 0
       minDuration: 0
     - name: robot_walk_mud
@@ -872,7 +908,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 04eb640b43f15e4b8d7abb733d666ba5
     GuidInternal: 
-    m_lastTime: -8586414931135455992
+    m_lastTime: -8586414255802234009
     List:
     - name: cave_birds
       guid: 1022a4e17cf41f4b99e620106de771a0
@@ -928,6 +964,15 @@ MonoBehaviour:
       - ElementName: gravel
         ObjectType: 13
       Path: Default Work Unit\gravel
+    - name: lights_sidechain
+      guid: c9da8ec937ee80489641b2b39481f12d
+      id: 2530915115
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: lights_sidechain
+        ObjectType: 13
+      Path: Default Work Unit\lights_sidechain
     - name: mud
       guid: f8094eb51a290e4f9c4753584721e332
       id: 712897245
@@ -960,7 +1005,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 32214f11f183c844ad96b6dcb924f20f
     GuidInternal: 
-    m_lastTime: -8586417720270596241
+    m_lastTime: -8586414254574017097
     List:
     - name: Chase
       guid: d249fa96bf99114d8b3ec9886fc1acf8
@@ -1053,7 +1098,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3e8e9c9b95f7f24785bdd5d0dae4bbce
     GuidInternal: 
-    m_lastTime: -8586415261288064770
+    m_lastTime: -8586414254574017097
     List:
     - name: Material
       guid: 8b387f24eb29e449a0092f122dd6579b
@@ -1127,12 +1172,11 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c5379b03b7d338439c0b0b0fc2936039
     GuidInternal: 
-    m_lastTime: -8586417720270556257
+    m_lastTime: -8586414254573997106
     List: []
   ExpandedItems:
   - /FinalFuckingProject_WwiseProject
   - /FinalFuckingProject_WwiseProject/Events
   - /FinalFuckingProject_WwiseProject/Events/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/Switches
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
