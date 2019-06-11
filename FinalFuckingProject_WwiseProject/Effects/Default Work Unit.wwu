@@ -13,16 +13,56 @@
 				</Effect>
 				<Effect Name="New_iZotope_Trash_Distortion" ID="{121592E4-3909-41CB-9E28-59D99BF5DBE0}" PluginName="iZotope Trash Distortion" CompanyID="259" PluginID="3" PluginType="3">
 					<PropertyList>
-						<Property Name="Distortion1InputGain" Type="Real32" Value="1"/>
-						<Property Name="Distortion1Mix" Type="Real32" Value="75"/>
-						<Property Name="Distortion1OutputGain" Type="Real32" Value="1"/>
-						<Property Name="Distortion1Overdrive" Type="Real32" Value="3.5"/>
-						<Property Name="Distortion1Trash" Type="Real32" Value="0.8"/>
-						<Property Name="Distortion1Type" Type="int32" Value="3"/>
-						<Property Name="Distortion2InputGain" Type="Real32" Value="-1"/>
-						<Property Name="Distortion2Overdrive" Type="Real32" Value="3.5"/>
-						<Property Name="Distortion2Trash" Type="Real32" Value="0"/>
-						<Property Name="Distortion2Type" Type="int32" Value="4"/>
+						<Property Name="Distortion1InputGain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion1Mix" Type="Real32">
+							<ValueList>
+								<Value>75</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion1OutputGain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion1Overdrive" Type="Real32">
+							<ValueList>
+								<Value>3.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion1Trash" Type="Real32">
+							<ValueList>
+								<Value>0.8</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion1Type" Type="int32">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion2InputGain" Type="Real32">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion2Overdrive" Type="Real32">
+							<ValueList>
+								<Value>3.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion2Trash" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Distortion2Type" Type="int32">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 				</Effect>
 				<Effect Name="r_tremc" ID="{5A88E2C4-2B5A-43EC-ABA2-807BEF5C252E}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
@@ -67,6 +107,15 @@
 						<Property Name="Ratio" Type="Real32" Value="1"/>
 						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
 					</PropertyList>
+				</Effect>
+				<Effect Name="robot" ID="{7E206CEB-CCCB-41D7-9161-655380601399}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.19"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="alarm_side_chain" ID="{8D3B42F0-5DAC-4CD0-959A-F57779280CA0}"/>
+</PluginData>
 				</Effect>
 			</ChildrenList>
 		</WorkUnit>

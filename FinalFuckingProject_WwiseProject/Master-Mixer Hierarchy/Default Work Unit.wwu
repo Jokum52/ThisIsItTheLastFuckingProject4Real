@@ -47,10 +47,16 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>-15.20125</XPos>
-														<YPos>-0.09598</YPos>
+														<XPos>-19.96543</XPos>
+														<YPos>-0</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-16.6209</XPos>
+														<YPos>-2.34771</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>0</XPos>
@@ -79,6 +85,132 @@
 											<ObjectRef Name="lights" ID="{EB03C28E-EF80-4E84-BA5F-38007DA24537}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 										</Reference>
 									</ReferenceList>
+								</Bus>
+								<Bus Name="Thunder" ID="{7EAB7EA6-9DAC-4C99-8C22-3E948534206F}"/>
+								<Bus Name="Robot" ID="{2EC162EF-48C7-4E99-8E24-542C5C563B6E}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="robot" ID="{7E206CEB-CCCB-41D7-9161-655380601399}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Alarm" ID="{822C7CE8-877A-48B4-8471-1FE37ECA6819}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0428BEDF-84E1-4205-A052-475DE28E53CE}" ShortID="765393293">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="alarm_side_chain" ID="{8D3B42F0-5DAC-4CD0-959A-F57779280CA0}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4A054AF7-496F-499F-BB28-0932D907BD11}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-28.46199</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-9.88657</XPos>
+																<YPos>-6.25224</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-4.94328</XPos>
+																<YPos>-11.59568</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-16.03265</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Tesla coil" ID="{2B9FE763-73C0-4554-9B8E-BE6C10442372}">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{45E9D4D0-7DEF-47DB-89B2-7670F9EC86B2}" ShortID="466280284">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="alarm_side_chain" ID="{8D3B42F0-5DAC-4CD0-959A-F57779280CA0}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B54164BB-ABD8-4425-A001-CB9669687031}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-18.99089</XPos>
+																<YPos>45</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>53</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{A6816930-71E8-46DD-8323-FB02812F2D7A}" ShortID="742480676">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="alarm_side_chain" ID="{8D3B42F0-5DAC-4CD0-959A-F57779280CA0}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6C04CC6B-F223-4F17-858E-277D55AB4129}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-19.9880597014925</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-8.35497</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 								</Bus>
 							</ChildrenList>
 							<DuckingList>

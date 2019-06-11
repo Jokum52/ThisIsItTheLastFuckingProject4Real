@@ -2324,7 +2324,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>8</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2339,7 +2339,7 @@
 									<ObjectRef Name="Single_Band_1Khz_Wide" ID="{9B6A1D1B-F90F-4EAC-B796-2943413957FE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{2DD949A4-FFA1-4816-9C93-BF7E99F93692}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+									<ObjectRef Name="lights" ID="{05488150-8FE0-45A5-9549-69534C57B9E5}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -10472,25 +10472,6 @@
 				</SwitchContainer>
 				<Folder Name="Hangar" ID="{0C9BE86A-2D71-4A40-9BF2-8A3EA700BA28}" ShortID="917627423">
 					<ChildrenList>
-						<Sound Name="alarm" ID="{D00854A2-59D2-4A5F-8B3B-8D515AB71AB5}" ShortID="836950999">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="alarm" ID="{E0F7EEA0-C2F1-49DA-B688-5261D7C11F18}" ShortID="177677800">
-									<Language>SFX</Language>
-									<AudioFile>alarm.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="alarm" ID="{E0F7EEA0-C2F1-49DA-B688-5261D7C11F18}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Hangar ambience" ID="{DA767AB4-D697-4C08-893A-4FBCF2EB611D}" ShortID="653434088">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -10559,6 +10540,141 @@
 								<ActiveSource Name="shutters" ID="{206AAC99-6346-41D2-A1E2-060CD9F3408A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="shutters_5sec" ID="{6CE03BB5-0281-4C2F-8522-D1BE5DEFDA74}" ShortID="189467384">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shutters_5sec" ID="{7BB5BFC1-73ED-4E1A-9062-D5CC8EFA33B9}" ShortID="269379842">
+									<Language>SFX</Language>
+									<AudioFile>shutters_5sec.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shutters_5sec" ID="{7BB5BFC1-73ED-4E1A-9062-D5CC8EFA33B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="shutters_7sec" ID="{834AAF35-59EF-48CF-B3C1-3A9D9BFF66AB}" ShortID="345062556">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shutters_7sec" ID="{862555E3-309A-4B8A-8B1C-D2CB7B5257A7}" ShortID="573940597">
+									<Language>SFX</Language>
+									<AudioFile>shutters_7sec.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shutters_7sec" ID="{862555E3-309A-4B8A-8B1C-D2CB7B5257A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" ShortID="726814920">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.9"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Alarm" ID="{822C7CE8-877A-48B4-8471-1FE37ECA6819}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="siren_2" ID="{8FE13BBF-7D6B-4441-9B3E-6EC103D5B545}" ShortID="877337020">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="siren_2" ID="{4AD2C72E-BF25-4FFF-9E1E-5AE377D3B3BF}" ShortID="174813005">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.118940064610319"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>siren_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="siren_2" ID="{4AD2C72E-BF25-4FFF-9E1E-5AE377D3B3BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="tesla_coil" ID="{B546DDF3-C84B-403D-AF11-D8890AC7E2B9}" ShortID="945683823">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Tesla coil" ID="{2B9FE763-73C0-4554-9B8E-BE6C10442372}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tesla_coil" ID="{435D4FBB-698F-4B42-8C3F-CA31C6534314}" ShortID="43830775">
+									<Language>SFX</Language>
+									<AudioFile>tesla_coil.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tesla_coil" ID="{435D4FBB-698F-4B42-8C3F-CA31C6534314}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tesla_coil_start" ID="{ADA777DD-AC59-4382-BA8B-14D58A1A1DC3}" ShortID="719317744">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Tesla coil" ID="{2B9FE763-73C0-4554-9B8E-BE6C10442372}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tesla_coil_start" ID="{9130A5C7-4F28-469B-83B1-FC3A2E78BD4A}" ShortID="887618771">
+									<Language>SFX</Language>
+									<AudioFile>tesla_coil_start.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tesla_coil_start" ID="{9130A5C7-4F28-469B-83B1-FC3A2E78BD4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="Robot" ID="{A15C76EF-B4E7-4AB5-9264-0BE7664A5A99}" ShortID="298973458">
@@ -10611,7 +10727,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+							<ObjectRef Name="Robot" ID="{2EC162EF-48C7-4E99-8E24-542C5C563B6E}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

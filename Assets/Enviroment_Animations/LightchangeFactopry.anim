@@ -2244,7 +2244,21 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: 
+    functionName: shutters
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.35
+    functionName: tesla_coil
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 7.733333
+    functionName: hanger_lights
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -2252,6 +2266,13 @@ AnimationClip:
     messageOptions: 0
   - time: 9.933333
     functionName: StartRobot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 9.966666
+    functionName: alarm
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

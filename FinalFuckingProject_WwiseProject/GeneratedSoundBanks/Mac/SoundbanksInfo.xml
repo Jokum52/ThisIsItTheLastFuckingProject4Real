@@ -316,8 +316,13 @@
 				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="45.000000"/>
 				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="45.000000"/>
 				<Event Id="924529059" Name="shutters" ObjectPath="\Events\Default Work Unit\shutters"/>
+				<Event Id="1607384072" Name="tesla_coil" ObjectPath="\Events\Default Work Unit\tesla_coil"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="43830775" Language="SFX">
+					<ShortName>tesla_coil.wav</ShortName>
+					<Path>SFX\tesla_coil_D79FB2B7.wem</Path>
+				</File>
 				<File Id="144489283" Language="SFX">
 					<ShortName>robot_step__no_mud_2.wav</ShortName>
 					<Path>SFX\robot_step__no_mud_2_10C4C929.wem</Path>
@@ -330,9 +335,9 @@
 					<ShortName>robo_creak\creak_1.wav</ShortName>
 					<Path>SFX\robo_creak\creak_1_10C4C929.wem</Path>
 				</File>
-				<File Id="177677800" Language="SFX">
-					<ShortName>alarm.wav</ShortName>
-					<Path>SFX\alarm_10C4C929.wem</Path>
+				<File Id="174813005" Language="SFX">
+					<ShortName>siren_2.wav</ShortName>
+					<Path>SFX\siren_2_F5623884.wem</Path>
 				</File>
 				<File Id="199703658" Language="SFX">
 					<ShortName>robot_step_no_mud_1.wav</ShortName>
@@ -341,6 +346,10 @@
 				<File Id="240248549" Language="SFX">
 					<ShortName>ROBOT\turn.wav</ShortName>
 					<Path>SFX\ROBOT\turn_10C4C929.wem</Path>
+				</File>
+				<File Id="269379842" Language="SFX">
+					<ShortName>shutters_5sec.wav</ShortName>
+					<Path>SFX\shutters_5sec_10C4C929.wem</Path>
 				</File>
 				<File Id="351811156" Language="SFX">
 					<ShortName>robo_creak\creak_4.wav</ShortName>
@@ -370,13 +379,13 @@
 					<ShortName>robot_step_mud_1.wav</ShortName>
 					<Path>SFX\robot_step_mud_1_10C4C929.wem</Path>
 				</File>
-				<File Id="854276258" Language="SFX">
-					<ShortName>shutters.wav</ShortName>
-					<Path>SFX\shutters_10C4C929.wem</Path>
-				</File>
 				<File Id="877837340" Language="SFX">
 					<ShortName>ROBOT\shoot_gun.wav</ShortName>
 					<Path>SFX\ROBOT\shoot_gun_10C4C929.wem</Path>
+				</File>
+				<File Id="887618771" Language="SFX">
+					<ShortName>tesla_coil_start.wav</ShortName>
+					<Path>SFX\tesla_coil_start_10C4C929.wem</Path>
 				</File>
 				<File Id="888594433" Language="SFX">
 					<ShortName>robo_creak\creak_2.wav</ShortName>
@@ -413,6 +422,7 @@
 				<Event Id="2000723837" Name="footstep_climb" ObjectPath="\Events\Default Work Unit\footstep_climb" MaxAttenuation="20.000000"/>
 				<Event Id="775794941" Name="gun_holster" ObjectPath="\Events\Default Work Unit\gun_holster"/>
 				<Event Id="3666238164" Name="gun_shot" ObjectPath="\Events\Default Work Unit\gun_shot"/>
+				<Event Id="1926290942" Name="gun_unholster" ObjectPath="\Events\Default Work Unit\gun_unholster"/>
 				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up" MaxAttenuation="20.000000"/>
@@ -730,6 +740,10 @@
 				<File Id="992048168" Language="SFX">
 					<ShortName>Metal thick\Metal thick footsteps 7 [2019-05-12 205933].wav</ShortName>
 					<Path>SFX\Metal thick\Metal thick footsteps 7 [2019-05-12 205933]_10C4C929.wem</Path>
+				</File>
+				<File Id="1002828337" Language="SFX">
+					<ShortName>Unholster.wav</ShortName>
+					<Path>SFX\Unholster_10C4C929.wem</Path>
 				</File>
 				<File Id="1018437287" Language="SFX">
 					<ShortName>Concrete\Footstep, concrete2.wav</ShortName>
