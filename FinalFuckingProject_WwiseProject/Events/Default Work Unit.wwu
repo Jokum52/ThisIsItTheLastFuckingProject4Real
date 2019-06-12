@@ -825,7 +825,7 @@
 						<Action Name="" ID="{3E690BED-466C-46DA-ABAC-03F6053BB98F}" ShortID="497855788">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="alarm" ID="{D00854A2-59D2-4A5F-8B3B-8D515AB71AB5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -836,7 +836,7 @@
 						<Action Name="" ID="{42048577-03A5-44B1-BCC6-DE0194B67F02}" ShortID="473179754">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="shutters" ID="{F8DF503F-6BA9-41F3-9A93-6F8A1ED09B7F}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="shutters_5sec" ID="{6CE03BB5-0281-4C2F-8522-D1BE5DEFDA74}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -875,13 +875,41 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="gun_unholster" ID="{425E87D4-83FD-4F3A-ADF1-F4A76AD2E27E}"/>
+				<Event Name="gun_unholster" ID="{425E87D4-83FD-4F3A-ADF1-F4A76AD2E27E}">
+					<ChildrenList>
+						<Action Name="" ID="{00673798-FF75-43C9-B27D-8BCCFC47CBAB}" ShortID="209373181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Unholster" ID="{B4F1C4EF-1103-48CF-BFD1-E25F5B5D168B}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="gun_holster" ID="{D57DC386-1008-4477-A6BB-C23C43CC9B64}">
 					<ChildrenList>
 						<Action Name="" ID="{D0DE482E-0FC5-47A8-8F1C-8700845C1039}" ShortID="741842169">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Holster" ID="{898F22ED-25A3-41C8-8CA0-6956EF2779E4}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="tesla_coil" ID="{2BD087D7-7906-4877-8420-3F40FB4B1D41}">
+					<ChildrenList>
+						<Action Name="" ID="{FE7B2539-6D5C-42E3-8875-6A696ED93B4E}" ShortID="114026585">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tesla_coil" ID="{B546DDF3-C84B-403D-AF11-D8890AC7E2B9}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1994D70B-D64E-4DDB-9B55-B2208E7C1457}" ShortID="1062219641">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tesla_coil_start" ID="{ADA777DD-AC59-4382-BA8B-14D58A1A1DC3}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

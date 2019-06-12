@@ -20,10 +20,15 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2530915115	lights_sidechain			\Default Work Unit\lights_sidechain	
 	3396433405	seagull_reverb			\Default Work Unit\seagull_reverb	
 	3962384776	footstep_cave_reverb			\Default Work Unit\footstep_cave_reverb	
+	3964337244	alarm_side_chain			\Default Work Unit\alarm_side_chain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	186852181	Thunder			\Default Work Unit\Master Audio Bus\SFX\Thunder	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	855317084	Alarm			\Default Work Unit\Master Audio Bus\SFX\Alarm	
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
+	1930240631	Robot			\Default Work Unit\Master Audio Bus\SFX\Robot	
+	2547318331	Tesla coil			\Default Work Unit\Master Audio Bus\SFX\Tesla coil	
 	3192784746	lights			\Default Work Unit\Master Audio Bus\SFX\lights	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
@@ -46,6 +51,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	907930171	Machine_Gun_Hangar_(Custom)	Wwise RoomVerb			
 	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
 	1675424737	Extreme_Limiting_1	Wwise Peak Limiter			
+	1930240631	robot	Wwise Meter			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	3192784746	lights	Wwise Meter			
 
