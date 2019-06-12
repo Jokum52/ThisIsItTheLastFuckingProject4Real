@@ -75,7 +75,10 @@
 			<IncludedEvents>
 				<Event Id="1301570889" Name="Neon" ObjectPath="\Events\Default Work Unit\Neon" MaxAttenuation="10.000000"/>
 				<Event Id="2043403999" Name="rain" ObjectPath="\Events\Default Work Unit\rain"/>
+				<Event Id="714491061" Name="SirenAndHonk" ObjectPath="\Events\Default Work Unit\SirenAndHonk"/>
 				<Event Id="186852181" Name="thunder" ObjectPath="\Events\Default Work Unit\thunder"/>
+				<Event Id="3463109076" Name="Traffic" ObjectPath="\Events\Default Work Unit\Traffic"/>
+				<Event Id="2480042149" Name="window_crush" ObjectPath="\Events\Default Work Unit\window_crush"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="104420028" Language="SFX">
@@ -89,6 +92,22 @@
 				<File Id="154830572" Language="SFX">
 					<ShortName>tin roof.wav</ShortName>
 					<Path>SFX\tin roof_D79FB2B7.wem</Path>
+				</File>
+				<File Id="794992099" Language="SFX">
+					<ShortName>Traffic.wav</ShortName>
+					<Path>SFX\Traffic_D79FB2B7.wem</Path>
+				</File>
+				<File Id="979267263" Language="SFX">
+					<ShortName>Window crush.wav</ShortName>
+					<Path>SFX\Window crush_10C4C929.wem</Path>
+				</File>
+				<File Id="1002437447" Language="SFX">
+					<ShortName>Honk and siren.wav</ShortName>
+					<Path>SFX\Honk and siren_10C4C929.wem</Path>
+				</File>
+				<File Id="1003338055" Language="SFX">
+					<ShortName>Siren.wav</ShortName>
+					<Path>SFX\Siren_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -337,7 +356,7 @@
 				</File>
 				<File Id="174813005" Language="SFX">
 					<ShortName>siren_2.wav</ShortName>
-					<Path>SFX\siren_2_F5623884.wem</Path>
+					<Path>SFX\siren_2_43D59DBA.wem</Path>
 				</File>
 				<File Id="199703658" Language="SFX">
 					<ShortName>robot_step_no_mud_1.wav</ShortName>
@@ -426,6 +445,7 @@
 				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Land"/>
 				<Event Id="972303368" Name="Pull_up" ObjectPath="\Events\Default Work Unit\Pull_up" MaxAttenuation="20.000000"/>
+				<Event Id="1203987052" Name="rullefald" ObjectPath="\Events\Default Work Unit\rullefald"/>
 				<Event Id="2948715151" Name="walk_clothes" ObjectPath="\Events\Default Work Unit\walk_clothes" MaxAttenuation="20.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -552,6 +572,10 @@
 				<File Id="395444407" Language="SFX">
 					<ShortName>Giiter\Footstep, metal_grid1.wav</ShortName>
 					<Path>SFX\Giiter\Footstep, metal_grid1_10C4C929.wem</Path>
+				</File>
+				<File Id="415772366" Language="SFX">
+					<ShortName>rullefald.wav</ShortName>
+					<Path>SFX\rullefald_10C4C929.wem</Path>
 				</File>
 				<File Id="424556451" Language="SFX">
 					<ShortName>Walk\Walk_Movement_1.wav</ShortName>
@@ -791,6 +815,10 @@
 					<ShortName>island_loop_120bpm_L84_P00.wav</ShortName>
 					<Path>SFX\island_loop_120bpm_L84_P00_D79FB2B7.wem</Path>
 				</File>
+				<File Id="419791882" Language="SFX">
+					<ShortName>Chase_intro(new)_95bpm_L03_P01.wav</ShortName>
+					<Path>SFX\Chase_intro(new)_95bpm_L03_P01_D79FB2B7.wem</Path>
+				</File>
 				<File Id="470333236" Language="SFX">
 					<ShortName>Harbour\loop_waterphone2_120bpm__L08_P05.wav</ShortName>
 					<Path>SFX\Harbour\loop_waterphone2_120bpm__L08_P05_D79FB2B7.wem</Path>
@@ -802,6 +830,10 @@
 				<File Id="673225278" Language="SFX">
 					<ShortName>island_intro_120bpm_L32_P00.wav</ShortName>
 					<Path>SFX\island_intro_120bpm_L32_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="688938099" Language="SFX">
+					<ShortName>Chase_intro(newnew)_95bpm_L03_P01.wav</ShortName>
+					<Path>SFX\Chase_intro(newnew)_95bpm_L03_P01_D79FB2B7.wem</Path>
 				</File>
 				<File Id="748858637" Language="SFX">
 					<ShortName>Chase\Chase_main_95bpm_L01_P01.wav</ShortName>
