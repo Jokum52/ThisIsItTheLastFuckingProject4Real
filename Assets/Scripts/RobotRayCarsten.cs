@@ -13,6 +13,11 @@ public class RobotRayCarsten : MonoBehaviour
     public GameObject playerAliveGun;
     public GameObject playerAliveClip;
 
+    public GameObject HitPrefab;
+
+    public bool MasterBlaster;
+
+
     public GameObject playerSplatt;
 
     public GameObject playerObject;
@@ -68,6 +73,12 @@ public class RobotRayCarsten : MonoBehaviour
 
 
             }
+
+            if (MasterBlaster)
+            {
+                Instantiate(HitPrefab, hit.point, Quaternion.Euler (-rayCumLord.direction));
+            }
+
         }
 
         if (timerStart == true)
