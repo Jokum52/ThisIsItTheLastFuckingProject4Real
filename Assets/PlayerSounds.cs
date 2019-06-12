@@ -53,8 +53,12 @@ public class PlayerSounds : MonoBehaviour
     {
 
         AkSoundEngine.PostEvent("gun_unholster", gameObject);
+    }
 
+    private void rullefald()
+    {
 
+        AkSoundEngine.PostEvent("rullefald", gameObject);
     }
 
 

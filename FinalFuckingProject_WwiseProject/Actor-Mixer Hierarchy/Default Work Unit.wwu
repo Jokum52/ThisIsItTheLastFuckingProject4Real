@@ -2417,6 +2417,126 @@
 								<ActiveSource Name="Thunder_4" ID="{A027C413-B89B-426D-9AF6-2C1D207C4097}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="alarm" ID="{49F592A5-2D7D-40FB-ABE4-720199144A41}" ShortID="486235669">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="alarm" ID="{C5A22C2C-872F-47E2-84FB-905274862F1C}" ShortID="533922471">
+									<Language>SFX</Language>
+									<AudioFile>alarm.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="alarm" ID="{C5A22C2C-872F-47E2-84FB-905274862F1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Honk and siren" ID="{384C7DC6-B50A-40F9-A598-96816F39589B}" ShortID="1066511514">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Honk and siren" ID="{A4141896-027D-4DDE-8642-02AC099922FF}" ShortID="1002437447">
+									<Language>SFX</Language>
+									<AudioFile>Honk and siren.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Honk and siren" ID="{A4141896-027D-4DDE-8642-02AC099922FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rullefald" ID="{761CF93C-853E-4F17-968C-A18EE1DE1133}" ShortID="705401798">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rullefald" ID="{1883117E-D21C-49C8-900C-1F1DDF4B633A}" ShortID="415772366">
+									<Language>SFX</Language>
+									<AudioFile>rullefald.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rullefald" ID="{1883117E-D21C-49C8-900C-1F1DDF4B633A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Siren" ID="{764D6C66-B437-406D-ADA5-EB0A368419D5}" ShortID="817767796">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Siren" ID="{32708C0B-D8C0-4C00-94A8-66AB3DB1D8FA}" ShortID="1003338055">
+									<Language>SFX</Language>
+									<AudioFile>Siren.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Siren" ID="{32708C0B-D8C0-4C00-94A8-66AB3DB1D8FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Traffic" ID="{AFD6CED6-D299-4BF7-8E87-D3CA5D313B05}" ShortID="775344054">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Traffic" ID="{A9D4652F-E89D-4568-8CF1-E3BECF713537}" ShortID="794992099">
+									<Language>SFX</Language>
+									<AudioFile>Traffic.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Traffic" ID="{A9D4652F-E89D-4568-8CF1-E3BECF713537}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Window crush" ID="{5B95BD2E-D3C7-4BDC-A011-89A3D4447189}" ShortID="860422720">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Window crush" ID="{17043AF7-2F30-44D9-B619-3B8037C365C3}" ShortID="979267263">
+									<Language>SFX</Language>
+									<AudioFile>Window crush.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Window crush" ID="{17043AF7-2F30-44D9-B619-3B8037C365C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Metal building" ID="{114E34D5-FE77-4C9E-871D-6FE1B9A15D59}" ShortID="934010737">

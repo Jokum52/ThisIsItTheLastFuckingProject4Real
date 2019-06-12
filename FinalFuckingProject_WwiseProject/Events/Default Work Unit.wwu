@@ -915,6 +915,57 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="window_crush" ID="{B355A699-4DD6-4AFD-94F6-DEA64F6DC856}">
+					<ChildrenList>
+						<Action Name="" ID="{3D6D9124-7123-4615-8E7E-DE0DBB4FA535}" ShortID="326065883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Window crush" ID="{5B95BD2E-D3C7-4BDC-A011-89A3D4447189}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SirenAndHonk" ID="{F06CD34D-62B4-4D6E-87EE-03283CF718B2}">
+					<ChildrenList>
+						<Action Name="" ID="{2B6473B7-D796-4DB6-9FA1-1F09970FD847}" ShortID="251141601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Honk and siren" ID="{384C7DC6-B50A-40F9-A598-96816F39589B}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1FA469BC-47E3-4837-9685-8EC83C09FB4B}" ShortID="171107153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Siren" ID="{764D6C66-B437-406D-ADA5-EB0A368419D5}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Traffic" ID="{33E3E0E3-401C-4B59-AF75-B51BEA35F883}">
+					<ChildrenList>
+						<Action Name="" ID="{84DA9EA7-9066-49B5-ADC9-9D4B982F5FBA}" ShortID="1037928642">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Traffic" ID="{AFD6CED6-D299-4BF7-8E87-D3CA5D313B05}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rullefald" ID="{6738AA25-2F5B-4991-9E88-2CEB14C8DE75}">
+					<ChildrenList>
+						<Action Name="" ID="{A978070A-17D6-423B-9B2F-F51391358118}" ShortID="47206985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rullefald" ID="{761CF93C-853E-4F17-968C-A18EE1DE1133}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

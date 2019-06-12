@@ -9,6 +9,7 @@
 						<ObjectRef Name="Footstep" ID="{5E02FB8F-AAF3-4442-A7C7-E31B2442AE57}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="gun_holster" ID="{D57DC386-1008-4477-A6BB-C23C43CC9B64}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="jump" ID="{E2B009E1-592B-44E0-ABA2-37508015D2A7}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rullefald" ID="{6738AA25-2F5B-4991-9E88-2CEB14C8DE75}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="GunTest1" ID="{B947322D-0EF6-49F2-9CED-0503E8B063C6}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pull_up" ID="{BBE6FEFB-7BFD-4A86-90A6-729471BA6A47}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Land" ID="{CAB7A2A9-CF11-4C72-B739-4DFB0878D724}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
@@ -118,6 +119,9 @@
 				<SoundBank Name="Chase" ID="{AEB78A0E-AE58-49CC-8229-7D2B78D6763C}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Neon" ID="{5913796D-6393-4042-85DD-E14294DA6D1F}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="window_crush" ID="{B355A699-4DD6-4AFD-94F6-DEA64F6DC856}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Traffic" ID="{33E3E0E3-401C-4B59-AF75-B51BEA35F883}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SirenAndHonk" ID="{F06CD34D-62B4-4D6E-87EE-03283CF718B2}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="rain" ID="{BBD1B690-EADA-4DA3-8A05-C6A6B980CC14}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="thunder" ID="{FA514EDC-E56B-4ED7-BD79-4526CECAF2B1}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
