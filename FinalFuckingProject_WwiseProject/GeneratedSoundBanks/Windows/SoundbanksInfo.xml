@@ -799,6 +799,10 @@
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="41347890" Language="SFX">
+					<ShortName>Chase_intro(newnewnew)_95bpm_L03_P01.wav</ShortName>
+					<Path>SFX\Chase_intro(newnewnew)_95bpm_L03_P01_D79FB2B7.wem</Path>
+				</File>
 				<File Id="173902600" Language="SFX">
 					<ShortName>Harbour\loop_brush3_120bpm__L08_P00.wav</ShortName>
 					<Path>SFX\Harbour\loop_brush3_120bpm__L08_P00_D79FB2B7.wem</Path>
@@ -879,7 +883,7 @@
 			<Path>Cave.bnk</Path>
 			<IncludedEvents>
 				<Event Id="352130103" Name="birds" ObjectPath="\Events\Default Work Unit\birds" MaxAttenuation="70.000000"/>
-				<Event Id="983016381" Name="car" ObjectPath="\Events\Default Work Unit\car" MaxAttenuation="120.000000"/>
+				<Event Id="983016381" Name="car" ObjectPath="\Events\Default Work Unit\car" MaxAttenuation="100.000000"/>
 				<Event Id="1455232537" Name="cave_ambience" ObjectPath="\Events\Default Work Unit\cave_ambience" MaxAttenuation="85.000000"/>
 				<Event Id="1596304284" Name="chain_cave" ObjectPath="\Events\Default Work Unit\chain_cave" MaxAttenuation="15.000000"/>
 				<Event Id="1559958719" Name="cisternerne" ObjectPath="\Events\Default Work Unit\cisternerne" MaxAttenuation="85.000000"/>
@@ -901,10 +905,6 @@
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_C483DBDB.wem</Path>
 				</File>
-				<File Id="153068991" Language="SFX">
-					<ShortName>Car loop.wav</ShortName>
-					<Path>SFX\Car loop_D79FB2B7.wem</Path>
-				</File>
 				<File Id="235028013" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_78B1F0F8.wem</Path>
@@ -913,13 +913,17 @@
 					<ShortName>Cave_ambience.wav</ShortName>
 					<Path>SFX\Cave_ambience_D79FB2B7.wem</Path>
 				</File>
-				<File Id="366965488" Language="SFX">
-					<ShortName>Tires_loop.wav</ShortName>
-					<Path>SFX\Tires_loop_D79FB2B7.wem</Path>
+				<File Id="355149679" Language="SFX">
+					<ShortName>Motor_loop.wav</ShortName>
+					<Path>SFX\Motor_loop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="390443350" Language="SFX">
 					<ShortName>Chain.wav</ShortName>
 					<Path>SFX\Chain_26E332E3.wem</Path>
+				</File>
+				<File Id="397691316" Language="SFX">
+					<ShortName>Tires_loop.wav</ShortName>
+					<Path>SFX\Tires_loop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="499331955" Language="SFX">
 					<ShortName>pebbles_2.wav</ShortName>

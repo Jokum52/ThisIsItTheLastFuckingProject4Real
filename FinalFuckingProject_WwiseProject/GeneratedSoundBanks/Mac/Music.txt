@@ -3,12 +3,16 @@ Event	ID	Name			Wwise Object Path	Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	417490929	Chase			\Default Work Unit\Chase	
+	2260495330	Chase_volume			\Default Work Unit\Chase_volume	
 	2724869341	Music_switch			\Default Work Unit\Music_switch	
 
 State	ID	Name	State Group			Notes
 	0	None	Chase			
 	1125500713	Intro	Chase			
 	3161908922	Main	Chase			
+	0	None	Chase_volume			
+	243859308	Main_vol	Chase_volume			
+	1919711023	Intro_vol	Chase_volume			
 	0	None	Music_switch			
 	417490929	Chase	Music_switch			
 	569230464	Island_end	Music_switch			
@@ -17,7 +21,11 @@ State	ID	Name	State Group			Notes
 	3199546890	Island	Music_switch			
 	4122393694	Cave	Music_switch			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	122759789	Intro_vol	Chase_volume	\Interactive Music Hierarchy\Default Work Unit\Music		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	41347890	Chase_intro(newnewnew)_95bpm_L03_P01	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chase_intro(newnewnew)_95bpm_L03_P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chase_intro\Chase_intro(newnewnew)_95bpm_L03_P01\Chase_intro(newnewnew)_95bpm_L03_P01		2910380
 	173902600	loop_brush1_120bpm__L08_P00	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Harbour\loop_brush3_120bpm__L08_P00_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Harbour\loop_cello_120bpm__L08_P00\loop_brush1_120bpm__L08_P00		3072064
 	186258542	loop_brush1_120bpm__L08_P00	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Harbour\loop_brush2_120bpm__L08_P00_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Harbour\loop_cello_120bpm__L08_P00\loop_brush1_120bpm__L08_P00		3072064
 	386821245	loop_brush1_120bpm__L08_P00	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Harbour\loop_brush1_120bpm__L08_P00_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Harbour\loop_cello_120bpm__L08_P00\loop_brush1_120bpm__L08_P00		3072064

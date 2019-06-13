@@ -22,6 +22,18 @@ public class WindowSounds : MonoBehaviour
         AkSoundEngine.SetState("Chase", "Main");
     }
 
+    private void introVol()
+    {
+
+        AkSoundEngine.SetState("Chase_volume", "Intro_vol");
+    }
+
+    private void mainVol()
+    {
+
+        AkSoundEngine.SetState("Chase_volume", "Main_vol");
+    }
+
     private void windowCrush()
     {
 
