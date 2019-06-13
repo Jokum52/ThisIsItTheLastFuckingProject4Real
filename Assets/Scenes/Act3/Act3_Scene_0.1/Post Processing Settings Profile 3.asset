@@ -15,25 +15,25 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   intensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.319
     min: -1
     max: 1
   xMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0
     max: 1
   yMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0
     max: 1
   center:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0.5, y: 0.5}
   scale:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0.01
     max: 5
@@ -102,15 +102,15 @@ MonoBehaviour:
     min: 0
   nearFocusEnd:
     m_OverrideState: 1
-    m_Value: 6.29
+    m_Value: 5.37
     min: 0
   farFocusStart:
     m_OverrideState: 1
-    m_Value: 85.13
+    m_Value: 14.9
     min: 0
   farFocusEnd:
     m_OverrideState: 1
-    m_Value: 216.2
+    m_Value: 41.9
     min: 0
   nearSampleCount:
     m_OverrideState: 1
@@ -129,7 +129,7 @@ MonoBehaviour:
     max: 16
   farMaxBlur:
     m_OverrideState: 1
-    m_Value: 1.11
+    m_Value: 2.98
     min: 0
     max: 16
   highQualityFiltering:
@@ -408,6 +408,7 @@ MonoBehaviour:
   - {fileID: 2701954199861402614}
   - {fileID: 6911149242476290959}
   - {fileID: 5664917375781571496}
+  - {fileID: -8792860379888682970}
 --- !u!114 &1238545470737738336
 MonoBehaviour:
   m_ObjectHideFlags: 3
