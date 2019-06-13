@@ -139,7 +139,7 @@
 						<Action Name="" ID="{C4C61163-7D19-4383-AC2D-BF30002FDD2B}" ShortID="370739489">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Elevator stop" ID="{CC493546-747A-43F1-9EF6-58A623AAE589}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="Elevator stop_4" ID="{8CDD132D-55ED-45FA-95FA-823171719D83}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1008,6 +1008,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Svejse" ID="{2071AF69-D55C-4AB2-BA1F-144DD806A4E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="death" ID="{76A68740-26A5-404D-9600-99D917E505CC}">
+					<ChildrenList>
+						<Action Name="" ID="{4F902E84-E2D2-4CC6-B8EF-1E3134B7F47A}" ShortID="588106231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="death" ID="{788A778A-7687-4E86-88AA-4E2978CBE1CB}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

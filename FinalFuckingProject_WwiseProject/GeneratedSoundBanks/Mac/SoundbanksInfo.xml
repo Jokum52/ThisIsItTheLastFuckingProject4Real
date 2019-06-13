@@ -313,7 +313,7 @@
 				<Event Id="327928446" Name="elevator_drive" ObjectPath="\Events\Default Work Unit\elevator_drive" MaxAttenuation="100.000000"/>
 				<Event Id="4242192989" Name="elevator_land" ObjectPath="\Events\Default Work Unit\elevator_land"/>
 				<Event Id="1208976610" Name="elevator_start" ObjectPath="\Events\Default Work Unit\elevator_start" MaxAttenuation="100.000000"/>
-				<Event Id="2818913498" Name="elevator_stop" ObjectPath="\Events\Default Work Unit\elevator_stop" MaxAttenuation="100.000000"/>
+				<Event Id="2818913498" Name="elevator_stop" ObjectPath="\Events\Default Work Unit\elevator_stop"/>
 				<Event Id="1136349558" Name="metal_building_wind" ObjectPath="\Events\Default Work Unit\metal_building_wind"/>
 				<Event Id="3423202681" Name="rain_on_metal" ObjectPath="\Events\Default Work Unit\rain_on_metal"/>
 				<Event Id="1755348276" Name="zeppelin" ObjectPath="\Events\Default Work Unit\zeppelin" MaxAttenuation="25.000000"/>
@@ -351,6 +351,10 @@
 					<ShortName>Metal creak single\Metal creak 4.wav</ShortName>
 					<Path>SFX\Metal creak single\Metal creak 4_10C4C929.wem</Path>
 				</File>
+				<File Id="316951342" Language="SFX">
+					<ShortName>Elevator stop_4.wav</ShortName>
+					<Path>SFX\Elevator stop_4_10C4C929.wem</Path>
+				</File>
 				<File Id="376681258" Language="SFX">
 					<ShortName>Metal building\Elevator rope.wav</ShortName>
 					<Path>SFX\Metal building\Elevator rope_D79FB2B7.wem</Path>
@@ -362,10 +366,6 @@
 				<File Id="611558284" Language="SFX">
 					<ShortName>Elevator land_new.wav</ShortName>
 					<Path>SFX\Elevator land_new_10C4C929.wem</Path>
-				</File>
-				<File Id="663177238" Language="SFX">
-					<ShortName>Metal building\Elevator stop.wav</ShortName>
-					<Path>SFX\Metal building\Elevator stop_10C4C929.wem</Path>
 				</File>
 				<File Id="694582602" Language="SFX">
 					<ShortName>Metal creak continuous_mix2.wav</ShortName>
@@ -403,6 +403,7 @@
 			<Path>Hangar.bnk</Path>
 			<IncludedEvents>
 				<Event Id="855317084" Name="alarm" ObjectPath="\Events\Default Work Unit\alarm"/>
+				<Event Id="779278001" Name="death" ObjectPath="\Events\Default Work Unit\death"/>
 				<Event Id="1833174107" Name="hangar_ambience" ObjectPath="\Events\Default Work Unit\hangar_ambience"/>
 				<Event Id="1106973425" Name="hangar_light" ObjectPath="\Events\Default Work Unit\hangar_light"/>
 				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="45.000000"/>
@@ -489,6 +490,10 @@
 				<File Id="888594433" Language="SFX">
 					<ShortName>robo_creak\creak_2.wav</ShortName>
 					<Path>SFX\robo_creak\creak_2_10C4C929.wem</Path>
+				</File>
+				<File Id="892549761" Language="SFX">
+					<ShortName>death.wav</ShortName>
+					<Path>SFX\death_10C4C929.wem</Path>
 				</File>
 				<File Id="948052214" Language="SFX">
 					<ShortName>robo_creak\creak_5.wav</ShortName>

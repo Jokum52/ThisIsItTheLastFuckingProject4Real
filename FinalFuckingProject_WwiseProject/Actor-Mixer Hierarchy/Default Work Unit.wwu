@@ -2672,7 +2672,7 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="25">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="15">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{6E46D01A-5279-41D8-9523-00715FC41810}">
@@ -3351,6 +3351,84 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="Elevator stop_2" ID="{6055BB3C-B43E-4E97-932B-5AE606FABECE}" ShortID="128332456">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elevator stop_2" ID="{E16E8ED6-1FF8-4EFA-8038-22F09B105F4A}" ShortID="77421277">
+									<Language>SFX</Language>
+									<AudioFile>Elevator stop_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Elevator stop_2" ID="{E16E8ED6-1FF8-4EFA-8038-22F09B105F4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Elevator stop_3" ID="{2EF106D1-5D59-4AE6-A195-3FF02C217680}" ShortID="849344006">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elevator stop_3" ID="{33EAB102-B62B-4A7D-928B-C8BE6EDC6C39}" ShortID="884722721">
+									<Language>SFX</Language>
+									<AudioFile>Elevator stop_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Elevator stop_3" ID="{33EAB102-B62B-4A7D-928B-C8BE6EDC6C39}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Elevator stop_4" ID="{8CDD132D-55ED-45FA-95FA-823171719D83}" ShortID="264742399">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elevator stop_4" ID="{63117974-92A4-47D1-BB39-69335B3F0F47}" ShortID="316951342">
+									<Language>SFX</Language>
+									<AudioFile>Elevator stop_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Elevator stop_4" ID="{63117974-92A4-47D1-BB39-69335B3F0F47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<RandomSequenceContainer Name="pull_up" ID="{2BD33AD1-F042-4093-AE65-A529053CDF05}" ShortID="291234240">
@@ -11573,6 +11651,35 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="tesla_coil_start" ID="{9130A5C7-4F28-469B-83B1-FC3A2E78BD4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="death" ID="{788A778A-7687-4E86-88AA-4E2978CBE1CB}" ShortID="1017774308">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="death" ID="{58FE3D65-60A5-4FF9-836A-0D7C1EDEF40B}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="death" ID="{702E67DC-3917-4E09-96F0-78073323FDEF}" ShortID="892549761">
+									<Language>SFX</Language>
+									<AudioFile>death.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="death" ID="{702E67DC-3917-4E09-96F0-78073323FDEF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

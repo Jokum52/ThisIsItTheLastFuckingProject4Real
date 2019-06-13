@@ -88,6 +88,7 @@
 				</SoundBank>
 				<SoundBank Name="Hangar" ID="{89BF9DA0-27E1-4CAB-A488-984324914FFB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="death" ID="{76A68740-26A5-404D-9600-99D917E505CC}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="shutters" ID="{37247B05-1E3B-41D3-A775-2360854A35C5}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="alarm" ID="{36E2911C-E937-4238-BF39-D2469B1CDA19}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}" Filter="7" Origin="Manual"/>

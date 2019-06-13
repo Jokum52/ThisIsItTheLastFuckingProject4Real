@@ -127,6 +127,12 @@
 						<Property Name="FullBandGain" Type="Real32" Value="6"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="death" ID="{58FE3D65-60A5-4FF9-836A-0D7C1EDEF40B}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="5522"/>
+						<Property Name="GainBand3" Type="Real32" Value="4.5"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
