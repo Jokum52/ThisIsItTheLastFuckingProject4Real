@@ -124,6 +124,8 @@
 				<Event Id="48383132" Name="Chain" ObjectPath="\Events\Default Work Unit\Chain" MaxAttenuation="10.000000"/>
 				<Event Id="325582781" Name="constrction_site" ObjectPath="\Events\Default Work Unit\constrction_site" MaxAttenuation="62.000000"/>
 				<Event Id="2729331488" Name="crane" ObjectPath="\Events\Default Work Unit\crane" MaxAttenuation="60.000000"/>
+				<Event Id="2436196652" Name="Hammer1" ObjectPath="\Events\Default Work Unit\Hammer1" MaxAttenuation="35.000000"/>
+				<Event Id="2436196655" Name="Hammer2" ObjectPath="\Events\Default Work Unit\Hammer2" MaxAttenuation="35.000000"/>
 				<Event Id="3192784746" Name="lights" ObjectPath="\Events\Default Work Unit\lights" MaxAttenuation="25.000000"/>
 				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="45.000000"/>
 				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="45.000000"/>
@@ -131,9 +133,19 @@
 				<Event Id="825506301" Name="robot_walk" ObjectPath="\Events\Default Work Unit\robot_walk" MaxAttenuation="45.000000"/>
 				<Event Id="1921484442" Name="robot_walk_mud" ObjectPath="\Events\Default Work Unit\robot_walk_mud" MaxAttenuation="45.000000"/>
 				<Event Id="2345565601" Name="seagulls" ObjectPath="\Events\Default Work Unit\seagulls" MaxAttenuation="50.000000"/>
+				<Event Id="495639370" Name="Svejs" ObjectPath="\Events\Default Work Unit\Svejs" MaxAttenuation="25.000000"/>
+				<Event Id="1651551961" Name="SvejsOff" ObjectPath="\Events\Default Work Unit\SvejsOff" MaxAttenuation="0.000000"/>
 				<Event Id="2453122309" Name="waves" ObjectPath="\Events\Default Work Unit\waves" MaxAttenuation="30.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="25925397" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 201006].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 201006]_10C4C929.wem</Path>
+				</File>
+				<File Id="75697789" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200531].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200531]_10C4C929.wem</Path>
+				</File>
 				<File Id="94366758" Language="SFX">
 					<ShortName>Factory3.wav</ShortName>
 					<Path>SFX\Factory3_0BB82B16.wem</Path>
@@ -150,6 +162,10 @@
 					<ShortName>robo_creak\creak_1.wav</ShortName>
 					<Path>SFX\robo_creak\creak_1_10C4C929.wem</Path>
 				</File>
+				<File Id="172003923" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200536].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200536]_10C4C929.wem</Path>
+				</File>
 				<File Id="199703658" Language="SFX">
 					<ShortName>robot_step_no_mud_1.wav</ShortName>
 					<Path>SFX\robot_step_no_mud_1_10C4C929.wem</Path>
@@ -157,6 +173,18 @@
 				<File Id="228100385" Language="SFX">
 					<ShortName>Harbour\waves.wav</ShortName>
 					<Path>SFX\Harbour\waves_D79FB2B7.wem</Path>
+				</File>
+				<File Id="254179221" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 201000].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 201000]_10C4C929.wem</Path>
+				</File>
+				<File Id="289427517" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200527].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200527]_10C4C929.wem</Path>
+				</File>
+				<File Id="316180961" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 201001]-1.wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 201001]-1_10C4C929.wem</Path>
 				</File>
 				<File Id="351811156" Language="SFX">
 					<ShortName>robo_creak\creak_4.wav</ShortName>
@@ -170,13 +198,41 @@
 					<ShortName>ROBOT\startup.wav</ShortName>
 					<Path>SFX\ROBOT\startup_10C4C929.wem</Path>
 				</File>
+				<File Id="445157799" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200526].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200526]_10C4C929.wem</Path>
+				</File>
 				<File Id="453037357" Language="SFX">
 					<ShortName>ROBOT\start_steam.wav</ShortName>
 					<Path>SFX\ROBOT\start_steam_10C4C929.wem</Path>
 				</File>
+				<File Id="483058543" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 201005].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 201005]_10C4C929.wem</Path>
+				</File>
+				<File Id="520140118" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 200957].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 200957]_10C4C929.wem</Path>
+				</File>
+				<File Id="587224026" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200529].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200529]_10C4C929.wem</Path>
+				</File>
+				<File Id="622352878" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200540].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200540]_10C4C929.wem</Path>
+				</File>
 				<File Id="669548683" Language="SFX">
 					<ShortName>robot_step_mud_1.wav</ShortName>
 					<Path>SFX\robot_step_mud_1_10C4C929.wem</Path>
+				</File>
+				<File Id="723871857" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200538].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200538]_10C4C929.wem</Path>
+				</File>
+				<File Id="767640167" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200528].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200528]_10C4C929.wem</Path>
 				</File>
 				<File Id="775501888" Language="SFX">
 					<ShortName>Harbour\Crane and voices.wav</ShortName>
@@ -202,9 +258,21 @@
 					<ShortName>robo_creak\creak_2.wav</ShortName>
 					<Path>SFX\robo_creak\creak_2_10C4C929.wem</Path>
 				</File>
+				<File Id="906159627" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200534].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200534]_10C4C929.wem</Path>
+				</File>
+				<File Id="932139308" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 201001].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 201001]_10C4C929.wem</Path>
+				</File>
 				<File Id="935319652" Language="SFX">
 					<ShortName>Factory4.wav</ShortName>
 					<Path>SFX\Factory4_5C3172C4.wem</Path>
+				</File>
+				<File Id="942119451" Language="SFX">
+					<ShortName>Hammer\Hammer 1-1 [2019-06-13 201002].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1-1 [2019-06-13 201002]_10C4C929.wem</Path>
 				</File>
 				<File Id="948052214" Language="SFX">
 					<ShortName>robo_creak\creak_5.wav</ShortName>
@@ -213,6 +281,18 @@
 				<File Id="949833328" Language="SFX">
 					<ShortName>ROBOT\robot_step2.wav</ShortName>
 					<Path>SFX\ROBOT\robot_step2_10C4C929.wem</Path>
+				</File>
+				<File Id="965661490" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 200959].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 200959]_10C4C929.wem</Path>
+				</File>
+				<File Id="988782966" Language="SFX">
+					<ShortName>Hammer\Hammer 1 [2019-06-13 201004].wav</ShortName>
+					<Path>SFX\Hammer\Hammer 1 [2019-06-13 201004]_10C4C929.wem</Path>
+				</File>
+				<File Id="996506170" Language="SFX">
+					<ShortName>Svejse\Svejse 1 [2019-06-13 200525].wav</ShortName>
+					<Path>SFX\Svejse\Svejse 1 [2019-06-13 200525]_10C4C929.wem</Path>
 				</File>
 				<File Id="1012859475" Language="SFX">
 					<ShortName>Factory1.wav</ShortName>

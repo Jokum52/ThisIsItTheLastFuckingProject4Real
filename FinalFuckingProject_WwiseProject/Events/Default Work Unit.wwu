@@ -966,6 +966,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Svejs" ID="{44AE26EC-068B-4A34-83A5-9143AFA75C0A}">
+					<ChildrenList>
+						<Action Name="" ID="{4C2E17AF-06B6-442C-9AAE-53277D4C85BD}" ShortID="1073701918">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Svejse" ID="{2071AF69-D55C-4AB2-BA1F-144DD806A4E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hammer1" ID="{CD6B78C2-BF49-4A69-8965-08F58924F079}">
+					<ChildrenList>
+						<Action Name="" ID="{A404DD5A-5B2F-448B-B9C7-67265A30B461}" ShortID="845695245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer" ID="{82E5C963-3D8C-40FA-ADEA-99FC2CF846E7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hammer2" ID="{283C823F-96DD-453D-8095-04274A5EB833}">
+					<ChildrenList>
+						<Action Name="" ID="{9BEBDAB2-353A-48CA-BFAA-D59872D02DDC}" ShortID="77479905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer_01" ID="{D05E5768-4A47-4421-902A-857CB6D4E94E}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SvejsOff" ID="{BE74D156-BFBE-418B-AB51-2056E02BAC7C}">
+					<ChildrenList>
+						<Action Name="" ID="{93E7BA81-F420-4053-8A72-47D0D45B7D2F}" ShortID="663948717">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Svejse" ID="{2071AF69-D55C-4AB2-BA1F-144DD806A4E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,11 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	48383132	Chain			\Default Work Unit\Chain	
 	325582781	constrction_site			\Default Work Unit\constrction_site	
+	495639370	Svejs			\Default Work Unit\Svejs	
 	825506301	robot_walk			\Default Work Unit\robot_walk	
+	1651551961	SvejsOff			\Default Work Unit\SvejsOff	
 	1776277574	robot_creak			\Default Work Unit\robot_creak	
 	1921484442	robot_walk_mud			\Default Work Unit\robot_walk_mud	
 	1944012274	robot_start_up			\Default Work Unit\robot_start_up	
 	2345565601	seagulls			\Default Work Unit\seagulls	
+	2436196652	Hammer1			\Default Work Unit\Hammer1	
+	2436196655	Hammer2			\Default Work Unit\Hammer2	
 	2453122309	waves			\Default Work Unit\waves	
 	2729331488	crane			\Default Work Unit\crane	
 	2919926466	robot_steam			\Default Work Unit\robot_steam	
@@ -15,9 +19,12 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2697803130	robot_attenuation			\Default Work Unit\robot_attenuation	
 
 Effect plug-ins	ID	Name	Type				Notes
+	269651255	SeagullGain	Wwise Gain			
 	377957892	seagull	Wwise RoomVerb			
+	703052699	outside_harbour_farr_(Custom)	Wwise RoomVerb			
 	1169110113	New_Wwise_Compressor	Wwise Compressor			
 	1279000002	outside_harbour_farr	Wwise RoomVerb			
+	2655947336	WavesGain	Wwise Gain			
 	2996287275	outside_harbour_close	Wwise RoomVerb			
 	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
 
@@ -26,26 +33,45 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	908045241	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\silence_01\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	25925397	Hammer 1 [2019-06-13 201006]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 201006]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 201006]		99344
+	75697789	Svejse 1 [2019-06-13 200531]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200531]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200531]		110316
 	94366758	Factory3	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Factory3_0BB82B16.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Factory\Factory3		4275276
 	144489283	robot_step__no_mud_2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robot_step__no_mud_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step__no_mud_2		595416
 	153962114	robot_step_mud_2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robot_step_mud_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step_mud_2		231820
 	161669851	creak_1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_1		237112
+	172003923	Svejse 1 [2019-06-13 200536]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200536]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200536]		110316
 	199703658	robot_step_no_mud_1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robot_step_no_mud_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step_no_mud_1		557620
 	228100385	waves	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Harbour\waves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\waves		30720064
+	254179221	Hammer 1 [2019-06-13 201000]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 201000]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 201000]		92400
+	289427517	Svejse 1 [2019-06-13 200527]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200527]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200527]		110316
+	316180961	Hammer 1 [2019-06-13 201001]-1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 201001]-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 201001]-1		97912
 	351811156	creak_4	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_4		132364
 	369213721	robot_step1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\robot_step1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step1		557620
 	394612285	startup	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\startup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\startup		736672
+	445157799	Svejse 1 [2019-06-13 200526]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200526]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200526]		110316
 	453037357	start_steam	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\start_steam_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\start_steam		650540
+	483058543	Hammer 1 [2019-06-13 201005]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 201005]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 201005]		93120
+	520140118	Hammer 1 [2019-06-13 200957]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 200957]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 200957]		95156
+	587224026	Svejse 1 [2019-06-13 200529]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200529]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200529]		110316
+	622352878	Svejse 1 [2019-06-13 200540]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200540]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200540]		110316
 	669548683	robot_step_mud_1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robot_step_mud_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step_mud_1		353884
+	723871857	Svejse 1 [2019-06-13 200538]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200538]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200538]		101068
+	767640167	Svejse 1 [2019-06-13 200528]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200528]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200528]		110316
 	775501888	Crane and voices	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Harbour\Crane and voices_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Crane and voices		27912072
 	788189936	Factory2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Factory2_29870809.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Factory\Factory2		1553892
 	799950012	Chain	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Chain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal building\Chain		8448064
 	840428941	lights	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\lights_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\lights		849348
 	851624831	Factory5	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Factory5_DD37E1AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Factory\Factory5		3355924
 	888594433	creak_2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_2		274172
+	906159627	Svejse 1 [2019-06-13 200534]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200534]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200534]		110316
+	932139308	Hammer 1 [2019-06-13 201001]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 201001]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 201001]		96536
 	935319652	Factory4	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Factory4_5C3172C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Factory\Factory4		2079408
+	942119451	Hammer 1-1 [2019-06-13 201002]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1-1 [2019-06-13 201002]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1-1 [2019-06-13 201002]		97912
 	948052214	creak_5	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_5		99288
 	949833328	robot_step2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\robot_step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step2		617464
+	965661490	Hammer 1 [2019-06-13 200959]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 200959]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 200959]		93780
+	988782966	Hammer 1 [2019-06-13 201004]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hammer\Hammer 1 [2019-06-13 201004]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Hammer_01\Hammer 1 [2019-06-13 201004]		92400
+	996506170	Svejse 1 [2019-06-13 200525]	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Svejse\Svejse 1 [2019-06-13 200525]_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Svejse\Svejse 1 [2019-06-13 200525]		110316
 	1012859475	Factory1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Factory1_58627626.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\Factory\Factory1		7870752
 	1019855095	seagulls	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\seagulls_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harbour\seagulls		16710436
 

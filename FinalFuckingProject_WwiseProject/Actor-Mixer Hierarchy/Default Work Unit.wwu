@@ -3827,6 +3827,7 @@
 					<ChildrenList>
 						<Sound Name="Crane and voices" ID="{B698FCEB-F7E7-4B5F-A0DC-1641AC3F1C01}" ShortID="439547319">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -3835,7 +3836,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3999,7 +4000,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4009,6 +4010,9 @@
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="WavesGain" ID="{EB0700CC-669D-4C5F-84F4-CC5CDE8189D8}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Environment" ID="{0875A2DF-9794-4D0F-8B39-A11B597917DB}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -4029,7 +4033,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4087,7 +4091,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>3</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -4365,7 +4369,7 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-								<Property Name="BypassEffect0" Type="bool">
+								<Property Name="BypassEffect1" Type="bool">
 									<ValueList>
 										<Value>True</Value>
 									</ValueList>
@@ -4373,7 +4377,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>11</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4384,7 +4388,10 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
 								</Reference>
-								<Reference Name="Effect0">
+								<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="SeagullGain" ID="{73483073-33A6-482A-9B55-C81B2354C61D}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
+								</Reference>
+								<Reference Name="Effect1">
 									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
 										<Effect Name="seagull" ID="{15C0D457-86CF-4532-98ED-D485AF9199E9}" ShortID="377957892" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 											<PropertyList>
@@ -4437,7 +4444,7 @@
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4497,7 +4504,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>1</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -4548,10 +4555,11 @@
 						<Sound Name="lights" ID="{3ACD9C67-E2AD-4BBB-9F3A-4AA1D2202CD0}" ShortID="195363019">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4579,6 +4587,706 @@
 								<ActiveSource Name="lights" ID="{70906D1D-C817-41D3-AD1F-840B97328228}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Hammer" ID="{82E5C963-3D8C-40FA-ADEA-99FC2CF846E7}" ShortID="947006703">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A85EA0B6-AA77-4004-A50E-0E502F56A058}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10.1"/>
+													<Property Name="Min" Type="Real64" Value="-13.4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Hammer" ID="{0D230563-A484-4400-983C-4BC47911D882}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hammer 1 [2019-06-13 201006]" ID="{8115E081-89EA-4E15-9EF2-A4E3C2E61246}" ShortID="664534872">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201006]" ID="{89BE45AC-EDC1-43C7-AB66-FCE67BFBE96E}" ShortID="25925397">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201006].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201006]" ID="{89BE45AC-EDC1-43C7-AB66-FCE67BFBE96E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201001]-1" ID="{6BB356A0-83F3-465A-948F-6C7F134FBD87}" ShortID="34062876">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201001]-1" ID="{F2DECBB3-A937-41FC-8104-57C9D7D47868}" ShortID="316180961">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201001]-1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201001]-1" ID="{F2DECBB3-A937-41FC-8104-57C9D7D47868}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1-1 [2019-06-13 201002]" ID="{F250D9C4-AC87-4678-9A68-0598AE8D57AC}" ShortID="352325943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1-1 [2019-06-13 201002]" ID="{7E66D2AF-3CEA-4D32-AAAE-A407CFEF5BC5}" ShortID="942119451">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1-1 [2019-06-13 201002].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1-1 [2019-06-13 201002]" ID="{7E66D2AF-3CEA-4D32-AAAE-A407CFEF5BC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201001]" ID="{3AAE8D4F-7627-4DD7-B0C9-0D243B4C7491}" ShortID="227378444">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201001]" ID="{E2566B38-A8DF-4409-9754-CA8275729D4A}" ShortID="932139308">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201001].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201001]" ID="{E2566B38-A8DF-4409-9754-CA8275729D4A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 200957]" ID="{B3C330F8-7959-4B62-82A2-C830619AD540}" ShortID="944561193">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 200957]" ID="{58D4627E-C768-42B6-A856-10DC7CF1BBC2}" ShortID="520140118">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 200957].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 200957]" ID="{58D4627E-C768-42B6-A856-10DC7CF1BBC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 200959]" ID="{73A0B034-6635-48A5-B331-A5172FC28C02}" ShortID="700386104">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 200959]" ID="{4A98AB05-B2FA-4AD1-8B4E-3524DDD3F860}" ShortID="965661490">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 200959].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 200959]" ID="{4A98AB05-B2FA-4AD1-8B4E-3524DDD3F860}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201005]" ID="{1AE30496-897C-4F56-AEF0-742DBC38FDFC}" ShortID="418540674">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201005]" ID="{53F521E8-39F2-41F4-97C7-BA48C97C3C0B}" ShortID="483058543">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201005].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201005]" ID="{53F521E8-39F2-41F4-97C7-BA48C97C3C0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201000]" ID="{23BE91FB-1A65-41B5-9E87-9020970D3DE2}" ShortID="612804531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201000]" ID="{C5641A05-5545-4790-934B-9F359C41CACA}" ShortID="254179221">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201000].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201000]" ID="{C5641A05-5545-4790-934B-9F359C41CACA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201004]" ID="{81B2E782-6E3A-41C2-A487-0743CCC75D3C}" ShortID="536469591">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201004]" ID="{B0B53A8F-CE72-4705-AF5A-DCF584E60A18}" ShortID="988782966">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201004].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201004]" ID="{B0B53A8F-CE72-4705-AF5A-DCF584E60A18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Svejse" ID="{2071AF69-D55C-4AB2-BA1F-144DD806A4E1}" ShortID="650408429">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Svejse" ID="{C2847BB2-1E7C-4133-AF93-8A54FC1730E2}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Svejse 1 [2019-06-13 200525]" ID="{6B99682A-8E2B-4ACF-8ED8-D5FC37EFAD66}" ShortID="899427967">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200525]" ID="{BA1EAA26-98B6-4C90-AE4B-040AFD5633B6}" ShortID="996506170">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200525].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200525]" ID="{BA1EAA26-98B6-4C90-AE4B-040AFD5633B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200526]" ID="{ACA4525A-3DB9-4192-AA86-6BA61CFE45B9}" ShortID="248798195">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200526]" ID="{C75345BD-B66C-4E15-91A7-BA9D854A4984}" ShortID="445157799">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200526].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200526]" ID="{C75345BD-B66C-4E15-91A7-BA9D854A4984}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200527]" ID="{801C672E-DEA9-4235-B451-FFD5EF331FD3}" ShortID="753530717">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200527]" ID="{6DC975A0-E945-4B2F-9357-70242B3542A1}" ShortID="289427517">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200527].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200527]" ID="{6DC975A0-E945-4B2F-9357-70242B3542A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200528]" ID="{132B4226-323D-4F12-B858-FA2EEB330B03}" ShortID="685816423">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200528]" ID="{C69F4EF2-6494-4A87-AEBF-F01DD5505F9B}" ShortID="767640167">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200528].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200528]" ID="{C69F4EF2-6494-4A87-AEBF-F01DD5505F9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200529]" ID="{93A752C7-F6C7-4BA5-8647-AA68EB5CD6B9}" ShortID="458486243">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200529]" ID="{5C75F367-551E-4512-B32E-E59A2C34EAF7}" ShortID="587224026">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200529].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200529]" ID="{5C75F367-551E-4512-B32E-E59A2C34EAF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200531]" ID="{22DDCA62-3512-4B61-B08E-DC579ABC3A98}" ShortID="736041223">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200531]" ID="{1C937366-B1EC-4986-BEF1-03CBF6E15809}" ShortID="75697789">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200531].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200531]" ID="{1C937366-B1EC-4986-BEF1-03CBF6E15809}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200534]" ID="{059F3867-40BB-42B4-96DF-EF8670BE8EA1}" ShortID="554886088">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200534]" ID="{A769B1BE-C5DF-45D9-A344-2B3BE84E9ED9}" ShortID="906159627">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200534].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200534]" ID="{A769B1BE-C5DF-45D9-A344-2B3BE84E9ED9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200536]" ID="{0918EB87-7806-4DD0-B087-F1A670AF4EA8}" ShortID="630822476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200536]" ID="{A77BB88F-6670-4598-9F23-3E6474C7EDF1}" ShortID="172003923">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200536].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200536]" ID="{A77BB88F-6670-4598-9F23-3E6474C7EDF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200540]" ID="{5628703B-3C9B-4EFA-80AD-DA22AD953F51}" ShortID="1057859405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200540]" ID="{6995FB44-010A-4DB7-A74D-B5025CBA949F}" ShortID="622352878">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200540].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200540]" ID="{6995FB44-010A-4DB7-A74D-B5025CBA949F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Svejse 1 [2019-06-13 200538]" ID="{9947E244-BE05-485B-8CE4-91A04FB15BD1}" ShortID="100273785">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Svejse 1 [2019-06-13 200538]" ID="{3D8F957E-0752-4BF0-9974-52EFD1C90844}" ShortID="723871857">
+											<Language>SFX</Language>
+											<AudioFile>Svejse\Svejse 1 [2019-06-13 200538].wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Svejse 1 [2019-06-13 200538]" ID="{3D8F957E-0752-4BF0-9974-52EFD1C90844}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Hammer_01" ID="{D05E5768-4A47-4421-902A-857CB6D4E94E}" ShortID="1002332258">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-830</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DB534B7D-F8F6-48B6-8D38-B00EFC620AAC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15.2"/>
+													<Property Name="Min" Type="Real64" Value="-37"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Hammer" ID="{0D230563-A484-4400-983C-4BC47911D882}" WorkUnitID="{9B9DC125-7220-475A-BAA4-1CF2B4A2157C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{C4A4605C-42EF-476A-B53C-E31C7A442C24}">
+										<Effect Name="outside_harbour_farr_(Custom)" ID="{71E98CF3-6D33-4FAA-A08B-21DC7DBC37DB}" ShortID="703052699" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="5.2"/>
+												<Property Name="Density" Type="Real32" Value="94"/>
+												<Property Name="Diffusion" Type="Real32" Value="53"/>
+												<Property Name="DryLevel" Type="Real32" Value="-2.3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-23"/>
+												<Property Name="ERPattern" Type="int32" Value="30"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="-7"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="2200"/>
+												<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.1"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="12000"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="2.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.65"/>
+												<Property Name="PreDelay" Type="Real32" Value="125"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-24"/>
+												<Property Name="RoomShape" Type="Real32" Value="0"/>
+												<Property Name="RoomSize" Type="Real32" Value="71"/>
+												<Property Name="StereoWidth" Type="Real32" Value="140"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hammer 1 [2019-06-13 201006]" ID="{ED1A03DD-064D-42B7-9822-B92A46390F2C}" ShortID="465613862">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201006]" ID="{A8346E7A-64D5-4778-88AA-C5C6BE6987E0}" ShortID="483475121">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201006].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="25925397"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201006]" ID="{A8346E7A-64D5-4778-88AA-C5C6BE6987E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201001]-1" ID="{84F179BF-0EF8-4EAB-BF54-C14CE8CDEAA4}" ShortID="455713395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201001]-1" ID="{2D4C63CA-AFDC-494A-83E7-7AF83B966B84}" ShortID="820622488">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201001]-1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="316180961"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201001]-1" ID="{2D4C63CA-AFDC-494A-83E7-7AF83B966B84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1-1 [2019-06-13 201002]" ID="{D68BD64B-19D6-4B09-B640-C6EA263D80A6}" ShortID="896516009">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1-1 [2019-06-13 201002]" ID="{9B840546-AEDE-402B-8AF6-A9870A847091}" ShortID="870221556">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1-1 [2019-06-13 201002].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="942119451"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1-1 [2019-06-13 201002]" ID="{9B840546-AEDE-402B-8AF6-A9870A847091}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201001]" ID="{1B9D5A2D-2085-4DCD-B6A4-6B9EC32F3DB0}" ShortID="208714306">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201001]" ID="{35EBDB82-6379-408C-8035-C4E41BA03281}" ShortID="817820109">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201001].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="932139308"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201001]" ID="{35EBDB82-6379-408C-8035-C4E41BA03281}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 200957]" ID="{9C9BF6C7-B829-410E-8F6E-B20964354A3A}" ShortID="1019293338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 200957]" ID="{9E4553FD-0F5C-413B-9D40-120CB2E01E95}" ShortID="626983891">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 200957].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="520140118"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 200957]" ID="{9E4553FD-0F5C-413B-9D40-120CB2E01E95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 200959]" ID="{1B2562DC-657A-4125-AC5A-0CF839668456}" ShortID="980655523">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 200959]" ID="{FB7054FB-2F0E-4C1E-AB10-053F4113EF8D}" ShortID="852442181">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 200959].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="965661490"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 200959]" ID="{FB7054FB-2F0E-4C1E-AB10-053F4113EF8D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201005]" ID="{AE7BBE38-8E24-42C3-870A-4E6407E129EE}" ShortID="51885509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201005]" ID="{9118314A-D10A-40B4-90DE-A8AF16528B4D}" ShortID="311903265">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201005].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="483058543"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201005]" ID="{9118314A-D10A-40B4-90DE-A8AF16528B4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201000]" ID="{2EA462DC-083A-43D1-AFE5-F552F41429EE}" ShortID="132195594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201000]" ID="{6DADFB31-6957-4FB1-A3B8-019CA0CF51A6}" ShortID="279166235">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201000].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="254179221"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201000]" ID="{6DADFB31-6957-4FB1-A3B8-019CA0CF51A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer 1 [2019-06-13 201004]" ID="{25D41B01-1E54-4556-9CA8-8B39814E7B99}" ShortID="1056623267">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer 1 [2019-06-13 201004]" ID="{79BFCCB6-0654-427D-8308-15989489329B}" ShortID="760245232">
+											<Language>SFX</Language>
+											<AudioFile>Hammer\Hammer 1 [2019-06-13 201004].wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="988782966"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer 1 [2019-06-13 201004]" ID="{79BFCCB6-0654-427D-8308-15989489329B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Cut_scene" ID="{E89F5A31-9E85-4D8A-8169-8A8B7187BF1A}" ShortID="607913075">
@@ -7079,7 +7787,7 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>18</Value>
+										<Value>23</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Lowpass" Type="int16">
@@ -10907,7 +11615,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
