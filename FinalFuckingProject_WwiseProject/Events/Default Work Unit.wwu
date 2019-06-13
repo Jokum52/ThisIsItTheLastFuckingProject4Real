@@ -139,7 +139,7 @@
 						<Action Name="" ID="{C4C61163-7D19-4383-AC2D-BF30002FDD2B}" ShortID="370739489">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Elevator stop" ID="{CC493546-747A-43F1-9EF6-58A623AAE589}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="Elevator stop_4" ID="{8CDD132D-55ED-45FA-95FA-823171719D83}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -533,14 +533,14 @@
 						<Action Name="" ID="{9E8A567D-EF7B-481B-AFC6-E0208CBBAEC0}" ShortID="622370615">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Tires_loop" ID="{6DD276F2-7612-4B25-9022-9C95226E37F8}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="Tires_loop" ID="{CA4D6FB6-3B7D-4D43-89DD-018B22A11E6E}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{B4F2E751-DB68-4C21-A4AF-C6889B4A1964}" ShortID="547946666">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Car loop" ID="{C15CEB1C-E529-4822-80E6-82ABE30BDE20}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="Motor_loop" ID="{C1F16E3C-C1A0-4B03-ACF7-DF623755FD5A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -961,6 +961,64 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="rullefald" ID="{761CF93C-853E-4F17-968C-A18EE1DE1133}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Svejs" ID="{44AE26EC-068B-4A34-83A5-9143AFA75C0A}">
+					<ChildrenList>
+						<Action Name="" ID="{4C2E17AF-06B6-442C-9AAE-53277D4C85BD}" ShortID="1073701918">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Svejse" ID="{2071AF69-D55C-4AB2-BA1F-144DD806A4E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hammer1" ID="{CD6B78C2-BF49-4A69-8965-08F58924F079}">
+					<ChildrenList>
+						<Action Name="" ID="{A404DD5A-5B2F-448B-B9C7-67265A30B461}" ShortID="845695245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer" ID="{82E5C963-3D8C-40FA-ADEA-99FC2CF846E7}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hammer2" ID="{283C823F-96DD-453D-8095-04274A5EB833}">
+					<ChildrenList>
+						<Action Name="" ID="{9BEBDAB2-353A-48CA-BFAA-D59872D02DDC}" ShortID="77479905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer_01" ID="{D05E5768-4A47-4421-902A-857CB6D4E94E}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SvejsOff" ID="{BE74D156-BFBE-418B-AB51-2056E02BAC7C}">
+					<ChildrenList>
+						<Action Name="" ID="{93E7BA81-F420-4053-8A72-47D0D45B7D2F}" ShortID="663948717">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Svejse" ID="{2071AF69-D55C-4AB2-BA1F-144DD806A4E1}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="death" ID="{76A68740-26A5-404D-9600-99D917E505CC}">
+					<ChildrenList>
+						<Action Name="" ID="{4F902E84-E2D2-4CC6-B8EF-1E3134B7F47A}" ShortID="588106231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="death" ID="{788A778A-7687-4E86-88AA-4E2978CBE1CB}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

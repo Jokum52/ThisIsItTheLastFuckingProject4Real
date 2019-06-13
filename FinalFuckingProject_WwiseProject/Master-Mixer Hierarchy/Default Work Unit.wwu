@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="BusVolume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 						<Property Name="BypassEffect0" Type="bool">
@@ -48,7 +48,7 @@
 													</Point>
 													<Point>
 														<XPos>-19.96543</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
@@ -220,15 +220,6 @@
 										<Volume>-2.5</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>0.100000001490116</FadeOutTime>
-										<FadeCurve>FadeLinear</FadeCurve>
-									</DuckingParam>
-								</DuckItem>
-								<DuckItem>
-									<BusRef Name="Music" ID="{A19ECFA7-A083-4216-8622-1A33A1D081F6}"/>
-									<DuckingParam>
-										<Volume>0</Volume>
-										<FadeInTime>1</FadeInTime>
-										<FadeOutTime>1</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 									</DuckingParam>
 								</DuckItem>

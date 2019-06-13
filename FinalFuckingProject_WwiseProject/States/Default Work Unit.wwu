@@ -21,6 +21,21 @@
 						<State Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Chase_volume" ID="{5396D664-0585-4F20-BBE2-1514F2E84B9D}">
+					<ChildrenList>
+						<State Name="None" ID="{13C36516-54B3-4BA1-A423-159189AC6A8F}"/>
+						<State Name="Intro_vol" ID="{24A65244-BA9E-4B5D-990D-DA77BAA166A1}"/>
+						<State Name="Main_vol" ID="{EB257FD0-BB06-4D0F-A457-538CA69C6DB8}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Intro_vol" ID="{24A65244-BA9E-4B5D-990D-DA77BAA166A1}"/>
+							<EndState Name="Main_vol" ID="{EB257FD0-BB06-4D0F-A457-538CA69C6DB8}"/>
+							<Time>4</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	321279739	robot_shut_down			\Default Work Unit\robot_shut_down	
+	779278001	death			\Default Work Unit\death	
 	825506301	robot_walk			\Default Work Unit\robot_walk	
 	855317084	alarm			\Default Work Unit\alarm	
 	924529059	shutters			\Default Work Unit\shutters	
@@ -19,6 +20,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	678389816	morelevel	Wwise Compressor			
+	779278001	death	Wwise Parametric EQ			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	46290751	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\silence\Wwise Silence	
@@ -43,6 +45,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	877837340	shoot_gun	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\ROBOT\shoot_gun_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\shoot_gun		1036412
 	887618771	tesla_coil_start	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\tesla_coil_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hangar\tesla_coil_start		286716
 	888594433	creak_2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\robo_creak\creak_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_2		274172
+	892549761	death	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hangar\death		705064
 	948052214	creak_5	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\robo_creak\creak_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_5		99288
 	949833328	robot_step2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\ROBOT\robot_step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step2		617464
 	953699668	shut_down	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Windows\SFX\shut_down_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\shut_down		1985944

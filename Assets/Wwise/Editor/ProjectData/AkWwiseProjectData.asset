@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8ce79867d8f40740a3d2d5b5dfca051f
     GuidInternal: 
-    m_lastTime: -8586413248494338494
+    m_lastTime: -8586411499867365058
     List:
     - name: Cave_birds
       guid: fc9a557b6bf91f4095f9019df8d0ce02
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 826bf6506d71e74da1a11f4695bf1525
     GuidInternal: 
-    m_lastTime: -8586413244905981816
+    m_lastTime: -8586411508422715522
     List:
     - name: Ambience
       guid: c24f2d49c572f54585a796a2fc5ce9c5
@@ -205,7 +205,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 0d64ac262e426e4db877e4a1f70a1c42
     GuidInternal: 
-    m_lastTime: -8586413255175254807
+    m_lastTime: -8586411491648396158
     List:
     - name: alarm
       guid: 1c91e23637e93842bf39d2469b1cda19
@@ -339,6 +339,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: death
+      guid: 4087a676a5264d40960099d917e505cc
+      id: 779278001
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: death
+        ObjectType: 3
+      Path: Default Work Unit\death
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: elevator_drive
       guid: 9f9cdec091c25047a5b6b930f8dc0908
       id: 327928446
@@ -456,6 +468,30 @@ MonoBehaviour:
       - ElementName: gun_unholster
         ObjectType: 3
       Path: Default Work Unit\gun_unholster
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Hammer1
+      guid: c2786bcd49bf694a896508f58924f079
+      id: 2436196652
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hammer1
+        ObjectType: 3
+      Path: Default Work Unit\Hammer1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Hammer2
+      guid: 3f823c28dd963d45809504274a5eb833
+      id: 2436196655
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hammer2
+        ObjectType: 3
+      Path: Default Work Unit\Hammer2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -735,6 +771,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: rullefald
+      guid: 25aa38675b2f91499e882ceb14c8de75
+      id: 1203987052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: rullefald
+        ObjectType: 3
+      Path: Default Work Unit\rullefald
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: seagulls
       guid: 0734c66cfdabea4ab01693a16cc1a676
       id: 2345565601
@@ -759,6 +807,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: SirenAndHonk
+      guid: 4dd36cf0b4626e4d87ee03283cf718b2
+      id: 714491061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SirenAndHonk
+        ObjectType: 3
+      Path: Default Work Unit\SirenAndHonk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: stone_glow
       guid: a9942192b3ce274291cdac8b961954ce
       id: 3767073320
@@ -768,6 +828,30 @@ MonoBehaviour:
       - ElementName: stone_glow
         ObjectType: 3
       Path: Default Work Unit\stone_glow
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Svejs
+      guid: ec26ae448b06344a83a59143afa75c0a
+      id: 495639370
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Svejs
+        ObjectType: 3
+      Path: Default Work Unit\Svejs
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SvejsOff
+      guid: 56d174bebebf8b41ab512056e02bac7c
+      id: 1651551961
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SvejsOff
+        ObjectType: 3
+      Path: Default Work Unit\SvejsOff
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -843,6 +927,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Traffic
+      guid: e3e0e3331c40594baf75b51bea35f883
+      id: 3463109076
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Traffic
+        ObjectType: 3
+      Path: Default Work Unit\Traffic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: walk_clothes
       guid: b0ba049fd7341d4daffc58d1ba317f0a
       id: 2948715151
@@ -900,6 +996,18 @@ MonoBehaviour:
       - ElementName: wind_harbour
         ObjectType: 3
       Path: Default Work Unit\wind_harbour
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: window_crush
+      guid: 99a655b3d64dfd4a94f6dea64f6dc856
+      id: 2480042149
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: window_crush
+        ObjectType: 3
+      Path: Default Work Unit\window_crush
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1035,7 +1143,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 32214f11f183c844ad96b6dcb924f20f
     GuidInternal: 
-    m_lastTime: -8586413532184805178
+    m_lastTime: -8586411635449222467
     List:
     - name: Chase
       guid: d249fa96bf99114d8b3ec9886fc1acf8
@@ -1061,6 +1169,37 @@ MonoBehaviour:
           ObjectType: 8
       - name: None
         guid: 6c1933cf55e3b94d88ad67c2a78e8bed
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Chase_volume
+      guid: 64d696538505204fbbe21514f2e84b9d
+      id: 2260495330
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Chase_volume
+        ObjectType: 9
+      Path: Default Work Unit\Chase_volume
+      values:
+      - name: Intro_vol
+        guid: 4452a6249eba5d4b990dda77baa166a1
+        id: 1919711023
+        PathAndIcons:
+        - ElementName: Intro_vol
+          ObjectType: 8
+      - name: Main_vol
+        guid: d07f25eb06bb0f4da457538ca69c6db8
+        id: 243859308
+        PathAndIcons:
+        - ElementName: Main_vol
+          ObjectType: 8
+      - name: None
+        guid: 1665c313b354a14ba423159189ac6a8f
         id: 748895195
         PathAndIcons:
         - ElementName: None
@@ -1208,8 +1347,8 @@ MonoBehaviour:
   - /FinalFuckingProject_WwiseProject
   - /FinalFuckingProject_WwiseProject/Events
   - /FinalFuckingProject_WwiseProject/Events/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/Switches
-  - /FinalFuckingProject_WwiseProject/Switches/Default Work Unit
-  - /FinalFuckingProject_WwiseProject/Switches/Default Work Unit/Material
+  - /FinalFuckingProject_WwiseProject/States
+  - /FinalFuckingProject_WwiseProject/States/Default Work Unit
+  - /FinalFuckingProject_WwiseProject/States/Default Work Unit/Music_switch
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -117,6 +117,22 @@
 	<GameParameter Name="alarm_side_chain" ID="{8D3B42F0-5DAC-4CD0-959A-F57779280CA0}"/>
 </PluginData>
 				</Effect>
+				<Effect Name="WavesGain" ID="{EB0700CC-669D-4C5F-84F4-CC5CDE8189D8}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="19"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="SeagullGain" ID="{73483073-33A6-482A-9B55-C81B2354C61D}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="6"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="death" ID="{58FE3D65-60A5-4FF9-836A-0D7C1EDEF40B}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="5522"/>
+						<Property Name="GainBand3" Type="Real32" Value="4.5"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

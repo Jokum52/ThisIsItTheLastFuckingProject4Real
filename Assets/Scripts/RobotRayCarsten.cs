@@ -65,8 +65,9 @@ public class RobotRayCarsten : MonoBehaviour
                 gun.enabled = false;
                 playerAliveGun.SetActive(false);
                 playerAliveClip.SetActive(false);
-
+                
                 playerSplatt.SetActive(true);
+                AkSoundEngine.PostEvent("death", gameObject);
                 Debug.Log("I hit ya booty!");
              
                 timerStart = true;

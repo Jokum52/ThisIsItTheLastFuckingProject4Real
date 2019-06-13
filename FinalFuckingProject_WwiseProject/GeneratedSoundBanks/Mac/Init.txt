@@ -1,11 +1,15 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	417490929	Chase			\Default Work Unit\Chase	
+	2260495330	Chase_volume			\Default Work Unit\Chase_volume	
 	2724869341	Music_switch			\Default Work Unit\Music_switch	
 
 State	ID	Name	State Group			Notes
 	0	None	Chase			
 	1125500713	Intro	Chase			
 	3161908922	Main	Chase			
+	0	None	Chase_volume			
+	243859308	Main_vol	Chase_volume			
+	1919711023	Intro_vol	Chase_volume			
 	0	None	Music_switch			
 	417490929	Chase	Music_switch			
 	569230464	Island_end	Music_switch			
