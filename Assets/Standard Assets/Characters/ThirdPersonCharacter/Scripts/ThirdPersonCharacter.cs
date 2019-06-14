@@ -50,7 +50,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         bool m_EdgePullup;
         float m_LastEdgeGrabbed = 0;
         public GameObject otherObject;
+        public GameObject otherObject2;
         public Animator otherAnimator;
+        public Animator otherAnimator2;
 
 
         float speed;
@@ -108,6 +110,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private void Awake()
         {
             otherAnimator = otherObject.GetComponent<Animator>();
+            otherAnimator2 = otherObject2.GetComponent<Animator>();
+
         }
 
         void ScaleCapsuleForCrouching(bool crouch)
@@ -217,10 +221,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
 
             otherAnimator.SetBool("Deactivate", true);
+            otherAnimator2.SetBool("Deactivate", true);
 
 
         }
-        
+
 
         void HandleAirborneMovement()
         {
