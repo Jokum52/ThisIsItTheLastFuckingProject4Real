@@ -778,6 +778,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{84CC0C6B-176B-4FA5-AFA7-5CDB96FBA982}" ShortID="536366250">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steam loop" ID="{2C01CF62-FAF5-4FF7-839C-D67DA05B8857}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="jump" ID="{E2B009E1-592B-44E0-ABA2-37508015D2A7}">
@@ -822,6 +832,39 @@
 				</Event>
 				<Event Name="alarm" ID="{36E2911C-E937-4238-BF39-D2469B1CDA19}">
 					<ChildrenList>
+						<Action Name="" ID="{F29AC1B3-D519-4920-98AC-FBE6C67F5DA5}" ShortID="19292650">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="Pitch" Type="int32" Value="-250"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{562F2668-2774-472E-AA10-98A368232D43}" ShortID="849336558">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0D8B6903-DD34-4E26-B77B-7FB0173E81D7}" ShortID="128126971">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{3E690BED-466C-46DA-ABAC-03F6053BB98F}" ShortID="497855788">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -1019,6 +1062,74 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="death" ID="{788A778A-7687-4E86-88AA-4E2978CBE1CB}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Alarm_end" ID="{3A43A063-E4B3-4B78-BD1E-4B0A547CC8A2}">
+					<ChildrenList>
+						<Action Name="" ID="{5B3C902A-93CD-4818-A792-9D6BE1096229}" ShortID="13749860">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Pitch" Type="int32" Value="-1570"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{89457F11-392E-4E33-BBB2-68799C2D7BED}" ShortID="161840766">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tesla_coil" ID="{B546DDF3-C84B-403D-AF11-D8890AC7E2B9}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BF76B114-DE06-42EE-8EB6-E36E8A5E5990}" ShortID="482361936">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Delay" Type="Real64" Value="5.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DDC8DC35-A88E-45BF-861B-672FA8C0649C}" ShortID="320813908">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hangar_door_out" ID="{1F67D503-7FEA-4637-8A3A-905EF9BE4C99}">
+					<ChildrenList>
+						<Action Name="" ID="{815DB707-2281-443F-9A56-E7EDD0A5EF2F}" ShortID="602812061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_out" ID="{E2C20514-A9F2-43A6-BD0A-22ED9E4E3643}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

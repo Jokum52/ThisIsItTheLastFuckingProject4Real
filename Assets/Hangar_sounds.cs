@@ -34,6 +34,12 @@ public class Hangar_sounds : MonoBehaviour
         AkSoundEngine.PostEvent("tesla_coil", gameObject);
     }
 
+    private void Alarm_off()
+    {
+
+        AkSoundEngine.PostEvent("Alarm_end", gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {

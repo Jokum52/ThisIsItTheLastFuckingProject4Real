@@ -11682,6 +11682,68 @@
 								<ActiveSource Name="death" ID="{702E67DC-3917-4E09-96F0-78073323FDEF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Door_out" ID="{E2C20514-A9F2-43A6-BD0A-22ED9E4E3643}" ShortID="853640770">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_out" ID="{496CFC2D-C371-4725-8DEA-F293630A003E}" ShortID="401737741">
+									<Language>SFX</Language>
+									<AudioFile>Door_out.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_out" ID="{496CFC2D-C371-4725-8DEA-F293630A003E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Steam loop" ID="{2C01CF62-FAF5-4FF7-839C-D67DA05B8857}" ShortID="1024022655">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{59632554-9396-4E15-889E-7A2F5458DEC3}">
+										<Effect Name="Boost_3dB_10KHz_(Custom)" ID="{9C74A30D-C5E8-499D-BD2A-EE19622F647D}" ShortID="812299995" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand3" Type="Real32" Value="562"/>
+												<Property Name="GainBand3" Type="Real32" Value="5.5"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="OnOffBand2" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Steam loop" ID="{39EBE2E0-92ED-4CBD-9717-254CF7520C91}" ShortID="1020995323">
+									<Language>SFX</Language>
+									<AudioFile>Steam loop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Steam loop" ID="{39EBE2E0-92ED-4CBD-9717-254CF7520C91}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="Robot" ID="{A15C76EF-B4E7-4AB5-9264-0BE7664A5A99}" ShortID="298973458">

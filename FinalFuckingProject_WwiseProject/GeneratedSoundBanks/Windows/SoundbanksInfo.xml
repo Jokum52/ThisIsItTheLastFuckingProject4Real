@@ -403,14 +403,16 @@
 			<Path>Hangar.bnk</Path>
 			<IncludedEvents>
 				<Event Id="855317084" Name="alarm" ObjectPath="\Events\Default Work Unit\alarm"/>
+				<Event Id="233317330" Name="Alarm_end" ObjectPath="\Events\Default Work Unit\Alarm_end" MaxAttenuation="0.000000"/>
 				<Event Id="779278001" Name="death" ObjectPath="\Events\Default Work Unit\death"/>
 				<Event Id="1833174107" Name="hangar_ambience" ObjectPath="\Events\Default Work Unit\hangar_ambience"/>
+				<Event Id="3680813958" Name="Hangar_door_out" ObjectPath="\Events\Default Work Unit\Hangar_door_out"/>
 				<Event Id="1106973425" Name="hangar_light" ObjectPath="\Events\Default Work Unit\hangar_light"/>
 				<Event Id="1776277574" Name="robot_creak" ObjectPath="\Events\Default Work Unit\robot_creak" MaxAttenuation="45.000000"/>
 				<Event Id="1104087918" Name="robot_gun_cool_off" ObjectPath="\Events\Default Work Unit\robot_gun_cool_off" MaxAttenuation="45.000000"/>
 				<Event Id="3730689157" Name="robot_load_gun" ObjectPath="\Events\Default Work Unit\robot_load_gun" MaxAttenuation="45.000000"/>
 				<Event Id="1574202028" Name="robot_shoot_gun" ObjectPath="\Events\Default Work Unit\robot_shoot_gun" MaxAttenuation="45.000000"/>
-				<Event Id="321279739" Name="robot_shut_down" ObjectPath="\Events\Default Work Unit\robot_shut_down" MaxAttenuation="45.000000"/>
+				<Event Id="321279739" Name="robot_shut_down" ObjectPath="\Events\Default Work Unit\robot_shut_down"/>
 				<Event Id="1944012274" Name="robot_start_up" ObjectPath="\Events\Default Work Unit\robot_start_up" MaxAttenuation="45.000000"/>
 				<Event Id="2919926466" Name="robot_steam" ObjectPath="\Events\Default Work Unit\robot_steam" MaxAttenuation="45.000000"/>
 				<Event Id="2179852791" Name="robot_turn" ObjectPath="\Events\Default Work Unit\robot_turn" MaxAttenuation="45.000000"/>
@@ -463,6 +465,10 @@
 					<ShortName>ROBOT\startup.wav</ShortName>
 					<Path>SFX\ROBOT\startup_10C4C929.wem</Path>
 				</File>
+				<File Id="401737741" Language="SFX">
+					<ShortName>Door_out.wav</ShortName>
+					<Path>SFX\Door_out_10C4C929.wem</Path>
+				</File>
 				<File Id="453037357" Language="SFX">
 					<ShortName>ROBOT\start_steam.wav</ShortName>
 					<Path>SFX\ROBOT\start_steam_10C4C929.wem</Path>
@@ -510,6 +516,10 @@
 				<File Id="999953621" Language="SFX">
 					<ShortName>startup_2.wav</ShortName>
 					<Path>SFX\startup_2_10C4C929.wem</Path>
+				</File>
+				<File Id="1020995323" Language="SFX">
+					<ShortName>Steam loop.wav</ShortName>
+					<Path>SFX\Steam loop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1059700227" Language="SFX">
 					<ShortName>ROBOT\gun_cool_off.wav</ShortName>

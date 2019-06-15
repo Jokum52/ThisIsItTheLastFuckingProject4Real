@@ -80,6 +80,13 @@ public class robot_sounds : MonoBehaviour
 
     }
 
+    private void alarm_off()
+    {
+
+        AkSoundEngine.PostEvent("Alarm_end", gameObject);
+
+    }
+
     // Update is called once per frame
     void Update()
     {

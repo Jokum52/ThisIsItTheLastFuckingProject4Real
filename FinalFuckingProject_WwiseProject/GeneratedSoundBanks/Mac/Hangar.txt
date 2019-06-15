@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	233317330	Alarm_end			\Default Work Unit\Alarm_end	
 	321279739	robot_shut_down			\Default Work Unit\robot_shut_down	
 	779278001	death			\Default Work Unit\death	
 	825506301	robot_walk			\Default Work Unit\robot_walk	
@@ -13,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1944012274	robot_start_up			\Default Work Unit\robot_start_up	
 	2179852791	robot_turn			\Default Work Unit\robot_turn	
 	2919926466	robot_steam			\Default Work Unit\robot_steam	
+	3680813958	Hangar_door_out			\Default Work Unit\Hangar_door_out	
 	3730689157	robot_load_gun			\Default Work Unit\robot_load_gun	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -21,6 +23,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	678389816	morelevel	Wwise Compressor			
 	779278001	death	Wwise Parametric EQ			
+	812299995	Boost_3dB_10KHz_(Custom)	Wwise Parametric EQ			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	46290751	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\silence\Wwise Silence	
@@ -38,6 +41,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	351811156	creak_4	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\robo_creak\creak_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robo_creak\creak_4		132364
 	369213721	robot_step1	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\robot_step1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step1		557620
 	394612285	startup	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\startup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\startup		736672
+	401737741	Door_out	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Door_out_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hangar\Door_out		1107920
 	453037357	start_steam	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\start_steam_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\start_steam		650540
 	480200345	Hangar ambience	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Hangar ambience_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hangar\Hangar ambience		7296064
 	604166369	hangar_light	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\hangar_light_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hangar\hangar_light		1482524
@@ -50,5 +54,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	949833328	robot_step2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\robot_step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_walk\robot_step2		617464
 	953699668	shut_down	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\shut_down_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\shut_down		1985944
 	999953621	load_gun_2	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\startup_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\load_gun_2		363888
+	1020995323	Steam loop	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\Steam loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hangar\Steam loop		1920064
 	1059700227	gun_cool_off	D:\Users\Casper Olsen\SPECIALEjaaaaa\ThisIsItTheLastFuckingProject4Real\FinalFuckingProject_WwiseProject\.cache\Mac\SFX\ROBOT\gun_cool_off_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\gun_cool_off		518240
 
