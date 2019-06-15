@@ -101,6 +101,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -295,13 +300,12 @@
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-300</Value>
+										<Value>-150</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{3E452A7F-6AC2-4B6E-9CE1-AA6B7D2441E6}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="200"/>
 													<Property Name="Min" Type="Real64" Value="-100"/>
 												</PropertyList>
@@ -310,6 +314,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2324,7 +2333,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2812,9 +2821,20 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Metal creak 6" ID="{1394CCEF-644A-4CC8-AB57-2A5C4CBA6F52}" ShortID="406514549">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="metalcompressor" ID="{E6038B58-A53B-4783-80BC-2D1B6977532A}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -2831,9 +2851,15 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Metal creak 7" ID="{19DB66E5-0AF0-4E88-9527-B78D5E91B84C}" ShortID="216090866">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="metalcompressor" ID="{E6038B58-A53B-4783-80BC-2D1B6977532A}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -11537,13 +11563,16 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Shutters" ID="{BF678B02-888B-4ECD-BAC1-7DB7FEB86FBD}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -11625,6 +11654,11 @@
 						<Sound Name="tesla_coil" ID="{B546DDF3-C84B-403D-AF11-D8890AC7E2B9}" ShortID="945683823">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -11645,9 +11679,24 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="tesla_coil_start" ID="{ADA777DD-AC59-4382-BA8B-14D58A1A1DC3}" ShortID="719317744">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="New_Wwise_Compressor_01the" ID="{795377F3-B2D0-4DCB-8FB6-34A8E6C4C899}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Tesla coil" ID="{2B9FE763-73C0-4554-9B8E-BE6C10442372}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
@@ -11664,13 +11713,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="death" ID="{788A778A-7687-4E86-88AA-4E2978CBE1CB}" ShortID="1017774308">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-2</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56D2F7B9-E607-4C53-B0C4-33116786CFF6}"/>
@@ -11678,8 +11720,11 @@
 								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<ObjectRef Name="death" ID="{58FE3D65-60A5-4FF9-836A-0D7C1EDEF40B}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
 								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="deathtt" ID="{08A1285E-060C-4A06-AFE7-550206792278}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
+								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
+									<ObjectRef Name="death" ID="{50740E70-EABD-4FD9-BCE3-A804E58C2048}" WorkUnitID="{6798E78C-F4D8-4007-A3D2-D5B5DFCA051F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11695,6 +11740,11 @@
 						<Sound Name="Door_out" ID="{E2C20514-A9F2-43A6-BD0A-22ED9E4E3643}" ShortID="853640770">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

@@ -133,6 +133,42 @@
 						<Property Name="GainBand3" Type="Real32" Value="4.5"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="metalcompressor" ID="{E6038B58-A53B-4783-80BC-2D1B6977532A}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="Ratio" Type="Real32" Value="18.3"/>
+						<Property Name="Threshold" Type="Real32" Value="-18.8"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Shutters" ID="{BF678B02-888B-4ECD-BAC1-7DB7FEB86FBD}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0"/>
+						<Property Name="Ratio" Type="Real32" Value="50"/>
+						<Property Name="Threshold" Type="Real32" Value="-19.3"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Compressor_01the" ID="{795377F3-B2D0-4DCB-8FB6-34A8E6C4C899}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0"/>
+						<Property Name="Ratio" Type="Real32" Value="50"/>
+						<Property Name="Threshold" Type="Real32" Value="-4.1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="deathtt" ID="{08A1285E-060C-4A06-AFE7-550206792278}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0"/>
+						<Property Name="Ratio" Type="Real32" Value="50"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.38"/>
+						<Property Name="Threshold" Type="Real32" Value="-25.8"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="deathmeter" ID="{69C8E126-AE3D-42E0-B134-471A11B99F6F}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.47"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="death" ID="{4D55D414-76E9-4FC4-AD77-EC6A2FE76451}"/>
+</PluginData>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
