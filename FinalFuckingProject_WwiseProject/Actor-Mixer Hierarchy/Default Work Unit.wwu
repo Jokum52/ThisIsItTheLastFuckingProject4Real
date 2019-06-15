@@ -6427,6 +6427,16 @@
 										<Value>25</Value>
 									</ValueList>
 								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
@@ -11749,6 +11759,7 @@
 				<ActorMixer Name="Robot" ID="{A15C76EF-B4E7-4AB5-9264-0BE7664A5A99}" ShortID="298973458">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="EnableAttenuation" Type="bool" Value="False">
 							<RTPCList>
 								<RTPC Name="" ID="{B1C4C25B-37EE-45E3-8F9F-808253490A83}" ShortID="149399453">
