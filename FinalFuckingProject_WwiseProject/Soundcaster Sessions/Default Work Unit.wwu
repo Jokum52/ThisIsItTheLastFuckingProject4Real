@@ -237,10 +237,15 @@
 							<GameParameterRef Name="mud" ID="{B54E09F8-291A-4F0E-9C47-53584721E332}"/>
 							<Value>5</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="death" ID="{4D55D414-76E9-4FC4-AD77-EC6A2FE76451}"/>
+							<Value>-48</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Island" ID="{9C682901-31AB-463B-9A91-995EF7E4DE69}"/>
+						<CurrentStateRef Name="None" ID="{B1AB151C-DFB8-410F-8288-D6D9E4158354}"/>
 						<CurrentStateRef Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
+						<CurrentStateRef Name="Main_vol" ID="{EB257FD0-BB06-4D0F-A457-538CA69C6DB8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Metal_thick" ID="{43164658-5605-418A-BE25-1868C30B42E3}"/>
@@ -314,10 +319,6 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="1" Y="1"/>
 						</Module>
@@ -334,8 +335,16 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="death" ID="{788A778A-7687-4E86-88AA-4E2978CBE1CB}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="tesla_coil" ID="{2BD087D7-7906-4877-8420-3F40FB4B1D41}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -386,6 +395,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="mud" ID="{B54E09F8-291A-4F0E-9C47-53584721E332}"/>
 							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="death" ID="{4D55D414-76E9-4FC4-AD77-EC6A2FE76451}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

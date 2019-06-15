@@ -23,6 +23,9 @@
 						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<ObjectRef Name="Extreme_Limiting_1" ID="{8F08A8A7-3313-4E5D-9EBD-2B1B564DE411}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Environment" ID="{0875A2DF-9794-4D0F-8B39-A11B597917DB}"/>
@@ -88,6 +91,51 @@
 								</Bus>
 								<Bus Name="Thunder" ID="{7EAB7EA6-9DAC-4C99-8C22-3E948534206F}"/>
 								<Bus Name="Robot" ID="{2EC162EF-48C7-4E99-8E24-542C5C563B6E}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5357970E-6E6C-43E9-851C-0B5EDF8F12D4}" ShortID="339067544">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="death" ID="{4D55D414-76E9-4FC4-AD77-EC6A2FE76451}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{711C6F7F-8FA6-4164-AEAB-1FD0B2FDE358}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-11.94006</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-8.26515</XPos>
+																<YPos>-2.62935</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-5.15820895522388</XPos>
+																<YPos>-7.91170440496756</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-9.47138</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
 											<ObjectRef Name="robot" ID="{7E206CEB-CCCB-41D7-9161-655380601399}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
@@ -211,6 +259,20 @@
 											</RTPCList>
 										</Property>
 									</PropertyList>
+								</Bus>
+								<Bus Name="death" ID="{50740E70-EABD-4FD9-BCE3-A804E58C2048}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="deathmeter" ID="{69C8E126-AE3D-42E0-B134-471A11B99F6F}" WorkUnitID="{5F35A05A-EBAE-47F4-90EC-07A5F789EF6D}"/>
+										</Reference>
+									</ReferenceList>
 								</Bus>
 							</ChildrenList>
 							<DuckingList>
