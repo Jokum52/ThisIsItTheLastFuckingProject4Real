@@ -179,6 +179,14 @@
 							<ObjectRef Name="lights" ID="{29231991-1191-4A18-97F9-3B3A63AD7D32}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="4" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Robot_silence" ID="{824731A5-50C6-4465-A12E-FE38939558A2}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="4" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -231,7 +239,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Harbour" ID="{35DB869C-CA80-4615-B2A8-F42B8AEBE41A}"/>
+						<CurrentStateRef Name="Island" ID="{9C682901-31AB-463B-9A91-995EF7E4DE69}"/>
 						<CurrentStateRef Name="Main" ID="{47562F4C-B9DC-4791-A5F8-53D156CD0F73}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

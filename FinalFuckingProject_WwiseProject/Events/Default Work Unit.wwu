@@ -520,6 +520,21 @@
 				<Event Name="robot_walk" ID="{74D3DFA7-7FC3-4279-AEFE-4120EC868DD8}">
 					<ChildrenList>
 						<Action Name="" ID="{5C901002-4E69-42EB-97A7-DC722223B8B4}" ShortID="532899528">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8ED1D81F-CBE7-4EBD-A7C8-6762D0B40DD5}" ShortID="398188100">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
@@ -822,6 +837,21 @@
 				<Event Name="robot_walk_mud" ID="{93919AA0-4E15-4B61-9CBB-E909D44E24EF}">
 					<ChildrenList>
 						<Action Name="" ID="{1BF7D015-4709-424C-8162-B0F95678D633}" ShortID="652955409">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot_walk_mud" ID="{84768F46-E47B-4551-B187-BB8A090D4B2A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0381F650-FCD2-43B2-A55B-69E262AB4B94}" ShortID="784707388">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="robot_walk_mud" ID="{84768F46-E47B-4551-B187-BB8A090D4B2A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
@@ -1130,6 +1160,46 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Door_out" ID="{E2C20514-A9F2-43A6-BD0A-22ED9E4E3643}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Robot_silence" ID="{824731A5-50C6-4465-A12E-FE38939558A2}">
+					<ChildrenList>
+						<Action Name="" ID="{50A3FA3D-1C5C-4FD0-9F31-1ED58DF9CDDB}" ShortID="326093065">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot_walk" ID="{A9E42DBD-4A9A-457C-BEEB-B6F67A81D1CE}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9479B002-CDE3-4CFC-87A4-DA1878A358D7}" ShortID="258007728">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot_walk_mud" ID="{84768F46-E47B-4551-B187-BB8A090D4B2A}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{14F40C4F-E5F9-417D-BB9F-E8A827389E07}" ShortID="66852884">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robo_creak" ID="{2A09335F-F1C8-41E3-B349-694C656DE1EF}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
