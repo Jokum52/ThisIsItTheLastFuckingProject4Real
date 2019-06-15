@@ -302,12 +302,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="alarm" ID="{36E2911C-E937-4238-BF39-D2469B1CDA19}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="robot_shoot_gun" ID="{CDFF1DA8-ADC8-405E-8BEC-0A19001A32F0}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="robot_gun_cool_off" ID="{385A1AC7-9274-4B61-8312-99AE7396A465}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Alarm_end" ID="{3A43A063-E4B3-4B78-BD1E-4B0A547CC8A2}" WorkUnitID="{26AC640D-422E-4D6E-B877-E4A1F70A1C42}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
