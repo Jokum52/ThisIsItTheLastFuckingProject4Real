@@ -294,13 +294,13 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>37</Value>
+										<Value>53</Value>
 									</ValueList>
 								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-150</Value>
+										<Value>-350</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -316,7 +316,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -961,12 +961,12 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>1.00473</XPos>
+														<XPos>0.542988</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>10</XPos>
+														<XPos>12</XPos>
 														<YPos>0.19303</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2057,12 +2057,12 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>9.01891252955083</XPos>
+														<XPos>10.822695035461</XPos>
 														<YPos>-11.4838386046207</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>10</XPos>
+														<XPos>12</XPos>
 														<YPos>-11.5766</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -10615,6 +10615,44 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="7"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{34B85E09-8C7A-484F-B08E-1B061BF9FA08}" ShortID="88675969">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="cave_reverb_on_off" ID="{DACEC069-EB95-4277-805A-46C89B20B266}" WorkUnitID="{0B64EB04-F143-4B5E-8D7A-BB733D666BA5}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{412B0524-49C6-4B5D-B8F8-EAC4210BC61D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>49.77512</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>49.77612</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
