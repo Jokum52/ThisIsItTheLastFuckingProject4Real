@@ -422,6 +422,10 @@
 				<Event Id="1607384072" Name="tesla_coil" ObjectPath="\Events\Default Work Unit\tesla_coil"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="25731365" Language="SFX">
+					<ShortName>alarm_scream.wav</ShortName>
+					<Path>SFX\alarm_scream_7A530FA1.wem</Path>
+				</File>
 				<File Id="43830775" Language="SFX">
 					<ShortName>tesla_coil.wav</ShortName>
 					<Path>SFX\tesla_coil_D79FB2B7.wem</Path>
@@ -903,9 +907,17 @@
 					<ShortName>Harbour\loop_brush3_120bpm__L08_P00.wav</ShortName>
 					<Path>SFX\Harbour\loop_brush3_120bpm__L08_P00_D79FB2B7.wem</Path>
 				</File>
+				<File Id="184308775" Language="SFX">
+					<ShortName>Chase_intro(newnewnewnewlower)_95bpm_L03_P01.wav</ShortName>
+					<Path>SFX\Chase_intro(newnewnewnewlower)_95bpm_L03_P01_D79FB2B7.wem</Path>
+				</File>
 				<File Id="186258542" Language="SFX">
 					<ShortName>Harbour\loop_brush2_120bpm__L08_P00.wav</ShortName>
 					<Path>SFX\Harbour\loop_brush2_120bpm__L08_P00_D79FB2B7.wem</Path>
+				</File>
+				<File Id="195187328" Language="SFX">
+					<ShortName>Chase_intro(last)_95bpm_L03_P01.wav</ShortName>
+					<Path>SFX\Chase_intro(last)_95bpm_L03_P01_D79FB2B7.wem</Path>
 				</File>
 				<File Id="386821245" Language="SFX">
 					<ShortName>Harbour\loop_brush1_120bpm__L08_P00.wav</ShortName>

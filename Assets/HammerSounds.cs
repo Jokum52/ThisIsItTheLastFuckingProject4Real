@@ -16,6 +16,12 @@ public class HammerSounds : MonoBehaviour
         AkSoundEngine.PostEvent("Hammer2", gameObject);
     }
 
+    private void hammer2()
+    {
+
+        AkSoundEngine.PostEvent("Hammer1", gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {

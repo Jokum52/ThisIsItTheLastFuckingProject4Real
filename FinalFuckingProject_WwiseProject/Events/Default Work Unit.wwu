@@ -865,7 +865,6 @@
 						<Action Name="" ID="{F29AC1B3-D519-4920-98AC-FBE6C67F5DA5}" ShortID="19292650">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="13"/>
-								<Property Name="Pitch" Type="int32" Value="-250"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -875,13 +874,12 @@
 						</Action>
 						<Action Name="" ID="{562F2668-2774-472E-AA10-98A368232D43}" ShortID="849336558">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="ActionType" Type="int16" Value="18"/>
 								<Property Name="Delay" Type="Real64" Value="0.1"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+									<ObjectRef Name="alarm_scream" ID="{4967F52C-009E-4CCB-99D5-7E4D00DDA895}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -895,7 +893,24 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{5361DFA0-7A85-497B-B361-67CD441F5C7F}" ShortID="814583976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm_scream" ID="{4967F52C-009E-4CCB-99D5-7E4D00DDA895}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{3E690BED-466C-46DA-ABAC-03F6053BB98F}" ShortID="497855788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm_scream" ID="{4967F52C-009E-4CCB-99D5-7E4D00DDA895}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{17EE35BC-A651-443C-B424-D716635827FC}" ShortID="990292737">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
@@ -1111,6 +1126,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{90922D82-CCFA-482E-9354-922C15AEA7B9}" ShortID="838678862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Pitch" Type="int32" Value="-1570"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm_scream" ID="{4967F52C-009E-4CCB-99D5-7E4D00DDA895}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{89457F11-392E-4E33-BBB2-68799C2D7BED}" ShortID="161840766">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -1149,6 +1176,19 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="alarm" ID="{6597314F-E3ED-47C4-B8D5-6D1276367E2D}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{74C891C6-0F2C-41B0-BE88-E755C4B3216E}" ShortID="432933759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="alarm_scream" ID="{4967F52C-009E-4CCB-99D5-7E4D00DDA895}" WorkUnitID="{55EF251C-9FE2-4EDA-B8F4-F7C59036DFD9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
